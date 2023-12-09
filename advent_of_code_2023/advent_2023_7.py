@@ -49,12 +49,8 @@ with open('7.txt', 'r') as f:
             return 1
         if hand_1['hand_type'] > hand_2['hand_type']:
             return -1
-        if hand_1['hand_type'] == hand_2['hand_type']:
-            for i in range(len(hand_1['hand'])):
-                if order.find(hand_1['hand'][i]) < order.find(hand_2['hand'][i]):
-                    return 1
-                if order.find(hand_1['hand'][i]) > order.find(hand_2['hand'][i]):
-                    return -1
+        for i in range(len(hand_1['hand'])):
+            return 1 if order.find(hand_1['hand'][i]) < order.find(hand_2['hand'][i]) else -1
 
     for line in lines:
         cards, bid = line.split()[0], int(line.split()[1])
