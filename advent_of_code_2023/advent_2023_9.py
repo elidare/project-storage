@@ -23,7 +23,6 @@ with open('9.txt', 'r') as f:
         next_array.insert(0, next_array[0] - next_number)
         return next_array[0]
 
-
     for line in lines:
         value_row = [int(n) for n in line.split()]
         # Part 1
