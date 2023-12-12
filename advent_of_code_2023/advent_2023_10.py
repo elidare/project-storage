@@ -115,7 +115,7 @@ with open('10.txt', 'r') as f:
         opened = False
         for j in range(len(maze[i])):
             current_tile = maze[i][j]
-            if current_tile in ('|', '7', 'F', 'S') and (i, j) in loop:  # S may cause bugs
+            if current_tile in ('|', '7', 'F') and (i, j) in loop:
                 opened = not opened
             if opened and (i, j) not in loop:
                 result += 1
