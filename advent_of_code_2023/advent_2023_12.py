@@ -11,8 +11,6 @@ with open('12.txt', 'r') as f:
         springs, numbers = line.split()[0], line.split()[1]
         springs_input.append([springs, tuple(int(n) for n in numbers.split(','))])
 
-    print(springs_input)
-
     @cache  # too slow without the cache - stpres function values
     def numlegal(springs, count):
         springs = springs.lstrip('.')  # ignore leading dots
@@ -40,7 +38,7 @@ with open('12.txt', 'r') as f:
         return numlegal('#' + springs[1:], count) + numlegal(springs[1:], count)
 
     # Part 1
-    # print(sum(numlegal(springs, count) for [springs, count] in springs_input))
+    print(sum(numlegal(springs, count) for [springs, count] in springs_input))
 
     # Part 2
     springs_input_2 = [[(spring_row[0] + '?') * 4 + spring_row[0], spring_row[1] * 5] for spring_row in springs_input]
