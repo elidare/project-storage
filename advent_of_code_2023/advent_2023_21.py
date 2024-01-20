@@ -1,5 +1,9 @@
-# https://github.com/mgtezak/Advent_of_Code/blob/master/2023/Day_21.py
-# https://github.com/CalSimmon/advent-of-code/blob/main/2023/day_21/solution.py
+# Part 1 I did by myself somehow.
+# Part 2 I gave up, I just gave up.
+
+from collections import deque
+import numpy as np
+
 
 with open('21.txt', 'r') as f:
     garden_map = [list(line.strip()) for line in f.readlines()]
@@ -40,8 +44,34 @@ with open('21.txt', 'r') as f:
         return len(provisional_plots)
 
     def part_two():
-        return 0
+        # I gave up and used this solution https://github.com/mgtezak/Advent_of_Code/blob/master/2023/Day_21.py
+        # Wouldn't say I could have done it myself... at least I've tried to understand it...
+        x_final, remainder = divmod(MAX_STEPS_2, map_length_x)
+        border_crossings = [remainder, remainder + map_length_x, remainder + 2 * map_length_x]
 
+        visited = set()
+        queue = deque([(map_length_x // 2, map_length_x // 2)])
+        total = [0, 0]  # [even, odd]
 
-    # print(part_one())
+        Y = []
+        for step in range(1, border_crossings[-1] + 1):
+            for _ in range(len(queue)):
+                x, y = queue.popleft()
+                for i, j in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
+                    if (i, j) in visited or garden_map[i % map_length_y][j % map_length_x] == '#':
+                        continue
+
+                    visited.add((i, j))
+                    queue.append((i, j))
+                    total[step % 2] += 1
+
+            if step in border_crossings:
+                Y.append(total[step % 2])
+
+        X = [0, 1, 2]
+        coefficients = np.polyfit(X, Y, deg=2)  # get coefficients for quadratic equation y = a*x^2 + bx + c
+        y_final = np.polyval(coefficients, x_final)  # using coefficients, get y value at x_final
+        return y_final.round().astype(int)
+
+    print(part_one())
     print(part_two())
