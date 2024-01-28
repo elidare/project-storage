@@ -28,7 +28,7 @@ with open('24.txt', 'r') as f:
         for s in stones_lines:
             m = s['vy'] / s['vx']
             c = s['py'] - s['px'] * m
-            # y = a * x + b
+            # y = m * x + c
             s['m'] = m
             s['c'] = c
 
@@ -57,7 +57,7 @@ with open('24.txt', 'r') as f:
     def part_two():
         # For the Cramer equation we would need 4 hailstones
         s0, s1, s2, s3 = stones_lines[1:5]
-        # The number are too big, so the answer floats for 1-2.
+        # The numbers are too big, so the answer floats for 1-2.
         # Equations for hailstones 1 to 4 gave the answer that was accepted.
 
         # Coefficients look like (Thank you reddit!)
