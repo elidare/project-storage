@@ -64,10 +64,12 @@ def get_play_costs():
             player['Damage'] += current_ring_2['Damage']
             player['Armor'] += current_ring_2['Armor']
 
+        player_damage, boss_damage = player['Damage'] - boss['Armor'], boss['Damage'] - player['Armor']
+        player_damage = player_damage if player_damage > 0 else 1
+        boss_damage = boss_damage if boss_damage > 0 else 1
+
         while True:
             # Player hits
-            player_damage = player['Damage'] - boss['Armor']
-            player_damage = player_damage if player_damage > 0 else 1
             boss['HP'] -= player_damage
 
             if boss['HP'] <= 0:
@@ -75,8 +77,6 @@ def get_play_costs():
                 break
 
             # Boss hits
-            boss_damage = boss['Damage'] - player['Armor']
-            boss_damage = boss_damage if boss_damage > 0 else 1
             player['HP'] -= boss_damage
 
             if player['HP'] <= 0:
