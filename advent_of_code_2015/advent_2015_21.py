@@ -66,14 +66,18 @@ def get_play_costs():
 
         while True:
             # Player hits
-            boss['HP'] -= player['Damage'] - boss['Armor']
+            player_damage = player['Damage'] - boss['Armor']
+            player_damage = player_damage if player_damage > 0 else 1
+            boss['HP'] -= player_damage
 
             if boss['HP'] <= 0:
                 min_cost = min(min_cost, current_cost)  # Part 1
                 break
 
             # Boss hits
-            player['HP'] -= boss['Damage'] - player['Armor']
+            boss_damage = boss['Damage'] - player['Armor']
+            boss_damage = boss_damage if boss_damage > 0 else 1
+            player['HP'] -= boss_damage
 
             if player['HP'] <= 0:
                 max_cost = max(max_cost, current_cost)  # Part 2
