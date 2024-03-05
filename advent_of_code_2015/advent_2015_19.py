@@ -38,7 +38,7 @@ def part_two_2():
             min_steps = min(steps, min_steps)
             continue
 
-        for r in replacements:
+        for r in replacements_sorted:
             original, replacement = r
             index = molecule.find(replacement)
 
@@ -64,10 +64,12 @@ def part_two():
     formulas_steps[formula] = 0
     dead_end = list()
 
+    replacements_sorted = sorted(replacements, key=lambda x: len(x[1]), reverse=True)
+
     while queue:
         print('Queue length: ', len(queue))
         current_molecule, current_steps = queue.pop()
-        print(current_molecule, current_steps)
+        # print(current_molecule, current_steps)
         if (current_molecule, current_steps) in dead_end:
             continue
 
@@ -77,7 +79,7 @@ def part_two():
             continue
 
         found = False
-        for r in replacements:
+        for r in replacements_sorted:
             original, replacement = r
             index = current_molecule.find(replacement)
 
@@ -97,7 +99,7 @@ def part_two():
         else:
             # fixme how to mark a dead-end molecule
             if not found:
-                print('NOT FOUND_____', current_molecule, current_steps)
+                # print('NOT FOUND_____', current_molecule, current_steps)
                 dead_end.append((current_molecule, current_steps))
 
     return min_steps
