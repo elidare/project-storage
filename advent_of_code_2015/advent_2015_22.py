@@ -125,10 +125,9 @@ spells = {
 
 
 def play(level_hard=False):
-    minimum_mana_cost = initial_mana_cost = 1_000_000
-    player = Player(hp=50, mana=500)
-    # Do not commit the real boss input
-    boss = Boss(damage=8, hp=55)  # todo
+    minimum_mana_cost = 1_000_000
+    player = Player(hp=10, mana=250)
+    boss = Boss(damage=8, hp=13)
     game = Game(player, boss, copy.deepcopy(spells), level_hard)
 
     queue = deque([game])
