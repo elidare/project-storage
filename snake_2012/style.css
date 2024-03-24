@@ -1,0 +1,53 @@
+#matrix1
+{
+	float: left;
+	width: 400px;
+	height: 400px;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;	
+	
+	//display: none;
+}
+#matrix1, #aboutGame, #playerSearch {
+	margin: 10px;
+}
+#matrix1 .cell
+{
+	float: left;
+	width: 19px;
+	height: 19px;	
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;	
+}
+
+#matrix1 .snake
+{
+	background-color: #090;
+	//background-image: url('snake.jpg');
+}
+#matrix1 .food
+{
+	//background-color: #033;
+	background-image: url('apple.jpg');
+}
+#aboutGame, #playerSearch {
+	float: left;
+}
+
+#aboutGame>p {
+	
+	font: bold 16px 'times new roman';
+	color: #044;
+
+}
+
+#divShowResults {
+	display: none;
+}
+#showResults  li:first-child {
+	font-style: italic;
+}
+
+#playerSearchUI {
+	clear: both;
+}

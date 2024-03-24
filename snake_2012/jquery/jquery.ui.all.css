@@ -1,0 +1,28 @@
+/*!
+ * jQuery UI CSS Framework 1.9.1
+ * http://jqueryui.com
+ *
+ * Copyright 2012 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming
+ */
+/*@import "jquery.ui.base.css";*/
+@import "jquery.ui.core.css";
+
+@import "jquery.ui.theme.css";
+
+@import "jquery.ui.autocomplete.css";
+
+#playerSearchUI .ui-helper-hidden-accessible{
+	display: none;
+}
+
+#ui-id-1 {
+	list-style-type: none;
+}
+
+#ui-id-1  li {
+	font-size: 12pt;
+}
