@@ -14,15 +14,13 @@ size_h = len(layout[0])
 
 # The idea here is to count how many times "XMAS" appears in every horizontal, vertical, and diagonal line
 for l in layout:
-    total += l.count(XMAS)
-    total += l[::-1].count(XMAS)
+    total += l.count(XMAS) + l.count(XMAS[::-1])
     layout_backwards.append(l[::-1])
 
 layout_vert = [''.join(r) for r in list(zip(*layout))]  # Transposing
 
 for l in layout_vert:
-    total += l.count(XMAS)
-    total += l[::-1].count(XMAS)
+    total += l.count(XMAS) + l.count(XMAS[::-1])
 
 layout_diag_up = list()
 layout_diag_down = list()
@@ -40,12 +38,10 @@ for i in range(size_v + size_h - 1):
     layout_diag_down.append(l_diag_down)
 
 for l in layout_diag_up:
-    total += l.count(XMAS)
-    total += l[::-1].count(XMAS)
+    total += l.count(XMAS) + l.count(XMAS[::-1])
 
 for l in layout_diag_down:
-    total += l.count(XMAS)
-    total += l[::-1].count(XMAS)
+    total += l.count(XMAS) + l.count(XMAS[::-1])
 
 print(total)
 end_1 = time.time()
@@ -53,12 +49,11 @@ print(end_1 - start_1)  # 0.006-0.008
 
 # Part 1 another way that actually takes longer
 start_2 = time.time()
-layout_arr = [list(l) for l in layout]
 total_new = 0
 
 for i in range(size_v):
     for j in range(size_h):
-        if layout_arr[i][j] != XMAS[0]:
+        if layout[i][j] != XMAS[0]:
             continue
         # Let's find XMAS by going to every direction and checking if it has next M-A-S
         for s in [(-1, -1), (-1, 0), (-1, 1), (0, 1), (1, 1), (1, 0), (1, -1), (0, -1)]:
@@ -68,7 +63,7 @@ for i in range(size_v):
                     break
                 if current[1] < 0 or current[1] >= size_h:
                     break
-                if layout_arr[current[0]][current[1]] != XMAS[k]:
+                if layout[current[0]][current[1]] != XMAS[k]:
                     break
             else:
                 total_new += 1
@@ -88,7 +83,7 @@ total_part_2 = 0
 
 for i in range(size_v):
     for j in range(size_h):
-        if layout_arr[i][j] != XMAS[2]:  # A-letter
+        if layout[i][j] != XMAS[2]:  # A-letter
             continue
         surrounding = ''
         for s in [(-1, -1), (-1, 1), (1, 1), (1, -1)]:
@@ -97,7 +92,7 @@ for i in range(size_v):
                 break
             if current[1] < 0 or current[1] >= size_h:
                 break
-            surrounding += layout_arr[current[0]][current[1]]
+            surrounding += layout[current[0]][current[1]]
         if surrounding in ["MMSS", "MSSM", "SMMS", "SSMM"]:
             total_part_2 += 1
 
