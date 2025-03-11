@@ -40,14 +40,15 @@ def apply_SVD(ratings_matrix_filled):
     min_rating = ratings['rating'].min()  # Should be 0.5 or 1.0
     max_rating = ratings['rating'].max()  # Should be 5.0
 
-    reconstructed_matrix = ((reconstructed_matrix - reconstructed_matrix.min()) / (
-            reconstructed_matrix.max() - reconstructed_matrix.min())
+    reconstructed_matrix = ((reconstructed_matrix - reconstructed_matrix.min()) /
+                            (reconstructed_matrix.max() - reconstructed_matrix.min())
                             * (max_rating - min_rating) + min_rating)
 
     return reconstructed_matrix
 
 
 def do_training(data, temporal=False):
+    # Choose split
     train_data, test_data = temporal_split(data) if temporal else random_split(data)
 
     ratings_matrix = train_data.pivot_table(index='userId', columns='movieId', values='rating')
@@ -61,7 +62,7 @@ def do_training(data, temporal=False):
     predicted_ratings_df = pd.DataFrame(reconstructed_matrix, index=ratings_matrix.index,
                                         columns=ratings_matrix.columns)
 
-    # Get predicted data only if the same rating was in test_data to test
+    # Filter predicted data only if the same rating was in test_data to test
     comparison_df = test_actual.stack().reset_index(name="actual_rating")
     predicted_ratings_df = predicted_ratings_df.stack().reset_index(name="predicted_rating")
     comparison_df = comparison_df.merge(predicted_ratings_df, on=["userId", "movieId"], how="inner")
@@ -72,7 +73,7 @@ def do_training(data, temporal=False):
     print('Root mean Square Error:')
     print(root_mean_squared_error(y_true_ratings, y_pred_ratings))
 
-    threshold = 3.5  # Define the relevance threshold
+    threshold = 3  # Define the relevance threshold
 
     # Convert actual and predicted ratings into binary values
     y_true = [int(i >= threshold) for i in y_true_ratings]
