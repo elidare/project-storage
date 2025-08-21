@@ -1,22 +1,22 @@
 //
-// Класс змеи
+// Snake class
 //
 function Snake(body, course)
 {
-	// координаты строк и столбцов
+	// Rows and columns coords
 	this.body = body;
 	var startCells = body.slice();
 	
-	// направление движения
+	// Movement direction
 	this.course = course;
 	this.newCourse = course;
 	
-	// съела ли змейка фрукт
+	// How many fruits are eaten
 	//this.eaten = false;
 	this.numEaten = 0;
-	// жива ли змейка
+	// If the Snake is alive
 	this.alive = true;
-	// жизни
+	// Snake's lives
 	this.lives = 3; 
 	
 	var that = this;
@@ -24,9 +24,9 @@ function Snake(body, course)
 	var snakeLength = that.body.length;
 	
 	this.create = function() {
-		//отрисовываем змейку
+		// Draw Snake
 		for(var i = 0; i < snakeLength; i++) {
-			_game.matrix.setCell(startCells[i][0], startCells[i][1], 'snake'); // отрисовка по начальным координатам написана для экспериментов, а обратно менять боюсь
+			_game.matrix.setCell(startCells[i][0], startCells[i][1], 'snake'); // it was an experiment with drawing it by the start cells, and I am too scared to change it back
 		}
 	}
 	
@@ -40,7 +40,7 @@ function Snake(body, course)
 		switch(that.course) {		
 			case 'right':
 				snakeHead[1]++;
-				if((snakeHead[1] % _game.matrix.cols) == 1) { // проверка на стены
+				if((snakeHead[1] % _game.matrix.cols) == 1) { // Walls check
 					that.kill();
 					return;
 				}
@@ -68,18 +68,18 @@ function Snake(body, course)
 			break;
 		}
 		
-		if(_game.matrix.getCell(snakeHead[0], snakeHead[1]) == 'cell snake') { // если врезались в себя, убить
+		if(_game.matrix.getCell(snakeHead[0], snakeHead[1]) == 'cell snake') { // If Snake runs into herself, kill it
 			that.kill();
 			return;
-		} else if(_game.matrix.getCell(snakeHead[0], snakeHead[1]) == 'cell empty') { // если нет еды, отрезать хвост
+		} else if(_game.matrix.getCell(snakeHead[0], snakeHead[1]) == 'cell empty') { // If next cell has no food, cut off Snake's tail
 			var snakeTail = that.body.shift();
 			_game.matrix.setCell(snakeTail[0], snakeTail[1], 'empty');
-		} else { // если не врезались и не пусто, значит, еда
+		} else { // If next cell is not a Snake and not empty, that means food
 			that.eat();
 		}
 		that.body.push([snakeHead[0], snakeHead[1]]);
 		
-		_game.matrix.setCell(snakeHead[0], snakeHead[1], 'snake'); // пририсовали голову
+		_game.matrix.setCell(snakeHead[0], snakeHead[1], 'snake'); // Add up a head cell in any case
 	}	
 	
 	this.eat = function()
@@ -106,5 +106,4 @@ function Snake(body, course)
 			that.alive = false; 
 		}
 	}	
-	
 }
