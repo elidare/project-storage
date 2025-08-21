@@ -1,5 +1,5 @@
 //
-// Ядро
+// Core class
 function Core()
 {
 	this.matrix; // 
@@ -17,7 +17,7 @@ function Core()
 		//that.matrix.create();
 		snake = new Snake(firstCell, 'right');
 		//snake.create();
-		//that.matrix.setFood(); //рандомная еда 
+		//that.matrix.setFood(); // Make random food
 		
 		$('#foodEaten').html(snake.numEaten);
 		$('#lives').html(snake.lives);
@@ -29,15 +29,15 @@ function Core()
 		//count = 0;
 		that.matrix.create();
 		snake.create();
-		that.matrix.setFood(); //рандомная еда 
+		that.matrix.setFood(); // Make random food
 		
-		if(typeof(timer) == 'undefined') { // если таймера нет по сути
+		if(typeof(timer) == 'undefined') { // If no timer is set
 			timer = setInterval(function(){
 									if(snake.alive) { 
 										snake.move(); 
 									} else { 
 										that.gameover();
-										$('#divShowResults').show(); // результаты покажем после игры
+										$('#divShowResults').show();
 									}
 								}
 								, 200)
@@ -46,13 +46,13 @@ function Core()
 	
 	this.gameover = function()
 	{	
-		//завершаем игру
+		// Game over
 		alert('Oops!');
 
 		playerName = prompt('Wanna get into history? Save your name/Хотите сохранить результат? Введите имя');
 		
 		if(playerName) {
-			that.saveResult(playerName, snake.numEaten);
+			//that.saveResult(playerName, snake.numEaten); // Shall work with PHP, but it has to be fixed
 		} else {
 			alert('No name given, no result saved!');
 		}
@@ -81,10 +81,11 @@ function Core()
 		if(snake.course != 'up') snake.newCourse = 'down';
 	}
 	
-	this.saveResult = function(playerName, score) {
-		$.post("php/add.php",
-				{name: playerName, score: score}, 
-				"html" // "xml", "script", "json", "jsonp", "text"
-				);
-	}
+	// this.saveResult = function(playerName, score) {
+	// 	$.post("php/add.php",
+	// 			{name: playerName, score: score}, 
+	// 			"html" // "xml", "script", "json", "jsonp", "text"
+	// 			);
+	// }
+
 }
