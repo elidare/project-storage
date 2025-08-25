@@ -1,5 +1,5 @@
 //
-// Точка входа.
+// Begin
 //
 $(document).ready(function(){
 
@@ -19,43 +19,42 @@ $(document).ready(function(){
 	_game.start();
 	
 		
-	$(document).keydown(function (evt) { // document.onkeypress не работал в Chrome 
+	$(document).keydown(function (evt) { // document.onkeypress didn't work in Chrome 
 	
 		var evt = (evt) ? evt : window.event;
-		var code = (evt.charCode) ? (evt.charCode) : (evt.keyCode); //
+		var code = (evt.charCode) ? (evt.charCode) : (evt.keyCode);
 		
 		switch (code) {
-			case 37: //влево 
+			case 37: // Left 
 				_game.cmdLeft();
 			break;
-			case 38: //вверх
+			case 38: // Up
 				_game.cmdUp();
 			break;
-			case 39: //вправо
+			case 39: // Right
 				_game.cmdRight();
 			break;
-			case 40: //вниз 
+			case 40: // Down 
 				_game.cmdDown();
 			break;
 		}
 	});
 	
-/* Вариант без JSON 
+/* No-JSON 
 	$("#btnShowResults").click(function(elem){
 		$("#showResults").load("php/get.php", 
 							   "data=content" 							
 							   );
 	}); */
 	
-/* // c JSON */
-	$("#btnShowResults").click(function(elem){
-		$.get("php/get_json.php", 
-			   {data: "content"}, showResults, "json" 							
-			   );
-	});
+/* // JSON */
+	// $("#btnShowResults").click(function(elem){
+	// 	$.get("php/get_json.php", 
+	// 		   {data: "content"}, showResults, "json" 							
+	// 		   );
+	// });
 	
 	function showResults(playersList) {
-		
 		$('#showResults').html('');
 		var htmlList = '';
 		for(var i = 0; i < playersList.length; i++){
@@ -63,46 +62,43 @@ $(document).ready(function(){
 		}
 		$('#showResults').html('<ol>' + htmlList + '</ol>');
 	}
-/* */
 	
-/* // Живой поиск без jQuery UI */
-	$('#playerSearch input').keyup(function(evt) {
+/* // Live search without jQuery UI */
+	// $('#playerSearch input').keyup(function(evt) {
 		
-		//var evt = (evt) ? evt : window.event; // необходимы проверки на входящий символ
-		//var code = (evt.charCode) ? (evt.charCode) : (evt.keyCode); 
+	// 	//var evt = (evt) ? evt : window.event;
+	// 	//var code = (evt.charCode) ? (evt.charCode) : (evt.keyCode); 
 		
-		$.post('php/get_json_live.php', {searchName: $('#playerSearch input').val()}, findPlayer, "json");
+	// 	$.post('php/get_json_live.php', {searchName: $('#playerSearch input').val()}, findPlayer, "json");
 		
-		function findPlayer(playersFound) {
+	// 	function findPlayer(playersFound) {
 		
-			$('#playerFound').html('');
-			var htmlList = '';
-			for(var i = 0; i < playersFound.length; i++){
-				htmlList += '<li>' + playersFound[i][1] + '&nbsp;......&nbsp;' + playersFound[i][0] + '</li>';
-			}
-			$('#playerFound').html('<ul>' + htmlList + '</ul>');
-		}
+	// 		$('#playerFound').html('');
+	// 		var htmlList = '';
+	// 		for(var i = 0; i < playersFound.length; i++){
+	// 			htmlList += '<li>' + playersFound[i][1] + '&nbsp;......&nbsp;' + playersFound[i][0] + '</li>';
+	// 		}
+	// 		$('#playerFound').html('<ul>' + htmlList + '</ul>');
+	// 	}
 			
-	});
+	// });
 
 /* // jQuery UI Autocomplete */	
-	$(function() {
-		var availableTags = [];
+	// $(function() {
+	// 	var availableTags = [];
 		
-		$.get("php/get_json.php", 
-			   {data: "content"}, makeList, "json" 							
-			 );
+	// 	$.get("php/get_json.php", 
+	// 		   {data: "content"}, makeList, "json" 							
+	// 		 );
 		
-		function makeList(playersList) { // создает массив только имен без счета очков. Только не знаю, зачем. Зато работает
+	// 	function makeList(playersList) {
 		
-			for(var i = 0; i < playersList.length; i++){
-				availableTags[i] = playersList[i][1];
-			}
-		}
+	// 		for(var i = 0; i < playersList.length; i++){
+	// 			availableTags[i] = playersList[i][1];
+	// 		}
+	// 	}
 			   
-		$( "#playerSearchUI input" ).autocomplete({
-			source: availableTags
-		});
-	});
-/* */	
+	// 	$( "#playerSearchUI input" ).autocomplete({
+	// 		source: availableTags
+	// 	});
 });		
