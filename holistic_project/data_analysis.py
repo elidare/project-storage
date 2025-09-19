@@ -139,7 +139,7 @@ def get_max_sample(filename):
                     "mean_temp_count": 1
                 }
             else:
-                stats[tid]["min_sample"] = max(stats[tid]["min_sample"], row[("sampleTime10sIncrement", "min")])
+                stats[tid]["min_sample"] = min(stats[tid]["min_sample"], row[("sampleTime10sIncrement", "min")])
                 stats[tid]["max_sample"] = max(stats[tid]["max_sample"], row[("sampleTime10sIncrement", "max")])
                 stats[tid]["min_soc"] = min(stats[tid]["min_soc"], row[("soc", "min")])
                 stats[tid]["max_soc"] = max(stats[tid]["max_soc"], row[("soc", "max")])
@@ -205,6 +205,13 @@ def sort_by_transaction_sample(filename):
     print("Sorted data saved to", sorted_file)
 
 
+def get_unique_trans_number(filename):
+    print(filename)
+    df = pd.read_csv(filename, usecols=["transactionId"])
+    unique_count = df["transactionId"].nunique()
+
+    print("Unique transactions:", unique_count)
+
 # print(get_lines_count())
 # print(get_countries())
 # get_sample_min_max("Norway")
@@ -217,8 +224,13 @@ def sort_by_transaction_sample(filename):
 # sort_by_transaction_sample("Finland_only.csv")
 # sort_by_transaction_sample("Norway_only.csv")
 
-# get_max_sample("Finland_only.csv")  # todo fix min sample and check max sample
-# get_max_sample("Norway_only.csv")
+
+get_max_sample("sorted_Finland_only.csv")
+get_max_sample("sorted_Norway_only.csv")
+
+
+# get_unique_trans_number("sorted_Finland_only.csv")
+# get_unique_trans_number("sorted_Norway_only.csv")
 
 # Play downloaded sound when everything is done (not pushed to git)
 playsound('notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01.mp3')
