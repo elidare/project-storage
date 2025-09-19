@@ -1,4 +1,5 @@
 *.csv
 *.png
+*.mp3
 config.share
 read_delta_share.py

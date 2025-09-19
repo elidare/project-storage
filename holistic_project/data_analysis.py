@@ -1,3 +1,5 @@
+# pip install playsound==1.2.2
+from playsound import playsound  # To play sound when analysis is finished
 import matplotlib.pyplot as plt
 import pandas as pd
 import csv
@@ -6,14 +8,14 @@ import csv
 filename = "public_passenger_dataset.csv"  # Downloaded CSV
 
 
-# Lines in csv
+# How many rows in csv in total
 def get_lines_count():
     with open(filename, "r", encoding="utf-8") as f:
         row_count = sum(1 for row in f) - 1  # subtract header
     return row_count
 
 
-# Countries
+# How many countries
 def get_countries():
     country_counts = {}
 
@@ -31,46 +33,7 @@ def get_countries():
     return country_counts_series
 
 
-# ------ Country + year + quarter, soc sorted
-def get_soc(country):
-    country_filter = country
-    # year_filter = 2024
-    # quarter_filter = 1
-
-    chunks = pd.read_csv(filename, chunksize=1000000)
-    filtered_list = []
-
-    for chunk in chunks:
-        subset = chunk[
-            (chunk["country"] == country_filter)
-            # &
-            # (chunk["year"] == year_filter) &
-            # (chunk["quarter"] == quarter_filter)
-            ]
-        filtered_list.append(subset)
-
-    filtered_df = pd.concat(filtered_list).sort_values(by="soc")
-
-    # Sort by soc ascending
-    filtered_df = (filtered_df[["country", "EVModel", "year", "month", "soc", "tempC", "sampleTime10sIncrement", "weekday", "avgPowerW"]]
-                   .sort_values(by="soc", ascending=True))
-
-    #filtered_df.to_csv(f"{country_filter}_{year_filter}_{quarter_filter}_filtered_data.csv", index=False)
-
-    # 10 rows with smallest soc
-    min_soc = filtered_df.nsmallest(10, "soc")
-    # 10 rows with largest soc
-    max_soc = filtered_df.nlargest(10, "soc")
-    pd.set_option("display.max_columns", None)
-    print("10 lowest soc:")
-    print(min_soc[["country", "EVModel", "month", "soc", "tempC", "sampleTime10sIncrement", "weekday", "avgPowerW"]])
-
-    print("\n10 highest soc:")
-    print(max_soc[["country", "EVModel", "month", "soc", "tempC", "sampleTime10sIncrement", "weekday", "avgPowerW"]])
-
-    return filtered_df
-
-
+# Shows min and max sampleTime10sIncrement for chosen country
 def get_sample_min_max(country):
     country_filter = country
 
@@ -103,121 +66,7 @@ def get_sample_min_max(country):
     return filtered_df
 
 
-def get_graph_soc_sample(country):
-    filtered_df = get_soc(country)
-    # Only for the filtered country
-    plt.figure(figsize=(10, 6))
-    plt.scatter(
-        filtered_df["sampleTime10sIncrement"],
-        filtered_df["soc"],
-        alpha=0.5
-    )
-    plt.xlabel("Sample Time Increment (10s)")
-    plt.ylabel("State of Charge (SOC)")
-    plt.title("SOC vs. Sample Time Increment")
-    plt.grid(True)
-    # Save to file
-    plt.savefig(f"soc_vs_time_{country}.png", dpi=300)
-    plt.close()  # closes figure to free memory
-
-
-def get_graph_model_soc():
-    # All countries
-    soc_sums = {}
-    soc_counts = {}
-
-    # Process CSV in chunks
-    for chunk in pd.read_csv(filename, usecols=["EVModel", "soc"], chunksize=1000000):
-        # Drop rows with missing soc
-        chunk = chunk.dropna(subset=["soc"])
-
-        # Group by model
-        grouped = chunk.groupby("EVModel")["soc"].agg(["sum", "count"])
-
-        for model, row in grouped.iterrows():
-            soc_sums[model] = soc_sums.get(model, 0) + row["sum"]
-            soc_counts[model] = soc_counts.get(model, 0) + row["count"]
-
-    # Compute average SOC per model
-    avg_soc = {model: soc_sums[model] / soc_counts[model] for model in soc_sums}
-
-    # Convert to DataFrame
-    avg_soc_df = pd.DataFrame(list(avg_soc.items()), columns=["EVModel", "Average_SOC"])
-    avg_soc_df = avg_soc_df.sort_values("Average_SOC", ascending=False)
-
-    # Plot
-    plt.figure(figsize=(50, 60))  # tall figure
-    plt.barh(avg_soc_df["EVModel"], avg_soc_df["Average_SOC"])
-    plt.xlabel("Average SOC")
-    plt.ylabel("EV Model")
-    plt.title("Average SOC per EV Model")
-    plt.tight_layout()
-    plt.savefig("avg_soc_per_model.png", dpi=300)
-    plt.close()
-
-
-def get_graph_power_sample():
-    # Dictionaries to track min and max per sample time
-    power_min = {}
-    power_max = {}
-
-    # Process CSV in chunks
-    for chunk in pd.read_csv(filename, usecols=["sampleTime10sIncrement", "avgPowerW"], chunksize=500000):
-        # Drop rows with missing values
-        chunk = chunk.dropna(subset=["sampleTime10sIncrement", "avgPowerW"])
-
-        # Group by sample time
-        grouped = chunk.groupby("sampleTime10sIncrement")["avgPowerW"].agg(["min", "max"])
-
-        for t, row in grouped.iterrows():
-            if t in power_min:
-                power_min[t] = min(power_min[t], row["min"])
-                power_max[t] = max(power_max[t], row["max"])
-            else:
-                power_min[t] = row["min"]
-                power_max[t] = row["max"]
-
-    # Convert to DataFrame
-    power_range_df = pd.DataFrame({
-        "sampleTime10sIncrement": list(power_min.keys()),
-        "minPower": list(power_min.values()),
-        "maxPower": list(power_max.values())
-    })
-
-    # Sort by sample time
-    power_range_df = power_range_df.sort_values("sampleTime10sIncrement")
-
-    # Plot range as filled band
-    plt.figure(figsize=(12, 6))
-    plt.fill_between(
-        power_range_df["sampleTime10sIncrement"],
-        power_range_df["minPower"],
-        power_range_df["maxPower"],
-        alpha=0.3,
-        color="skyblue",
-        label="Power range (min–max)"
-    )
-    plt.plot(
-        power_range_df["sampleTime10sIncrement"],
-        power_range_df["minPower"],
-        color="blue", linestyle="--", label="Min Power"
-    )
-    plt.plot(
-        power_range_df["sampleTime10sIncrement"],
-        power_range_df["maxPower"],
-        color="red", linestyle="--", label="Max Power"
-    )
-
-    plt.xlabel("Sample Time Increment (10s)")
-    plt.ylabel("Power (W)")
-    plt.title("Range of Power (min–max) vs. Sample Time Increment")
-    plt.legend()
-    plt.grid(True)
-    plt.tight_layout()
-    plt.savefig("power_range_vs_time.png", dpi=300)
-    plt.close()
-
-
+# Charges on weekdays graph for all the countries
 def get_graph_weekdays():
     # Dictionary: {country: {weekday: count}}
     weekday_counts = {}
@@ -250,56 +99,98 @@ def get_graph_weekdays():
     plt.close()
 
 
-def get_graph_weekday_soc_range():
-    # Dictionaries for min and max SOC per weekday
-    soc_min = {}
-    soc_max = {}
+# Get max sampleTime for each transaction, calculate mean power, min/max soc, add tempC
+def get_max_sample(filename, country):
+    stats = {}
 
-    # Process in chunks
-    for chunk in pd.read_csv(filename, usecols=["weekday", "soc"], chunksize=500000):
-        chunk = chunk.dropna(subset=["weekday", "soc"])
-        grouped = chunk.groupby("weekday")["soc"].agg(["min", "max"])
+    i = 0
+    chunksize = 500_000  # adjust to your machine
 
-        for weekday, row in grouped.iterrows():
-            if weekday in soc_min:
-                soc_min[weekday] = min(soc_min[weekday], row["min"])
-                soc_max[weekday] = max(soc_max[weekday], row["max"])
+    for chunk in pd.read_csv(filename, usecols=[
+                             "country", "transactionId", "soc", "avgPowerW", "sampleTime10sIncrement", "tempC"
+                             ],
+                             chunksize=chunksize):
+        # Show progress
+        print(i * chunksize)
+        i += 1
+
+        # Drop NaN if necessary
+        chunk = chunk.dropna(subset=["transactionId", "soc", "avgPowerW", "sampleTime10sIncrement", "tempC"])
+
+        # # Keep only chosen country if using the whole file
+        # chunk = chunk[chunk["country"] == country]
+        # if chunk.empty:
+        #     continue
+
+        grouped = chunk.groupby("transactionId").agg({
+            "sampleTime10sIncrement": "max",  # biggest sample
+            "soc": ["min", "max"],
+            "avgPowerW": ["mean", "max"],
+            "tempC": ["mean"]
+        })
+
+        # Merge into dictionary
+        for tid, row in grouped.iterrows():
+            if tid not in stats:
+                stats[tid] = {
+                    "max_sample": row[("sampleTime10sIncrement", "max")],
+                    "min_soc": row[("soc", "min")],
+                    "max_soc": row[("soc", "max")],
+                    "mean_power_sum": row[("avgPowerW", "mean")],
+                    "mean_power_count": 1,
+                    "max_power": row[("avgPowerW", "max")],
+                    "mean_temp_sum": row[("tempC", "mean")],
+                    "mean_temp_count": 1
+                }
             else:
-                soc_min[weekday] = row["min"]
-                soc_max[weekday] = row["max"]
+                stats[tid]["max_sample"] = max(stats[tid]["max_sample"], row[("sampleTime10sIncrement", "max")])
+                stats[tid]["min_soc"] = min(stats[tid]["min_soc"], row[("soc", "min")])
+                stats[tid]["max_soc"] = max(stats[tid]["max_soc"], row[("soc", "max")])
+                # accumulate mean properly
+                stats[tid]["mean_power_sum"] += row[("avgPowerW", "mean")]
+                stats[tid]["mean_power_count"] += 1
+                stats[tid]["max_power"] = max(stats[tid]["max_power"], row[("avgPowerW", "max")])
+                stats[tid]["mean_temp_sum"] += row[("tempC", "mean")]
+                stats[tid]["mean_temp_count"] += 1
 
     # Convert to DataFrame
-    soc_range_df = pd.DataFrame({
-        "weekday": list(soc_min.keys()),
-        "minSOC": list(soc_min.values()),
-        "maxSOC": list(soc_max.values())
-    })
+    final_stats = pd.DataFrame([
+        {
+            "transactionId": tid,
+            "max_sample": v["max_sample"],
+            "min_soc": v["min_soc"],
+            "max_soc": v["max_soc"],
+            "mean_power": v["mean_power_sum"] / v["mean_power_count"],
+            "max_power": v["max_power"],
+            "mean_temp": v["mean_temp_sum"] / v["mean_temp_count"]
+        }
+        for tid, v in stats.items()
+    ])
 
-    # Order weekdays
-    weekday_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-    soc_range_df["weekday"] = pd.Categorical(soc_range_df["weekday"], categories=weekday_order, ordered=True)
-    soc_range_df = soc_range_df.sort_values("weekday")
+    pd.set_option("display.max_columns", None)
+    print(final_stats.head())
+    final_stats.to_csv(f"transactions_{country}.csv", index=False)
 
-    # Plot as error bars (min–max)
-    plt.figure(figsize=(10, 6))
-    plt.errorbar(
-        soc_range_df["weekday"],
-        (soc_range_df["minSOC"] + soc_range_df["maxSOC"]) / 2,  # mid point
-        yerr=(soc_range_df["maxSOC"] - soc_range_df["minSOC"]) / 2,  # half range
-        fmt="o",
-        ecolor="red",
-        capsize=5,
-        label="SOC range"
-    )
 
-    plt.xlabel("Weekday")
-    plt.ylabel("SOC")
-    plt.title("SOC Range (min–max) per Weekday")
-    plt.grid(True, axis="y")
-    plt.legend()
-    plt.tight_layout()
-    plt.savefig("soc_range_per_weekday.png", dpi=300)
-    plt.close()
+# Save only chosen country data to csv to make smaller csv
+def save_filtered_as_csv(country):
+    output_file = f"{country}_only.csv"
+
+    chunksize = 500_000  # adjust as needed
+    first_chunk = True
+
+    for chunk in pd.read_csv(filename, chunksize=chunksize):
+        country_chunk = chunk[chunk["country"] == country]
+        if not country_chunk.empty:
+            country_chunk.to_csv(
+                output_file,
+                mode="w" if first_chunk else "a",  # write first time, append after
+                index=False,
+                header=first_chunk  # write header only once
+            )
+            first_chunk = False
+
+    print("Data saved to", output_file)
 
 
 # print(get_lines_count())
@@ -310,12 +201,22 @@ def get_graph_weekday_soc_range():
 # get_graph_model_soc()  # Average soc per models
 # get_graph_power_sample()
 # get_graph_weekdays()
-get_graph_weekday_soc_range()
+# get_graph_weekday_soc_range()
 
+get_max_sample("Finland_only.csv", "Norway")
 
-# of all countries:
-# Draw graph of weekday - avgPower?
-# Weekday - soc?
-# model - avg power
-# temp - avg power
-#
+# save_filtered_as_csv("Norway")
+
+# Play downloaded sound when everythong is done (not pushed to git)
+playsound('notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01.mp3')
+
+# todo:
+# of all countries or Finland:
+# how long were the sessions? biggest sample out of same transaction id
+# the same with weekday
+# see a couple of long sessions and how the soc is increasing
+# + dependance of temp?
+
+# usual time to charge - mean?
+# how often end charge is not 100?
+# what day is usually longer charges?
