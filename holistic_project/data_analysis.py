@@ -100,7 +100,7 @@ def get_graph_weekdays():
 
 
 # Get max sampleTime for each transaction, calculate mean power, min/max soc, add tempC
-def get_max_sample(filename, country):
+def get_max_sample(filename):
     stats = {}
 
     i = 0
@@ -116,11 +116,6 @@ def get_max_sample(filename, country):
 
         # Drop NaN if necessary
         chunk = chunk.dropna(subset=["transactionId", "soc", "avgPowerW", "sampleTime10sIncrement", "tempC"])
-
-        # # Keep only chosen country if using the whole file
-        # chunk = chunk[chunk["country"] == country]
-        # if chunk.empty:
-        #     continue
 
         grouped = chunk.groupby("transactionId").agg({
             "sampleTime10sIncrement": "max",  # biggest sample
@@ -169,7 +164,7 @@ def get_max_sample(filename, country):
 
     pd.set_option("display.max_columns", None)
     print(final_stats.head())
-    final_stats.to_csv(f"transactions_{country}.csv", index=False)
+    final_stats.to_csv(f"transactions_{filename}", index=False)
 
 
 # Save only chosen country data to csv to make smaller csv
@@ -203,7 +198,7 @@ def save_filtered_as_csv(country):
 # get_graph_weekdays()
 # get_graph_weekday_soc_range()
 
-get_max_sample("Finland_only.csv", "Norway")
+get_max_sample("Norway_only.csv")
 
 # save_filtered_as_csv("Norway")
 
