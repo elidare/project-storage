@@ -118,7 +118,7 @@ def get_max_sample(filename):
         chunk = chunk.dropna(subset=["transactionId", "soc", "avgPowerW", "sampleTime10sIncrement", "tempC"])
 
         grouped = chunk.groupby("transactionId").agg({
-            "sampleTime10sIncrement": "max",  # biggest sample
+            "sampleTime10sIncrement": ["min", "max"],
             "soc": ["min", "max"],
             "avgPowerW": ["mean", "max"],
             "tempC": ["mean"]
@@ -128,6 +128,7 @@ def get_max_sample(filename):
         for tid, row in grouped.iterrows():
             if tid not in stats:
                 stats[tid] = {
+                    "min_sample": row[("sampleTime10sIncrement", "min")],
                     "max_sample": row[("sampleTime10sIncrement", "max")],
                     "min_soc": row[("soc", "min")],
                     "max_soc": row[("soc", "max")],
@@ -138,6 +139,7 @@ def get_max_sample(filename):
                     "mean_temp_count": 1
                 }
             else:
+                stats[tid]["min_sample"] = max(stats[tid]["min_sample"], row[("sampleTime10sIncrement", "min")])
                 stats[tid]["max_sample"] = max(stats[tid]["max_sample"], row[("sampleTime10sIncrement", "max")])
                 stats[tid]["min_soc"] = min(stats[tid]["min_soc"], row[("soc", "min")])
                 stats[tid]["max_soc"] = max(stats[tid]["max_soc"], row[("soc", "max")])
@@ -152,6 +154,7 @@ def get_max_sample(filename):
     final_stats = pd.DataFrame([
         {
             "transactionId": tid,
+            "min_sample": v["min_sample"],
             "max_sample": v["max_sample"],
             "min_soc": v["min_soc"],
             "max_soc": v["max_soc"],
@@ -188,21 +191,36 @@ def save_filtered_as_csv(country):
     print("Data saved to", output_file)
 
 
+def sort_by_transaction_sample(filename):
+    sorted_file = f"sorted_{filename}"
+    # Load the filtered file
+    df = pd.read_csv(filename)
+
+    # Sort by transactionId, then by sampleTime10sIncrement
+    df = df.sort_values(by=["transactionId", "sampleTime10sIncrement"], ascending=[True, True])
+
+    # Save back to CSV
+    df.to_csv(sorted_file, index=False)
+
+    print("Sorted data saved to", sorted_file)
+
+
 # print(get_lines_count())
 # print(get_countries())
-# get_soc()
-# get_graph_soc_sample("Norway")
 # get_sample_min_max("Norway")
-# get_graph_model_soc()  # Average soc per models
-# get_graph_power_sample()
 # get_graph_weekdays()
 # get_graph_weekday_soc_range()
 
-get_max_sample("Norway_only.csv")
-
+# save_filtered_as_csv("Finland")
 # save_filtered_as_csv("Norway")
 
-# Play downloaded sound when everythong is done (not pushed to git)
+# sort_by_transaction_sample("Finland_only.csv")
+# sort_by_transaction_sample("Norway_only.csv")
+
+# get_max_sample("Finland_only.csv")  # todo fix min sample and check max sample
+# get_max_sample("Norway_only.csv")
+
+# Play downloaded sound when everything is done (not pushed to git)
 playsound('notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01.mp3')
 
 # todo:
@@ -215,3 +233,4 @@ playsound('notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01
 # usual time to charge - mean?
 # how often end charge is not 100?
 # what day is usually longer charges?
+# are there any descending soc within a transaction?
