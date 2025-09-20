@@ -212,25 +212,68 @@ def get_unique_trans_number(filename):
 
     print("Unique transactions:", unique_count)
 
+
+# Shows if there is any soc decrease during charging
+# NB: Uses sorted files!!
+def find_desc_soc(filename):
+    output_file = "soc_desc_Finland.csv"
+    with open(output_file, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+
+        # Write the header row
+        writer.writerow(["transaction", "soc", "previous_soc", "sample_time", "previous_sample_time", "temp"])
+
+        with open(filename, "r", newline="", encoding="utf-8") as f:
+            reader = csv.reader(f)
+            header = next(reader)  # list of column names
+            current_transaction = ""
+            previous_soc = None
+            previous_sample_time = None
+
+            for row in reader:
+                transaction, soc, sample_time, temp = row[0], int(row[6].replace(".0", "")), int(row[8]), row[7]
+                if not current_transaction:
+                    current_transaction = transaction
+                if not previous_soc:
+                    previous_soc = soc
+                if not previous_sample_time:
+                    previous_sample_time = sample_time
+
+                if transaction == current_transaction:
+                    if soc < previous_soc and sample_time > previous_sample_time:
+                        print(transaction, soc, previous_soc, sample_time, previous_sample_time)
+                        writer.writerow([transaction, soc, previous_soc, sample_time, previous_sample_time, temp])
+                else:
+                    current_transaction = transaction
+
+                previous_soc = soc
+                previous_sample_time = sample_time
+
+        print("Data written to", output_file)
+
+
 # print(get_lines_count())
 # print(get_countries())
 # get_sample_min_max("Norway")
 # get_graph_weekdays()
 # get_graph_weekday_soc_range()
 
-# save_filtered_as_csv("Finland")
-# save_filtered_as_csv("Norway")
+
+# save_filtered_as_csv("Sweden")
 
 # sort_by_transaction_sample("Finland_only.csv")
-# sort_by_transaction_sample("Norway_only.csv")
+# sort_by_transaction_sample("Sweden_only.csv")
 
 
-get_max_sample("sorted_Finland_only.csv")
-get_max_sample("sorted_Norway_only.csv")
+# get_max_sample("sorted_Finland_only.csv")
+# get_max_sample("sorted_United Kingdom_only.csv")
 
 
 # get_unique_trans_number("sorted_Finland_only.csv")
-# get_unique_trans_number("sorted_Norway_only.csv")
+# get_unique_trans_number("sorted_Sweden_only.csv")
+
+
+find_desc_soc("sorted_Finland_only.csv")
 
 # Play downloaded sound when everything is done (not pushed to git)
 playsound('notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01.mp3')
