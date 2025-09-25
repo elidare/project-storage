@@ -336,6 +336,66 @@ def get_graphs_soc_sample(filename):
                 break
 
 
+def get_graph_max_power(country):
+    filename = f"transactions_sorted_{country}_only.csv"
+
+    df = pd.read_csv(filename)
+
+    plt.figure(figsize=(10,6))
+    plt.hist(df["max_power"], bins=50, color="steelblue", edgecolor="black")
+    plt.title("Distribution of Max Power")
+    plt.xlabel("Max Power (W)")
+    plt.ylabel("Frequency")
+    plt.tight_layout()
+    plt.savefig(f"images/max_power_distribution_{country}.png", dpi=300)
+    plt.close()
+
+    print("Histogram saved to max_power_distribution.png")
+
+    # df["max_power"].plot(kind="density", figsize=(10,6), color="purple")
+    # plt.title("Density Plot of Max Power")
+    # plt.xlabel("Max Power (W)")
+    # plt.tight_layout()
+    # plt.savefig(f"images/max_power_density_{country}.png", dpi=300)
+    # plt.close()
+
+
+def get_graph_max_power_percentage(country):
+    filename = f"transactions_sorted_{country}_only.csv"
+
+    df = pd.read_csv(filename)
+
+    # Define power bins (in kW or W depending on your data)
+    #
+    bins = [0, 11_000, 22_000, 50_000, 100_000, 150_000, 200_000, 250_000, 300_000, 350_000, 500_000]
+    labels = ["0-11kW", "11-22kW", "22-50kW", "50-100kW",
+              "100-150kW", "150-200kW", "200-250kW", "250-300kW", "300-350kW", "350+kW"]
+
+    # Assign each max_power to a bin
+    df["power_range"] = pd.cut(df["max_power"], bins=bins, labels=labels, right=False)
+
+    # Count and calculate percentage
+    counts = df["power_range"].value_counts().sort_index()
+    percentages = (counts / len(df) * 100).round(2)
+
+    # Print as a table
+    print("📊 Percentage of records in each max_power range:")
+    for rng, pct in percentages.items():
+        print(f"{rng}: {pct}%")
+
+    # Plot a bar chart
+    plt.figure(figsize=(10, 6))
+    plt.bar(percentages.index.astype(str), percentages.values, color="skyblue", edgecolor="black")
+    plt.title("Percentage of Max Power by Range")
+    plt.xlabel("Max Power Range")
+    plt.ylabel("Percentage (%)")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig(f"images/max_power_percentage_{country}.png", dpi=300)
+    plt.close()
+
+    print("Chart saved to max_power_percentage.png")
+
 # print(get_lines_count())
 # print(get_countries())
 # get_sample_min_max("Norway")
@@ -362,7 +422,12 @@ def get_graphs_soc_sample(filename):
 # find_transactions_soc("transactions_sorted_Finland_only.csv")
 
 # get_graph_soc_sample("sorted_Finland_only.csv", "000b81cceff65c80a3fd7a190c82396c0670c800ac23a9f3b5ec7be92c30a057")
-get_graphs_soc_sample("sorted_Finland_only.csv")
+# get_graphs_soc_sample("sorted_Finland_only.csv")
+
+# get_graph_max_power("Finland")
+# get_graph_max_power("Norway")
+get_graph_max_power_percentage("Finland")
+get_graph_max_power_percentage("Norway")
 
 # Play downloaded sound when everything is done (not pushed to git)
 playsound('notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01.mp3')
