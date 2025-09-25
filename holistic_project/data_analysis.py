@@ -252,6 +252,90 @@ def find_desc_soc(filename):
         print("Data written to", output_file)
 
 
+# NB: Uses sorted files!!
+def find_transactions_over_80(filename):
+    output_file = "transactions_over_80_Finland.csv"
+    transactions = set()
+
+    with open(filename, "r", newline="", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        header = next(reader)  # list of column names
+
+        for row in reader:
+            transaction, soc = row[0], int(row[6].replace(".0", ""))
+
+            if soc > 80:
+                transactions.add(transaction)
+
+    with open(output_file, "w", newline="", encoding="utf-8") as f2:
+        writer = csv.writer(f2)
+
+        # Write the header row
+        writer.writerow(["transaction"])
+
+        for transaction in list(transactions):
+            writer.writerow([transaction])
+
+
+# Uses aggregated file
+def find_transactions_soc(filename):
+    df = pd.read_csv(filename)
+    output_file = f"filtered_{filename}"
+
+    filtered = df[(df["min_soc"] < 20) & (df["max_soc"] > 95)]
+
+    filtered.to_csv(output_file, index=False)
+
+    print(filtered.head())
+    print("Matching transactions:", len(filtered))
+
+
+def get_graph_soc_sample(filename, transaction_id):
+    chunksize = 500_000
+    parts = []
+
+    for chunk in pd.read_csv(filename, chunksize=chunksize):
+        match = chunk[chunk["transactionId"] == transaction_id]
+        if not match.empty:
+            parts.append(match)
+
+    # Combine and sort by sample time
+    one_tx = pd.concat(parts).sort_values(by="sampleTime10sIncrement")
+
+    # Plot SOC vs sample time
+    plt.figure(figsize=(10, 6))
+    plt.plot(one_tx["sampleTime10sIncrement"], one_tx["soc"], marker="o", linestyle="-")
+    plt.title(f"SOC vs Sample Time (Transaction {transaction_id})")
+    plt.xlabel("Sample Time (10s increment)")
+    plt.ylabel("SOC")
+    plt.grid(True)
+    plt.tight_layout()
+
+    # Save the figure as a PNG file
+    plt.savefig(f"images/soc_vs_sampleTime_{transaction_id}.png", dpi=300)
+    plt.close()
+
+    print("Graph saved.png")
+
+
+def get_graphs_soc_sample(filename):
+    with open("filtered_transactions_sorted_Finland_only.csv", "r", newline="", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        header = next(reader)  # list of column names
+
+        counter = 0
+
+        for row in reader:
+            transaction_id = row[0]
+            get_graph_soc_sample(filename, transaction_id)
+            print(counter, "Done")
+
+            counter += 1
+
+            if counter > 20:  # get the first 20 graphs
+                break
+
+
 # print(get_lines_count())
 # print(get_countries())
 # get_sample_min_max("Norway")
@@ -273,7 +357,12 @@ def find_desc_soc(filename):
 # get_unique_trans_number("sorted_Sweden_only.csv")
 
 
-find_desc_soc("sorted_Finland_only.csv")
+# find_desc_soc("sorted_Finland_only.csv")
+# find_transactions_over_80("sorted_Finland_only.csv")
+# find_transactions_soc("transactions_sorted_Finland_only.csv")
+
+# get_graph_soc_sample("sorted_Finland_only.csv", "000b81cceff65c80a3fd7a190c82396c0670c800ac23a9f3b5ec7be92c30a057")
+get_graphs_soc_sample("sorted_Finland_only.csv")
 
 # Play downloaded sound when everything is done (not pushed to git)
 playsound('notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01.mp3')
