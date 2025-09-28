@@ -107,7 +107,8 @@ def get_max_sample(filename):
     chunksize = 500_000  # adjust to your machine
 
     for chunk in pd.read_csv(filename, usecols=[
-                             "country", "transactionId", "soc", "avgPowerW", "sampleTime10sIncrement", "tempC"
+                             "country", "transactionId", "EVModel", "year", "month", "weekday",
+                             "soc", "avgPowerW", "sampleTime10sIncrement", "tempC"
                              ],
                              chunksize=chunksize):
         # Show progress
@@ -115,9 +116,14 @@ def get_max_sample(filename):
         i += 1
 
         # Drop NaN if necessary
-        chunk = chunk.dropna(subset=["transactionId", "soc", "avgPowerW", "sampleTime10sIncrement", "tempC"])
+        chunk = chunk.dropna(subset=["transactionId", "soc", "avgPowerW", "sampleTime10sIncrement", "tempC", "EVModel",
+                                     "year", "month", "weekday"])
 
         grouped = chunk.groupby("transactionId").agg({
+            "EVModel": "first",
+            "year": "first",
+            "month": "first",
+            "weekday": "first",
             "sampleTime10sIncrement": ["min", "max"],
             "soc": ["min", "max"],
             "avgPowerW": ["mean", "max"],
@@ -126,8 +132,16 @@ def get_max_sample(filename):
 
         # Merge into dictionary
         for tid, row in grouped.iterrows():
+            evmodel = row[("EVModel", "first")]
+            year = row[("year", "first")]
+            month = row[("month", "first")]
+            weekday = row[("weekday", "first")]
             if tid not in stats:
                 stats[tid] = {
+                    "EVModel": evmodel,
+                    "year": year,
+                    "month": month,
+                    "weekday": weekday,
                     "min_sample": row[("sampleTime10sIncrement", "min")],
                     "max_sample": row[("sampleTime10sIncrement", "max")],
                     "min_soc": row[("soc", "min")],
@@ -154,6 +168,10 @@ def get_max_sample(filename):
     final_stats = pd.DataFrame([
         {
             "transactionId": tid,
+            "EVModel": v["EVModel"],
+            "year": v["year"],
+            "month": v["month"],
+            "weekday": v["weekday"],
             "min_sample": v["min_sample"],
             "max_sample": v["max_sample"],
             "min_soc": v["min_soc"],
@@ -167,7 +185,7 @@ def get_max_sample(filename):
 
     pd.set_option("display.max_columns", None)
     print(final_stats.head())
-    final_stats.to_csv(f"transactions_{filename}", index=False)
+    final_stats.to_csv(f"transactions_alldata_{filename}", index=False)
 
 
 # Save only chosen country data to csv to make smaller csv
@@ -396,38 +414,101 @@ def get_graph_max_power_percentage(country):
 
     print("Chart saved to max_power_percentage.png")
 
+
+def get_graph_max_sample_time_by_model(country):
+    input_file = f"transactions_alldata_{country}_only.csv"
+    output_csv = f"average_max_sample_by_EVModel_{country}.csv"
+    df = pd.read_csv(input_file)
+
+    # Group by EVModel and calculate the mean of max_sample
+    avg_max_sample = df.groupby("EVModel")["max_sample"].mean().sort_values()
+    avg_max_sample.to_csv(output_csv, header=["average_max_sample"])
+
+    # Plot as a bar chart
+    plt.figure(figsize=(120, 60))
+    avg_max_sample.plot(kind="bar", color="skyblue", edgecolor="black")
+
+    plt.title("Average Max Sample by EV Model")
+    plt.xlabel("EV Model")
+    plt.ylabel("Average Max Sample")
+    plt.xticks(rotation=45, ha="right")
+    plt.tight_layout()
+
+    # Save to a PNG file
+    plt.savefig(f"images/average_max_sample_by_EVModel_{country}.png", dpi=300)
+    plt.close()
+
+    print("Graph saved to average_max_sample_by_EVModel.png")
+
+
+def get_number_transactions_by_model(country):
+    df = pd.read_csv(f"transactions_alldata_{country}_only.csv")
+
+    # Count transactions per EVModel
+    transactions_per_model = df["EVModel"].value_counts()
+
+    print(transactions_per_model)
+    transactions_per_model.to_csv(f"transactions_per_model_{country}.csv")
+
+
+def sort_models(country):
+    df = pd.read_csv(f"transactions_per_model_{country}.csv")
+
+    # Sort by model name (assuming first column is EVModel)
+    df_sorted = df.sort_values(by="EVModel", ascending=True)
+
+    # Save to a new CSV
+    df_sorted.to_csv(f"transactions_per_model_sorted_{country}.csv", index=False)
+
+    print("Sorted file saved as transactions_per_model_sorted.csv")
+
+
 # print(get_lines_count())
 # print(get_countries())
 # get_sample_min_max("Norway")
 # get_graph_weekdays()
 # get_graph_weekday_soc_range()
 
-
 # save_filtered_as_csv("Sweden")
 
 # sort_by_transaction_sample("Finland_only.csv")
 # sort_by_transaction_sample("Sweden_only.csv")
 
-
-# get_max_sample("sorted_Finland_only.csv")
-# get_max_sample("sorted_United Kingdom_only.csv")
-
-
 # get_unique_trans_number("sorted_Finland_only.csv")
 # get_unique_trans_number("sorted_Sweden_only.csv")
 
-
+# Some State of Charge info
 # find_desc_soc("sorted_Finland_only.csv")
 # find_transactions_over_80("sorted_Finland_only.csv")
 # find_transactions_soc("transactions_sorted_Finland_only.csv")
 
+# --- Get graph of 1 or many transactions: soc by sampleTime
 # get_graph_soc_sample("sorted_Finland_only.csv", "000b81cceff65c80a3fd7a190c82396c0670c800ac23a9f3b5ec7be92c30a057")
 # get_graphs_soc_sample("sorted_Finland_only.csv")
 
 # get_graph_max_power("Finland")
 # get_graph_max_power("Norway")
-get_graph_max_power_percentage("Finland")
-get_graph_max_power_percentage("Norway")
+# get_graph_max_power_percentage("Finland")
+# get_graph_max_power_percentage("Norway")
+
+# --- Get aggregated data: each transaction, and its
+# transactionId,EVModel,year,month,weekday,min_sample,max_sample,min_soc,max_soc,mean_power,max_power,mean_temp
+# get_max_sample("Finland_only.csv")
+# get_max_sample("Norway_only.csv")
+# get_max_sample("United Kingdom_only.csv")
+
+# --- Get max sampleTime by each model (+ csv) - first call get_max_sample()
+# get_graph_max_sample_time_by_model("Finland")
+# get_graph_max_sample_time_by_model("Norway")
+# get_graph_max_sample_time_by_model("United Kingdom")
+
+# --- Get EVModel,count csv and sort them by EVModel - first call get_max_sample()
+# get_number_transactions_by_model("Finland")
+# sort_models("Finland")
+# get_number_transactions_by_model("Norway")
+# sort_models("Norway")
+# get_number_transactions_by_model("United Kingdom")
+# sort_models("United Kingdom")
 
 # Play downloaded sound when everything is done (not pushed to git)
 playsound('notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01.mp3')
