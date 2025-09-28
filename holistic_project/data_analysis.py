@@ -493,6 +493,7 @@ def sort_models(country):
 
 # --- Get aggregated data: each transaction, and its
 # transactionId,EVModel,year,month,weekday,min_sample,max_sample,min_soc,max_soc,mean_power,max_power,mean_temp
+# Uses filtered by country data to keep it faster - run save_filtered_as_csv()
 # get_max_sample("Finland_only.csv")
 # get_max_sample("Norway_only.csv")
 # get_max_sample("United Kingdom_only.csv")
