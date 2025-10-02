@@ -1,3 +1,6 @@
 .idea/
 
 openrouteservice_api_key
+
+*/__pycache__/
+*/*/__pycache__/
