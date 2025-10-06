@@ -2,6 +2,7 @@
 from playsound import playsound  # To play sound when analysis is finished
 import matplotlib.pyplot as plt
 import pandas as pd
+import glob
 import csv
 
 
@@ -100,7 +101,9 @@ def get_graph_weekdays():
 
 
 # Get max sampleTime for each transaction, calculate mean power, min/max soc, add tempC
-def get_max_sample(filename):
+def get_max_sample(country):
+    filename = f'{country}_only.csv'
+
     stats = {}
 
     i = 0
@@ -463,13 +466,67 @@ def sort_models(country):
     print("Sorted file saved as transactions_per_model_sorted.csv")
 
 
+def create_train_data():
+    input_pattern = 'transactions_alldata_*_only.csv'
+    output_file = 'evmodel_summary.csv'
+    all_results = []
+
+    for file in glob.glob(input_pattern):
+        print(f"Processing {file} ...")
+        try:
+            df = pd.read_csv(file)
+
+            # Compute new columns
+            df["sample_time"] = df["max_sample"] - df["min_sample"]
+            df["soc_diff"] = df["max_soc"] - df["min_soc"]
+
+            # Select only the required columns
+            result = df[[
+                "EVModel",
+                "sample_time",
+                "min_soc",
+                "soc_diff",
+                "mean_power",
+                "max_power",
+                "mean_temp"
+            ]]
+
+            all_results.append(result)
+
+        except Exception as e:
+            print(f"❌ Error processing {file}: {e}")
+
+    # Combine and save
+    if all_results:
+        combined_df = pd.concat(all_results, ignore_index=True)
+        combined_df.to_csv(output_file, index=False)
+        print(f"✅ Combined CSV saved to {output_file}")
+        print(combined_df.head())
+    else:
+        print("⚠️ No files found or no valid data.")
+
+
 # print(get_lines_count())
 # print(get_countries())
 # get_sample_min_max("Norway")
 # get_graph_weekdays()
 # get_graph_weekday_soc_range()
 
-# save_filtered_as_csv("Sweden")
+# United Kingdom
+# Finland
+# Sweden
+# Norway
+# France
+# Portugal
+# Belgium
+# Denmark
+# Latvia
+
+# save_filtered_as_csv("France")
+# save_filtered_as_csv("Portugal")
+# save_filtered_as_csv("Belgium")
+# save_filtered_as_csv("Denmark")
+# save_filtered_as_csv("Latvia")
 
 # sort_by_transaction_sample("Finland_only.csv")
 # sort_by_transaction_sample("Sweden_only.csv")
@@ -494,9 +551,15 @@ def sort_models(country):
 # --- Get aggregated data: each transaction, and its
 # transactionId,EVModel,year,month,weekday,min_sample,max_sample,min_soc,max_soc,mean_power,max_power,mean_temp
 # Uses filtered by country data to keep it faster - run save_filtered_as_csv()
-# get_max_sample("Finland_only.csv")
-# get_max_sample("Norway_only.csv")
-# get_max_sample("United Kingdom_only.csv")
+# get_max_sample("Finland")
+# get_max_sample("Norway")
+# get_max_sample("United Kingdom")
+# get_max_sample('Sweden')
+# get_max_sample('France')
+# get_max_sample('Portugal')
+# get_max_sample('Belgium')
+# get_max_sample('Denmark')
+# get_max_sample('Latvia')
 
 # --- Get max sampleTime by each model (+ csv) - first call get_max_sample()
 # get_graph_max_sample_time_by_model("Finland")
@@ -511,17 +574,7 @@ def sort_models(country):
 # get_number_transactions_by_model("United Kingdom")
 # sort_models("United Kingdom")
 
+create_train_data()
+
 # Play downloaded sound when everything is done (not pushed to git)
-playsound('notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01.mp3')
-
-# todo:
-# of all countries or Finland:
-# how long were the sessions? biggest sample out of same transaction id
-# the same with weekday
-# see a couple of long sessions and how the soc is increasing
-# + dependance of temp?
-
-# usual time to charge - mean?
-# how often end charge is not 100?
-# what day is usually longer charges?
-# are there any descending soc within a transaction?
+playsound('extras/notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01.mp3')
