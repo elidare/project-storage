@@ -577,4 +577,4 @@ def create_train_data():
 create_train_data()
 
 # Play downloaded sound when everything is done (not pushed to git)
-playsound('extras/notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01.mp3')
+playsound('../extras/notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01.mp3')

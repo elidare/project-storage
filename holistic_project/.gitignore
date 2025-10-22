@@ -1,4 +1,4 @@
 *.csv
 *.png
-config.share
-read_delta_share.py
+data_analysis/config.share
+data_analysis/read_delta_share.py
