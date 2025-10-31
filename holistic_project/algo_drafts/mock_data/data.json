@@ -3,6 +3,10 @@
           "station_id": 1,
           "name": "Feast-faster 11 Mustapekka",
           "address": "Panuntie 11, Helsinki",
+          "travel_time_min": 67,
+          "distance_km": 102,
+          "soc_at_arrival": 33,
+          "estimate_charging_time_min": 45,
           "chargers": [
               {
                   "charger_id": 1,
@@ -48,6 +52,10 @@
           "station_id": 2,
           "name": "Feast-faster 15 Vantaanportti",
           "address": "Silvastintie 2, Vantaa",
+          "travel_time_min": 35,
+          "distance_km": 58,
+          "soc_at_arrival": 63,
+          "estimate_charging_time_min": 39,
           "chargers": [
               {
                   "charger_id": 1,
