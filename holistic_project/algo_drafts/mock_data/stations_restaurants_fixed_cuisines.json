@@ -28,7 +28,7 @@
     },
     {
         "name": "Feast-faster 3 Pikkupekka Oulunkylä",
-        "address": "Kisällinkuja 2 , Helsinki",
+        "address": "Kisällinkuja 2, Helsinki",
         "type": "CCS (2), Type 2 (2)",
         "max_op_power": "100 kW",
         "lat": 60.2326535,
@@ -2120,7 +2120,7 @@
         ]
     },
     {
-        "name": "Feast-faster 80 Original Sokos Hotel Kupittaa Turku",
+        "name": "Feast-faster 80 Original Sokos Hotel Kupittaa",
         "address": "Joukahaisenkatu 6, Turku",
         "type": "Type 2 (4)",
         "max_op_power": "11 kW",
@@ -3884,7 +3884,7 @@
         ]
     },
     {
-        "name": "Feast-faster 152 Original Sokos Hotel Vaakuna Pori",
+        "name": "Feast-faster 152 Original Sokos Hotel Vaakuna",
         "address": "Gallen-Kallelankatu 7, Pori",
         "type": "Type 2 (10)",
         "max_op_power": "22 kW",
@@ -7980,7 +7980,7 @@
         ]
     },
     {
-        "name": "Feast-faster 293 Original Sokos Hotel Vaakuna Mikkeli",
+        "name": "Feast-faster 293 Original Sokos Hotel Vaakuna",
         "address": "Porrassalmenkatu 9, Mikkeli",
         "type": "Type 2 (8)",
         "max_op_power": "22 kW",
@@ -8953,7 +8953,7 @@
         ]
     },
     {
-        "name": "Feast-faster 315 Break Sokos Hotel Himos Chalets Jämsä",
+        "name": "Feast-faster 315 Break Sokos Hotel Himos Chalets",
         "address": "Golftie, Jämsä",
         "type": "CCS (4), Type 2 (10)",
         "max_op_power": "300 kW",
@@ -9166,7 +9166,7 @@
         ]
     },
     {
-        "name": "Feast-faster 329 Solo Sokos Hotel Paviljonki Jyväskylä",
+        "name": "Feast-faster 329 Solo Sokos Hotel Paviljonki",
         "address": "Lutakonaukio 10, Jyväskylä",
         "type": "Type 2 (20)",
         "max_op_power": "22 kW",
@@ -9480,7 +9480,7 @@
         ]
     },
     {
-        "name": "Feast-faster 330 Original Sokos Hotel Alexandra Jyväskylä",
+        "name": "Feast-faster 330 Original Sokos Hotel Alexandra",
         "address": "Hannikaisenkatu 35, Jyväskylä",
         "type": "Type 2 (8)",
         "max_op_power": "22 kW",
@@ -11549,7 +11549,7 @@
                 ]
             },
             {
-                "name": "Kaupungintalon lounaskahvio / Ravintola Kulkurin Kuu",
+                "name": "Ravintola Kulkurin Kuu",
                 "lat": 62.6032764,
                 "lon": 25.7297822,
                 "address": "Hallintokatu, Äänekoski",
@@ -11630,7 +11630,7 @@
                 ]
             },
             {
-                "name": "Kaupungintalon lounaskahvio / Ravintola Kulkurin Kuu",
+                "name": "Ravintola Kulkurin Kuu",
                 "lat": 62.6032764,
                 "lon": 25.7297822,
                 "address": "Hallintokatu, Äänekoski",
@@ -11944,7 +11944,7 @@
         ]
     },
     {
-        "name": "Feast-faster 369 Original Sokos Hotel Puijonsarvi",
+        "name": "Feast-faster 369 Original Sokos Hotel",
         "address": "Minna Canthin katu 16, Kuopio",
         "type": "Type 2 (16)",
         "max_op_power": "22 kW",
@@ -13181,7 +13181,7 @@
         ]
     },
     {
-        "name": "Feast-faster 385 Break Sokos Hotel Koli Kylä",
+        "name": "Feast-faster 385 Break Sokos Hotel Koli",
         "address": "Kolintie 94, Lieksa",
         "type": "Type 2 (10)",
         "max_op_power": "11 kW",
@@ -13911,7 +13911,7 @@
         ]
     },
     {
-        "name": "Feast-faster 442 Original Sokos Hotel Vaakuna Seinäjoki",
+        "name": "Feast-faster 442 Original Sokos Hotel Vaakuna",
         "address": "Kauppatori 3, Seinäjoki",
         "type": "Type 2 (6)",
         "max_op_power": "11 kW",
@@ -16149,7 +16149,7 @@
         ]
     },
     {
-        "name": "Feast-faster 498 Original Sokos Hotel Arina Oulu",
+        "name": "Feast-faster 498 Original Sokos Hotel Arina",
         "address": "Pakkahuoneenkatu 16, Oulu",
         "type": "Type 2 (14)",
         "max_op_power": "11 kW",
@@ -17287,7 +17287,7 @@
         ]
     },
     {
-        "name": "Feast-faster 505 Original Sokos Hotel Valjus Kajaani",
+        "name": "Feast-faster 505 Original Sokos Hotel Valjus",
         "address": "Kauppakatu 20, Kajaani",
         "type": "CCS (4)",
         "max_op_power": "150 kW",
