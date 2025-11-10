@@ -1,0 +1,4424 @@
+[
+    {
+        "name": "Feast-faster 1 Pakila Helsinki",
+        "address": "Pakilantie 61, Helsinki",
+        "type": "CCS (3), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "80 kW",
+        "lat": 60.2397157,
+        "lon": 24.9291792,
+        "restaurants": [
+            {
+                "name": "House of Sandwiches",
+                "lat": 60.2383083,
+                "lon": 24.9278122,
+                "address": "Pakilantie 56, Helsinki",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 2 Pikkupekka Oulunkylä",
+        "address": "Kisällinkuja 2, Helsinki",
+        "type": "CCS (2), Type 2 (2)",
+        "max_op_power": "100 kW",
+        "lat": 60.2326535,
+        "lon": 24.9577109,
+        "restaurants": [
+            {
+                "name": "Oulunkylän Kebab-Pizzeria",
+                "lat": 60.2301165,
+                "lon": 24.9651506,
+                "address": "Kisällinkuja 2, Helsinki",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 3 Malmi Helsinki",
+        "address": "Kirkonkyläntie 34, Helsinki",
+        "type": "CCS (3), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "80 kW",
+        "lat": 60.2563077,
+        "lon": 24.998606,
+        "restaurants": [
+            {
+                "name": "Kahvila-ravintola Pinetto",
+                "lat": 60.2587165,
+                "lon": 24.9944181,
+                "address": "Kirkonkyläntie 47",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "China Wall",
+                "lat": 60.2565483,
+                "lon": 24.9983117,
+                "address": "Kirkonkyläntie 34, Helsinki",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 4 Alepa Backas Vantaa",
+        "address": "Ylästöntie 28, Vantaa",
+        "type": "CCS (2), Type 2 (2)",
+        "max_op_power": "80 kW",
+        "lat": 60.2850047,
+        "lon": 24.9526783,
+        "restaurants": [
+            {
+                "name": "Backaksen kartano kesäravintola",
+                "lat": 60.2841155,
+                "lon": 24.9528945,
+                "address": "Ylästöntie 28, Vantaa",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 5 Malmi (Malminkaari)",
+        "address": "Malminkaari 19, Helsinki",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "100 kW",
+        "lat": 60.2519457,
+        "lon": 25.0146649,
+        "restaurants": [
+            {
+                "name": "Hua Fu Jiu Lou",
+                "lat": 60.2517417,
+                "lon": 25.0081101,
+                "address": "Helsinki",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Ruoka-aika",
+                "lat": 60.2523512,
+                "lon": 25.0072984,
+                "address": "Malminkaari 19, Helsinki",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Ariana Sish Grill",
+                "lat": 60.2494958,
+                "lon": 25.0117289,
+                "address": "Hietakummuntie 16, Helsinki",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Ravintola Granlunch",
+                "lat": 60.2529909,
+                "lon": 25.016227,
+                "address": "Malminkaari 19, Helsinki",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Pancho Villa",
+                "lat": 60.2525458,
+                "lon": 25.0062654,
+                "address": "Kirkonkyläntie 11, Helsinki",
+                "cuisine": [
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 6 Mustapekka",
+        "address": "Panuntie 11, Helsinki",
+        "type": "CCS (2), CHAdeMO (2), Type 2 (4)",
+        "max_op_power": "50 kW",
+        "lat": 60.2215859,
+        "lon": 24.9487762,
+        "restaurants": [
+            {
+                "name": "Ravintola Lilja",
+                "lat": 60.2200334,
+                "lon": 24.9404329,
+                "address": "Läkkisepäntie 14, Helsinki",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Dylan Kottby Oulunkylä",
+                "lat": 60.2229442,
+                "lon": 24.9490466,
+                "address": "Mäkitorpantie 3, Helsinki",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Neste K",
+                "lat": 60.2206018,
+                "lon": 24.9405093,
+                "address": "Asesepänkuja 2, Helsinki",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 7 Vantaanportti",
+        "address": "Silvastintie 2, Vantaa",
+        "type": "CCS (4), Type 2 (6)",
+        "max_op_power": "200 kW",
+        "lat": 60.2946501,
+        "lon": 24.9521968,
+        "restaurants": [
+            {
+                "name": "Ravintola Kehä III",
+                "lat": 60.2970565,
+                "lon": 24.9540543,
+                "address": "Virkatie 7, Vantaa",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 8 Suutarila",
+        "address": "Tapulikaupungintie 39, Helsinki",
+        "type": "CCS (4)",
+        "max_op_power": "200 kW",
+        "lat": 60.2799553,
+        "lon": 25.0124059,
+        "restaurants": [
+            {
+                "name": "Jaal Star",
+                "lat": 60.2810091,
+                "lon": 25.0122007,
+                "address": "Tapulikaupungintie 39, Helsinki",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 9 Koivuhaka Vantaa",
+        "address": "Kuriiritie 23-25, Vantaa",
+        "type": "CCS (3), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "80 kW",
+        "lat": 60.2882678,
+        "lon": 24.9993363,
+        "restaurants": [
+            {
+                "name": "Motorest",
+                "lat": 60.2881371,
+                "lon": 24.9962449,
+                "address": "Niittytie 2, Vantaa",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Osaka Sushi",
+                "lat": 60.288371,
+                "lon": 24.9997768,
+                "address": "Kuriiritie 23-25, Vantaa",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 10 Prisma Viikki Helsinki",
+        "address": "Viikintori 3, Helsinki",
+        "type": "CCS (6), CHAdeMO (2), Type 2 (4)",
+        "max_op_power": "80 kW",
+        "lat": 60.2275152,
+        "lon": 25.0096967,
+        "restaurants": [
+            {
+                "name": "Viikin kartano",
+                "lat": 60.2264777,
+                "lon": 25.0111155,
+                "address": "Viikintori 3, Helsinki",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Biokeskus",
+                "lat": 60.2271297,
+                "lon": 25.0140263,
+                "address": "Viikinkaari 9, Helsinki",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Chico's",
+                "lat": 60.2272586,
+                "lon": 25.00929,
+                "address": "Viikintori 3, Helsinki",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Infokeskus",
+                "lat": 60.2274719,
+                "lon": 25.0133924,
+                "address": "Viikintori 3, Helsinki",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Infokeskus alakerta",
+                "lat": 60.2275833,
+                "lon": 25.0130147,
+                "address": "Viikintori 3, Helsinki",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 11 Kulinaari",
+        "address": "Kamreerintie 3, Espoo",
+        "type": "Type 2 (3)",
+        "max_op_power": "22 kW",
+        "lat": 60.2045025,
+        "lon": 24.6564169,
+        "restaurants": [
+            {
+                "name": "Chopsticx",
+                "lat": 60.2038241,
+                "lon": 24.6591511,
+                "address": "Siltakatu 11, Espoo",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Chitir Chicken Espoon Keskus",
+                "lat": 60.2059528,
+                "lon": 24.6574702,
+                "address": "Kirkkojärventie 10, Espoo",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Ravintola Kruunu",
+                "lat": 60.2044583,
+                "lon": 24.6561889,
+                "address": "Kamreerintie 3",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "King Kebab",
+                "lat": 60.2048851,
+                "lon": 24.6560307,
+                "address": "Kirkkojärventie 1, Espoo",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Valtuustotalon henkilöstöravintola",
+                "lat": 60.2068507,
+                "lon": 24.6562802,
+                "address": "Espoonkatu 5, Espoo",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 12 Pohjois-Tapiola Espoo",
+        "address": "Kalevalantie 3, Espoo",
+        "type": "CCS (3), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "80 kW",
+        "lat": 60.1857736,
+        "lon": 24.8070219,
+        "restaurants": [
+            {
+                "name": "Feast-faster 12 Restaurant",
+                "lat": 60.1889754,
+                "lon": 24.8051059,
+                "address": "Kalevalantie 3, Espoo",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Katri Antell",
+                "lat": 60.1878039,
+                "lon": 24.8089407,
+                "address": "Kalevalantie 3, Espoo",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "RE5T4UR4NT HEHKU",
+                "lat": 60.1840754,
+                "lon": 24.8142991,
+                "address": "Kalevalantie 3, Espoo",
+                "cuisine": [
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 13 Maarinsolmu",
+        "address": "Maarinrannantie 2, Espoo",
+        "type": "CCS (2), Type 2 (2)",
+        "max_op_power": "100 kW",
+        "lat": 60.1871067,
+        "lon": 24.8115224,
+        "restaurants": [
+            {
+                "name": "Fazer Food & Co: TUAS",
+                "lat": 60.1871877,
+                "lon": 24.8198116,
+                "address": "Maarinrannantie 2, Espoo",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Feast-faster 13 Restaurant",
+                "lat": 60.1889754,
+                "lon": 24.8051059,
+                "address": "Maarinrannantie 2, Espoo",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Katri Antell 13",
+                "lat": 60.1878039,
+                "lon": 24.8089407,
+                "address": "Maarinrannantie 2, Espoo",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Bliss",
+                "lat": 60.1872912,
+                "lon": 24.8162538,
+                "address": "Maarintie 6, Espoo",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Nova Mau-kas",
+                "lat": 60.1848714,
+                "lon": 24.8182279,
+                "address": "Tekniikantie 17a",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Tastory 13",
+                "lat": 60.1857743,
+                "lon": 24.812157,
+                "address": "Maarinrannantie 2, Espoo",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Kirjo 13",
+                "lat": 60.1884529,
+                "lon": 24.8066371,
+                "address": "Maarinrannantie 2, Espoo",
+                "cuisine": [
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 14 Prisma Iso Omena Espoo",
+        "address": "Piispansilta 11, Espoo",
+        "type": "CCS (11)",
+        "max_op_power": "300 kW",
+        "lat": 60.16146,
+        "lon": 24.7380522,
+        "restaurants": [
+            {
+                "name": "Matinkylän kuningas",
+                "lat": 60.1574976,
+                "lon": 24.7409361,
+                "address": "Anjankuja 3, Espoo",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Ravintola Kosi",
+                "lat": 60.1614509,
+                "lon": 24.7403509,
+                "address": "Piispansilta 16",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Capella Bristo",
+                "lat": 60.1625024,
+                "lon": 24.7392227,
+                "address": "Piispansilta 10, Espoo",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Ravintola Pirttihirmu",
+                "lat": 60.1620202,
+                "lon": 24.7375853,
+                "address": "Piispansilta 11, Espoo",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Em moi",
+                "lat": 60.1627363,
+                "lon": 24.7388299,
+                "address": "Piispansilta 10, Espoo",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Eat Poke Iso Omena",
+                "lat": 60.161355,
+                "lon": 24.7374408,
+                "address": "Piispansilta 11, Espoo",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Orient Express",
+                "lat": 60.1603248,
+                "lon": 24.7379156,
+                "address": "Piispansilta 11, Espoo",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 15 Derby",
+        "address": "Kalkkipellontie 2, Espoo",
+        "type": "CCS (8), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "180 kW",
+        "lat": 60.2194873,
+        "lon": 24.8345948,
+        "restaurants": [
+            {
+                "name": "Bali Brunch",
+                "lat": 60.2197296,
+                "lon": 24.830424,
+                "address": "Kalkkipellontie 2, Espoo",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 16 Masala",
+        "address": "Tinantori 1, Kirkkonummi",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 60.1595729,
+        "lon": 24.5360634,
+        "restaurants": [
+            {
+                "name": "Bar Dalton's",
+                "lat": 60.1584439,
+                "lon": 24.5358484,
+                "address": "Tinankuja 2, Masala",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Golden Nepal",
+                "lat": 60.1585196,
+                "lon": 24.5357802,
+                "address": "Tinankuja 2, Kirkkonummi",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Masalan Pizza Piste",
+                "lat": 60.1584977,
+                "lon": 24.5347906,
+                "address": "Tinantie 1, Kirkkonummi",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Bistro Mediterranean Cuisine",
+                "lat": 60.162776,
+                "lon": 24.5369067,
+                "address": "Tinantori 1, Kirkkonummi",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 17 Veikkola",
+        "address": "Koskentie 6, Veikkola",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 60.268663,
+        "lon": 24.4429376,
+        "restaurants": [
+            {
+                "name": "Taverna Dawi",
+                "lat": 60.2698817,
+                "lon": 24.4421284,
+                "address": "Eerikinkartanontie 2",
+                "cuisine": [
+                    "european",
+                    "regional"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 18 Prisma Lohja",
+        "address": "Laurinkatu 37-41, Lohja",
+        "type": "CCS (6)",
+        "max_op_power": "300 kW",
+        "lat": 60.2483142,
+        "lon": 24.0635705,
+        "restaurants": [
+            {
+                "name": "Ninki Sushi",
+                "lat": 60.2483142,
+                "lon": 24.0635705,
+                "address": "Laurinkatu 37-41, Lohja",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Ravintola Amar",
+                "lat": 60.2475091,
+                "lon": 24.061037,
+                "address": "Laurinkatu 31-33, Lohja",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Barrica & Bistro",
+                "lat": 60.2502975,
+                "lon": 24.065304,
+                "address": "Laurinkatu 37-41, Lohja",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Bistro Olea",
+                "lat": 60.2511137,
+                "lon": 24.0672309,
+                "address": "Kauppakatu 16",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Antonio Toasti",
+                "lat": 60.2506063,
+                "lon": 24.069307,
+                "address": "Laurinkatu 37-41, Lohja",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "King Kebab 18",
+                "lat": 60.2511825,
+                "lon": 24.066903,
+                "address": "Suurlohjankatu 1, Lohja",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 19 Prisma Halikko",
+        "address": "Prismantie 2, Salo",
+        "type": "CCS (6)",
+        "max_op_power": "300 kW",
+        "lat": 60.394301,
+        "lon": 23.0835442,
+        "restaurants": [
+            {
+                "name": "Ravintola Nemo Halikko",
+                "lat": 60.3968907,
+                "lon": 23.0776722,
+                "address": "Prismantie 2, Salo",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 20 ABC Piihovi Salo",
+        "address": "Ruoksmäentie 1, Salo",
+        "type": "CCS (12)",
+        "max_op_power": "300 kW",
+        "lat": 60.4188446,
+        "lon": 23.1648501,
+        "restaurants": [
+            {
+                "name": "ABC Piihovi Salo Restaurant",
+                "lat": 60.4186096,
+                "lon": 23.1644948,
+                "address": "Ruoksmäentie 1, Salo",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 21 Kaarina",
+        "address": "Kuskinkatu 4, Kaarina",
+        "type": "CCS (4)",
+        "max_op_power": "200 kW",
+        "lat": 60.4088803,
+        "lon": 22.3723052,
+        "restaurants": [
+            {
+                "name": "Tsing Tao",
+                "lat": 60.4084557,
+                "lon": 22.3749029,
+                "address": "Kiesikatu 8-10, Kaarina",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "UUNI Pizzeria",
+                "lat": 60.4079703,
+                "lon": 22.3743795,
+                "address": "Kuskinkatu 1, Kaarina",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 22 ABC Aura",
+        "address": "Valtatie 36, Aura",
+        "type": "CCS (4)",
+        "max_op_power": "150 kW",
+        "lat": 60.6412959,
+        "lon": 22.5503791,
+        "restaurants": [
+            {
+                "name": "St1 HelmiSimpukka Aura",
+                "lat": 60.6429546,
+                "lon": 22.5523936,
+                "address": "Valtatie 36 B, Aura",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 23 Prisma Piispanristi Kaarina",
+        "address": "Kairiskulmantie 3, Kaarina",
+        "type": "CCS (1), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "100 kW",
+        "lat": 60.4158274,
+        "lon": 22.3254937,
+        "restaurants": [
+            {
+                "name": "Ravintola Broadway",
+                "lat": 60.4165986,
+                "lon": 22.329838,
+                "address": "Kaarina",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 24 Skanssi",
+        "address": "Mustionkatu 1, Turku",
+        "type": "CCS (2), Type 2 (4)",
+        "max_op_power": "100 kW",
+        "lat": 60.4364664,
+        "lon": 22.3217605,
+        "restaurants": [
+            {
+                "name": "Herkkupiste catering Turku",
+                "lat": 60.4344851,
+                "lon": 22.3259602,
+                "address": "Biolinja 12, Turku",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 25 ABC Koulukatu Turku",
+        "address": "Koulukatu 29, Turku",
+        "type": "CCS (4)",
+        "max_op_power": "150 kW",
+        "lat": 60.4544217,
+        "lon": 22.2470421,
+        "restaurants": [
+            {
+                "name": "Golden Dragon",
+                "lat": 60.4529455,
+                "lon": 22.2553513,
+                "address": "Turku",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Koulukadun Grilli",
+                "lat": 60.4542036,
+                "lon": 22.2441494,
+                "address": "Tavarakatu 1, Turku",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 26 Kespro Noutotukku Turku",
+        "address": "Pitkämäenkatu 11, Turku",
+        "type": "Type 2 (1)",
+        "max_op_power": "11 kW",
+        "lat": 60.4577147,
+        "lon": 22.237443,
+        "restaurants": [
+            {
+                "name": "Lang Bakke",
+                "lat": 60.4555821,
+                "lon": 22.236891,
+                "address": "Postikatu 2, Turku",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Lounas Manhattan",
+                "lat": 60.4572451,
+                "lon": 22.2349784,
+                "address": "Pitkämäenkatu 4, Turku",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Uuni Pizzeria",
+                "lat": 60.4572952,
+                "lon": 22.2357881,
+                "address": "Pitkämäenkatu 4, Turku",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 27 Turku Kupittaa",
+        "address": "Uudenmaantie 17, Turku",
+        "type": "CCS (4), Type 2 (8)",
+        "max_op_power": "100 kW",
+        "lat": 60.4417523,
+        "lon": 22.2863052,
+        "restaurants": [
+            {
+                "name": "Ravintola Stadion",
+                "lat": 60.4434061,
+                "lon": 22.2920578,
+                "address": "Blomberginaukio 4, Turku",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Kupittaan paviljonki",
+                "lat": 60.4456136,
+                "lon": 22.2903436,
+                "address": "Kupittaankatu 8, Turku",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Uuni Kupittaa",
+                "lat": 60.4423439,
+                "lon": 22.2941445,
+                "address": "Hippoksentie 8, Turku",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 28 Original Sokos Hotel Kupittaa",
+        "address": "Joukahaisenkatu 6, Turku",
+        "type": "Type 2 (4)",
+        "max_op_power": "11 kW",
+        "lat": 60.4502738,
+        "lon": 22.297115,
+        "restaurants": [
+            {
+                "name": "Amica Snack City",
+                "lat": 60.4484898,
+                "lon": 22.2947742,
+                "address": "Lemminkäisenkatu 14-18, Turku",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Deli Pharma",
+                "lat": 60.4489035,
+                "lon": 22.2918858,
+                "address": "Itäinen Pitkäkatu 4, Turku",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Dental",
+                "lat": 60.449885,
+                "lon": 22.2924267,
+                "address": "Lemminkäisenkatu 2, Turku",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Flavoria",
+                "lat": 60.452291,
+                "lon": 22.293317,
+                "address": "Kiinamyllynkatu 10, Turku",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Sodexo Turun AMK Lemminkäisenkatu",
+                "lat": 60.4466423,
+                "lon": 22.2998978,
+                "address": "Joukahaisenkatu 6, Turku",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Moi! Poke",
+                "lat": 60.4490887,
+                "lon": 22.2921737,
+                "address": "Itäinen Pitkäkatu 4, Turku",
+                "cuisine": [
+                    "asian",
+                    "regional"
+                ]
+            },
+            {
+                "name": "Kisälli lounasravintola",
+                "lat": 60.4482675,
+                "lon": 22.2971037,
+                "address": "Joukahaisenkatu 7, Turku",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Joukahainen",
+                "lat": 60.4482572,
+                "lon": 22.2986421,
+                "address": "Joukahaisenkatu 9, Turku",
+                "cuisine": [
+                    "american"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 29 Länsikeskus (Parkkihalli)",
+        "address": "Markulantie 150, Turku",
+        "type": "CCS (4), Type 2 (8)",
+        "max_op_power": "100 kW",
+        "lat": 60.4720633,
+        "lon": 22.2325202,
+        "restaurants": [
+            {
+                "name": "Arina Ravintola",
+                "lat": 60.4691677,
+                "lon": 22.23589,
+                "address": "Markulantie 150, Turku",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Länsi kebab & pizzeria",
+                "lat": 60.4736125,
+                "lon": 22.2243371,
+                "address": "Viilarinkatu 5, Turku",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "158 Ravintola",
+                "lat": 60.4742196,
+                "lon": 22.2270907,
+                "address": "Markulantie 150, Turku",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 30 Prisma Tampereentie Turku",
+        "address": "Vanha Tampereentie 108, Turku",
+        "type": "CCS (6), Type 2 (2)",
+        "max_op_power": "150 kW",
+        "lat": 60.4743553,
+        "lon": 22.2865299,
+        "restaurants": [
+            {
+                "name": "Pizza Perez",
+                "lat": 60.4721063,
+                "lon": 22.2818903,
+                "address": "Vanha Tampereentie 108, Turku",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 31 Skanssi",
+        "address": "Itäkaari 20, Turku",
+        "type": "CCS (4), Type 2 (3)",
+        "max_op_power": "100 kW",
+        "lat": 60.4278506,
+        "lon": 22.3222672,
+        "restaurants": [
+            {
+                "name": "Rax Buffet",
+                "lat": 60.4300458,
+                "lon": 22.3218235,
+                "address": "Itäkaari 20, Turku",
+                "cuisine": [
+                    "italian",
+                    "american"
+                ]
+            },
+            {
+                "name": "Pancho Villa 31",
+                "lat": 60.4300855,
+                "lon": 22.3217465,
+                "address": "Skanssinkatu 10, Turku",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Luckiefun's Sushibuffet",
+                "lat": 60.4296705,
+                "lon": 22.3226894,
+                "address": "Skanssinkatu 10",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 32 ABC Vihti",
+        "address": "Niuhalanraitti 3, Vihti",
+        "type": "CCS (4)",
+        "max_op_power": "150 kW",
+        "lat": 60.4165555,
+        "lon": 24.3232046,
+        "restaurants": [
+            {
+                "name": "Ismet",
+                "lat": 60.4184253,
+                "lon": 24.3173718,
+                "address": "Niuhalanraitti 21, Vihti",
+                "cuisine": [
+                    "italian",
+                    "american",
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 33 Nummela",
+        "address": "Keskikuja 3, Nummela",
+        "type": "Type 2 (4)",
+        "max_op_power": "22 kW",
+        "lat": 60.3335339,
+        "lon": 24.3177996,
+        "restaurants": [
+            {
+                "name": "Klassikko",
+                "lat": 60.3349132,
+                "lon": 24.3200509,
+                "address": "Keskikuja 3, Nummela",
+                "cuisine": [
+                    "italian",
+                    "american"
+                ]
+            },
+            {
+                "name": "Deja Vu",
+                "lat": 60.3349126,
+                "lon": 24.3191511,
+                "address": "Keskikuja 3, Nummela",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "HengFeng - Kiinalainen Ravintola",
+                "lat": 60.3336371,
+                "lon": 24.3261246,
+                "address": "Keskikuja 3, Nummela",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 34 Vihti Nummela",
+        "address": "Tuusankaari 1, Nummela",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "100 kW",
+        "lat": 60.3325977,
+        "lon": 24.3303356,
+        "restaurants": [
+            {
+                "name": "HengFeng - Kiinalainen Ravintola 34",
+                "lat": 60.3336371,
+                "lon": 24.3261246,
+                "address": "Tuusankaari 1, Nummela",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Ramon 34",
+                "lat": 60.3326642,
+                "lon": 24.3264937,
+                "address": "Tuusankaari 1, Nummela",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 35 Prisma Nummela",
+        "address": "Naaranpajuntie 3, Vihti",
+        "type": "CCS (6)",
+        "max_op_power": "300 kW",
+        "lat": 60.3308026,
+        "lon": 24.3202446,
+        "restaurants": [
+            {
+                "name": "Klassikko 35",
+                "lat": 60.3349132,
+                "lon": 24.3200509,
+                "address": "Naaranpajuntie 3, Vihti",
+                "cuisine": [
+                    "italian",
+                    "american"
+                ]
+            },
+            {
+                "name": "Deja Vu 35",
+                "lat": 60.3349126,
+                "lon": 24.3191511,
+                "address": "Naaranpajuntie 3, Vihti",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "HengFeng - Kiinalainen Ravintola 35",
+                "lat": 60.3336371,
+                "lon": 24.3261246,
+                "address": "Naaranpajuntie 3, Vihti",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 36 Röykkä",
+        "address": "Ketunkopintie 2, Röykkä",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 60.4872755,
+        "lon": 24.6498702,
+        "restaurants": [
+            {
+                "name": "Pizzeria Kulma",
+                "lat": 60.4868552,
+                "lon": 24.6510193,
+                "address": "Ketunkopintie 2, Röykkä",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 37 ABC Lohja",
+        "address": "Hossanmäentie 1, Lohja",
+        "type": "CCS (12)",
+        "max_op_power": "400 kW",
+        "lat": 60.2932787,
+        "lon": 24.0634093,
+        "restaurants": [
+            {
+                "name": "ABC Lohja",
+                "lat": 60.2931136,
+                "lon": 24.0632786,
+                "address": "Hossanmäentie 1, Lohja",
+                "cuisine": [
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 38 Eerikkilä Sport & Outdoor Resort",
+        "address": "Urheiluopistontie 138, Eerikkilä",
+        "type": "Type 2 (8)",
+        "max_op_power": "22 kW",
+        "lat": 60.7239668,
+        "lon": 23.7894372,
+        "restaurants": [
+            {
+                "name": "Klubitalo",
+                "lat": 60.7230124,
+                "lon": 23.7891255,
+                "address": "Urheiluopistontie 138, Eerikkilä",
+                "cuisine": [
+                    "regional"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 39 Nurmijärvi",
+        "address": "Mahlamäentie 2, Nurmijärvi",
+        "type": "CCS (2), Type 2 (2)",
+        "max_op_power": "100 kW",
+        "lat": 60.462561,
+        "lon": 24.8098775,
+        "restaurants": [
+            {
+                "name": "Capri",
+                "lat": 60.4611916,
+                "lon": 24.8026663,
+                "address": "Pratikankuja 7, Nurmijärvi",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Tomaatti Sushi Buffet Restaurant",
+                "lat": 60.4614345,
+                "lon": 24.8033689,
+                "address": "Pratikankuja 4, Nurmijärvi",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Ismet 39",
+                "lat": 60.462414,
+                "lon": 24.8056914,
+                "address": "Keskustie 5, Nurmijärvi",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 40 ABC Hyvinkää",
+        "address": "Peltokuumolantie 2, Hyvinkää",
+        "type": "CCS (4)",
+        "max_op_power": "150 kW",
+        "lat": 60.6181898,
+        "lon": 24.8063172,
+        "restaurants": [
+            {
+                "name": "ABC Hyvinkää",
+                "lat": 60.6181898,
+                "lon": 24.8063172,
+                "address": "Peltokuumolantie 2, Hyvinkää",
+                "cuisine": [
+                    "american",
+                    "european",
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 41 Loimaa",
+        "address": "Aleksis Kiven Katu 9, Loimaa",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 60.8555592,
+        "lon": 23.0439628,
+        "restaurants": [
+            {
+                "name": "Ritvan ja Oilin Herkkukeittiö",
+                "lat": 60.8532787,
+                "lon": 23.045843,
+                "address": "Hossinkatu 1-3, Loimaa",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Ravintola Farmi",
+                "lat": 60.8564921,
+                "lon": 23.0467166,
+                "address": "Aleksis Kiven katu 7, Loimaa",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 42 ABC Forssa",
+        "address": "Matkailijankatu 2, Forssa",
+        "type": "CCS (23), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "400 kW",
+        "lat": 60.8268619,
+        "lon": 23.572838,
+        "restaurants": [
+            {
+                "name": "ABC Restaurant",
+                "lat": 60.827562,
+                "lon": 23.5717207,
+                "address": "Matkailijankatu 2, Forssa",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Autokeidas Forssa",
+                "lat": 60.8263322,
+                "lon": 23.5774757,
+                "address": "Keitaankatu 1, Forssa",
+                "cuisine": [
+                    "american"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 43 Pouru",
+        "address": "Kauppakatu 3, Punkalaidun",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 61.1133698,
+        "lon": 23.1055515,
+        "restaurants": [
+            {
+                "name": "Kahvila-ravintola Moguli",
+                "lat": 61.1122785,
+                "lon": 23.1059912,
+                "address": "Kauppakatu 3, Punkalaidun",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 44 Prisma Forssa",
+        "address": "Tapulikuja 6, Forssa",
+        "type": "CCS (4)",
+        "max_op_power": "200 kW",
+        "lat": 60.812241,
+        "lon": 23.6358385,
+        "restaurants": [
+            {
+                "name": "Pikku Pistrina",
+                "lat": 60.8142352,
+                "lon": 23.6278453,
+                "address": "Tapulikuja 6, Forssa",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Lounas-Leena",
+                "lat": 60.8141741,
+                "lon": 23.6379568,
+                "address": "Hämeentie 35, Forssa",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Vanhakoulu",
+                "lat": 60.8130143,
+                "lon": 23.6335799,
+                "address": "Tapulikuja 6, Forssa",
+                "cuisine": [
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 45 Salo",
+        "address": "Hämeentie 24, Salo",
+        "type": "CCS (8), Type 2 (4)",
+        "max_op_power": "200 kW",
+        "lat": 60.3902478,
+        "lon": 23.127501,
+        "restaurants": [
+            {
+                "name": "Long Teng",
+                "lat": 60.3874955,
+                "lon": 23.1227798,
+                "address": "Vilhonkatu 11, Salo",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Kiinanmuuri",
+                "lat": 60.3864738,
+                "lon": 23.1297325,
+                "address": "Hämeentie 24, Salo",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Happy Face",
+                "lat": 60.3897943,
+                "lon": 23.1195018,
+                "address": "Turuntie 26, Salo",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Bhanchha Ghar",
+                "lat": 60.3875574,
+                "lon": 23.1261733,
+                "address": "Turuntie 5",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Rikala Bar&Grill",
+                "lat": 60.3875482,
+                "lon": 23.1281532,
+                "address": "Asemakatu 15, Salo",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Musine",
+                "lat": 60.3864198,
+                "lon": 23.1299163,
+                "address": "Hämeentie 24, Salo",
+                "cuisine": [
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 46 Prisma Nokia",
+        "address": "Yrittäjäkatu 10, Nokia",
+        "type": "CCS (4)",
+        "max_op_power": "150 kW",
+        "lat": 61.4784062,
+        "lon": 23.525971,
+        "restaurants": [
+            {
+                "name": "Osuusravintola Oksa",
+                "lat": 61.478847,
+                "lon": 23.5266514,
+                "address": "Yrittäjäkatu 10, Nokia",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 47 ABC Kolmenkulma Nokia",
+        "address": "Rounionkatu 140, Nokia",
+        "type": "CCS (12)",
+        "max_op_power": "400 kW",
+        "lat": 61.5013857,
+        "lon": 23.5681369,
+        "restaurants": [
+            {
+                "name": "ABC Kolmenkulma",
+                "lat": 61.5020598,
+                "lon": 23.5668771,
+                "address": "Rounionkatu 140, Nokia",
+                "cuisine": [
+                    "italian",
+                    "european",
+                    "turkish",
+                    "regional"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 48 Pirkanpoika",
+        "address": "Suupantie 4, Pirkkala",
+        "type": "CCS (2), Type 2 (4)",
+        "max_op_power": "100 kW",
+        "lat": 61.4662874,
+        "lon": 23.6471661,
+        "restaurants": [
+            {
+                "name": "Ravintola Suuppa",
+                "lat": 61.466345,
+                "lon": 23.6444473,
+                "address": "Suupantori 4, Pirkkala",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Pyynikin Smokehouse",
+                "lat": 61.4660607,
+                "lon": 23.6453472,
+                "address": "Suupantie 6, Pirkkala",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Pizza Service",
+                "lat": 61.4662122,
+                "lon": 23.6493331,
+                "address": "Suupantie 4, Pirkkala",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Lounasravintola Marinara",
+                "lat": 61.465317,
+                "lon": 23.6464646,
+                "address": "Koulutie 3, Pirkkala",
+                "cuisine": [
+                    "italian",
+                    "american",
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 49 Westeri",
+        "address": "Tesomankatu 4, Tampere",
+        "type": "CCS (2), Type 2 (4)",
+        "max_op_power": "100 kW",
+        "lat": 61.5052839,
+        "lon": 23.6272477,
+        "restaurants": [
+            {
+                "name": "Pizza Hut 49",
+                "lat": 61.5049102,
+                "lon": 23.627838,
+                "address": "Tesomankatu 4, Tampere",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Ravintola Wukong Tampere",
+                "lat": 61.5049313,
+                "lon": 23.6275237,
+                "address": "Tesomankatu 4, Tampere",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 50 Pirkkala",
+        "address": "Palmrothintie 2, Pirkkala",
+        "type": "CCS (4), CHAdeMO (2), Type 2 (7)",
+        "max_op_power": "100 kW",
+        "lat": 61.4658224,
+        "lon": 23.7224102,
+        "restaurants": [
+            {
+                "name": "Ninan keittiö",
+                "lat": 61.4679634,
+                "lon": 23.7233663,
+                "address": "Saapastie 2, Pirkkala",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Partolan Pizzeria",
+                "lat": 61.4701309,
+                "lon": 23.7224056,
+                "address": "Nuolialantie 71, Pirkkala",
+                "cuisine": [
+                    "american",
+                    "turkish",
+                    "italian"
+                ]
+            },
+            {
+                "name": "Itsudemo 50",
+                "lat": 61.4676456,
+                "lon": 23.7193341,
+                "address": "Palmrothintie 2, Pirkkala",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Zarillo",
+                "lat": 61.4678859,
+                "lon": 23.7196815,
+                "address": "Saapastie 2, Pirkkala",
+                "cuisine": [
+                    "american",
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 51 Tampere Lielahti",
+        "address": "Harjuntausta 7, Tampere",
+        "type": "CCS (2), CHAdeMO (1), Type 2 (5)",
+        "max_op_power": "150 kW",
+        "lat": 61.5148815,
+        "lon": 23.6664871,
+        "restaurants": [
+            {
+                "name": "American Diner",
+                "lat": 61.5164105,
+                "lon": 23.663558,
+                "address": "Taninkatu 2, Tampere",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Bollywood Spice",
+                "lat": 61.5174663,
+                "lon": 23.6638925,
+                "address": "Possijärvenkatu 1",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 52 Nekala",
+        "address": "Viinikankatu 40, Tampere",
+        "type": "CCS (2), CHAdeMO (1), Type 2 (1)",
+        "max_op_power": "150 kW",
+        "lat": 61.4795002,
+        "lon": 23.779523,
+        "restaurants": [
+            {
+                "name": "Shell HelmiSimpukka Tampere Lahdenperänkatu",
+                "lat": 61.4767656,
+                "lon": 23.7723288,
+                "address": "Lahdenperänkatu 7, Tampere",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Lounasravintola Sun Namaste",
+                "lat": 61.4806059,
+                "lon": 23.7833625,
+                "address": "Viinikankatu 47, Tampere",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 53 Kaleva Tampere",
+        "address": "Sammonkatu 60, Tampere",
+        "type": "CCS (2), Type 2 (2)",
+        "max_op_power": "150 kW",
+        "lat": 61.4940503,
+        "lon": 23.8121611,
+        "restaurants": [
+            {
+                "name": "Ravintola Diagonal",
+                "lat": 61.4947032,
+                "lon": 23.8103994,
+                "address": "Sammonkatu 56, Tampere",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Linkosuo Lounasravintola Kalevanpaasi",
+                "lat": 61.493855,
+                "lon": 23.8095886,
+                "address": "Sarvijaakonkatu 5b",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Apex Food",
+                "lat": 61.4960066,
+                "lon": 23.8040454,
+                "address": "Sammonkatu 44, Tampere",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Public House Huurre",
+                "lat": 61.4958816,
+                "lon": 23.8048409,
+                "address": "Sammonkatu 46, Tampere",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Pancho Villa 53",
+                "lat": 61.4933918,
+                "lon": 23.8199478,
+                "address": "Sammonkatu 60, Tampere",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Noodle lab",
+                "lat": 61.4958075,
+                "lon": 23.8051968,
+                "address": "Sammonkatu 46, Tampere",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 54 Prisma Kaleva Tampere",
+        "address": "Sammonkatu 75, Tampere",
+        "type": "CCS (6)",
+        "max_op_power": "150 kW",
+        "lat": 61.4909816,
+        "lon": 23.8216763,
+        "restaurants": [
+            {
+                "name": "Ravintola Jäähovi",
+                "lat": 61.493652,
+                "lon": 23.8283202,
+                "address": "Sammon valtatie 7, Tampere",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Pizza & Buffa Prisma Kaleva",
+                "lat": 61.4916535,
+                "lon": 23.8211553,
+                "address": "Sammonkatu 75",
+                "cuisine": [
+                    "italian",
+                    "european"
+                ]
+            },
+            {
+                "name": "Pancho Villa 54",
+                "lat": 61.4933918,
+                "lon": 23.8199478,
+                "address": "Sammonkatu 75, Tampere",
+                "cuisine": [
+                    "regional"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 55 Hämeenlinna Hämeensaari",
+        "address": "Hämeensaarentie 7, Hämeenlinna",
+        "type": "CCS (6), Type 2 (4)",
+        "max_op_power": "300 kW",
+        "lat": 60.9915395,
+        "lon": 24.4609347,
+        "restaurants": [
+            {
+                "name": "Popino",
+                "lat": 60.9952919,
+                "lon": 24.4618284,
+                "address": "Hämeensaarentie 7, Hämeenlinna",
+                "cuisine": [
+                    "american",
+                    "italian"
+                ]
+            },
+            {
+                "name": "Rax Buffet 55",
+                "lat": 60.9941588,
+                "lon": 24.4563447,
+                "address": "Kaivokatu 7, Hämeenlinna",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Ajito Sushi & Buffet",
+                "lat": 60.9944269,
+                "lon": 24.4570863,
+                "address": "Kaivokatu 7, Hämeenlinna",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Pancho Villa Express",
+                "lat": 60.9941016,
+                "lon": 24.456373,
+                "address": "Kaivokatu 7, Hämeenlinna",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "LinnaBistro",
+                "lat": 60.9945516,
+                "lon": 24.4564331,
+                "address": "Kaivokatu 9, Hämeenlinna",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 56 K‑Citymarket Hämeenlinna Tiiriö",
+        "address": "Katsastusmiehentie 6, Hämeenlinna",
+        "type": "CCS (18)",
+        "max_op_power": "150 kW",
+        "lat": 61.0074583,
+        "lon": 24.4221855,
+        "restaurants": [
+            {
+                "name": "Sushi Hot",
+                "lat": 61.0070069,
+                "lon": 24.4215852,
+                "address": "Katsastusmiehentie 6, Hämeenlinna",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 57 Prisma Hämeenlinna",
+        "address": "Wartiamäentie 2, Hämeenlinna",
+        "type": "CCS (6)",
+        "max_op_power": "300 kW",
+        "lat": 61.012197,
+        "lon": 24.413494,
+        "restaurants": [
+            {
+                "name": "ABC Tiiriö",
+                "lat": 61.0137885,
+                "lon": 24.4162975,
+                "address": "Wartiamäentie 2, Hämeenlinna",
+                "cuisine": [
+                    "american"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 58 Turenki",
+        "address": "Harvialantie 5, Janakkala",
+        "type": "CCS (4)",
+        "max_op_power": "200 kW",
+        "lat": 60.9226881,
+        "lon": 24.647608,
+        "restaurants": [
+            {
+                "name": "Pikantti",
+                "lat": 60.9238552,
+                "lon": 24.6484885,
+                "address": "Harvialantie 5, Janakkala",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Neira",
+                "lat": 60.920036,
+                "lon": 24.6433028,
+                "address": "Kauppakuja 1, Janakkala",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Sandwich Bros",
+                "lat": 60.9221891,
+                "lon": 24.6448031,
+                "address": "Tohvelantie 5, Turenki",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Feast-faster 58 Restaurant",
+                "lat": 60.9209098,
+                "lon": 24.6504123,
+                "address": "Harvialantie 5, Janakkala",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Feast-faster 58 Restaurant 58",
+                "lat": 60.9203769,
+                "lon": 24.6506698,
+                "address": "Juttilantie 1, Turenki",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 59 Turenki",
+        "address": "Harvialantie 3, Turenki",
+        "type": "CCS (2), Type 2 (4)",
+        "max_op_power": "100 kW",
+        "lat": 60.9216621,
+        "lon": 24.6499204,
+        "restaurants": [
+            {
+                "name": "Pikantti 59",
+                "lat": 60.9238552,
+                "lon": 24.6484885,
+                "address": "Harvialantie 3, Turenki",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Feast-faster 59 Restaurant",
+                "lat": 60.9209098,
+                "lon": 24.6504123,
+                "address": "Harvialantie 3, Turenki",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Feast-faster 59 Restaurant 59",
+                "lat": 60.9203769,
+                "lon": 24.6506698,
+                "address": "Juttilantie 1, Turenki",
+                "cuisine": [
+                    "regional"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 60 Neste Linnatuuli Pohjoiseen",
+        "address": "Helsingintie 1426, Janakkala",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 60.8546919,
+        "lon": 24.5968897,
+        "restaurants": [
+            {
+                "name": "Linnatuuli",
+                "lat": 60.8547009,
+                "lon": 24.5970197,
+                "address": "Helsingintie 1426",
+                "cuisine": [
+                    "regional"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 61 Riihimäki Kumela",
+        "address": "Kirjauksentie 4, Riihimäki",
+        "type": "Type 2 (2)",
+        "max_op_power": "11 kW",
+        "lat": 60.7411988,
+        "lon": 24.7498999,
+        "restaurants": [
+            {
+                "name": "Rukola Oy",
+                "lat": 60.7377452,
+                "lon": 24.7490121,
+                "address": "Kirjauksentie 4, Riihimäki",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 62 Riihimäki",
+        "address": "Merkoksenkatu 5, Riihimäki",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "200 kW",
+        "lat": 60.7228116,
+        "lon": 24.7344388,
+        "restaurants": [
+            {
+                "name": "Aleksantra lounasravintola",
+                "lat": 60.721874,
+                "lon": 24.74171,
+                "address": "Merkoksenkatu 5, Riihimäki",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 63 Prisma Riihimäki",
+        "address": "Voimalankatu 2, Riihimäki",
+        "type": "CCS (6)",
+        "max_op_power": "300 kW",
+        "lat": 60.7314502,
+        "lon": 24.7769144,
+        "restaurants": [
+            {
+                "name": "Ravintola Apsara",
+                "lat": 60.7331574,
+                "lon": 24.7751832,
+                "address": "Etelän Viertotie 1, Riihimäki",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 64 ABC Toijala",
+        "address": "Sirkesalontie 2, Akaa",
+        "type": "CCS (6)",
+        "max_op_power": "150 kW",
+        "lat": 61.1810259,
+        "lon": 23.8861792,
+        "restaurants": [
+            {
+                "name": "ABC Akaa Toijala",
+                "lat": 61.1809453,
+                "lon": 23.8860948,
+                "address": "Sirkesalontie 2, Akaa",
+                "cuisine": [
+                    "american"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 65 Toijala",
+        "address": "Valtatie 1, Akaa",
+        "type": "Type 2 (4)",
+        "max_op_power": "22 kW",
+        "lat": 61.1682582,
+        "lon": 23.8674632,
+        "restaurants": [
+            {
+                "name": "Ravintola Oskari",
+                "lat": 61.1669198,
+                "lon": 23.8682901,
+                "address": "Valtatie 7",
+                "cuisine": [
+                    "italian",
+                    "american",
+                    "turkish",
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Chinese wave",
+                "lat": 61.1701867,
+                "lon": 23.8609099,
+                "address": "Valtatie 1, Akaa",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Ravintola Alibaba",
+                "lat": 61.1675498,
+                "lon": 23.8679066,
+                "address": "Valtatie 3, Akaa",
+                "cuisine": [
+                    "italian",
+                    "american",
+                    "turkish",
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Ympyräbaari",
+                "lat": 61.1689821,
+                "lon": 23.8647394,
+                "address": "Pätsiniementie 2, Akaa",
+                "cuisine": [
+                    "american",
+                    "vegetarian",
+                    "italian",
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 66 Loviisa-Lovisa",
+        "address": "Mariankatu 33, Loviisa",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "100 kW",
+        "lat": 60.4588973,
+        "lon": 26.2273138,
+        "restaurants": [
+            {
+                "name": "Ravintola Zilton",
+                "lat": 60.4573331,
+                "lon": 26.2287027,
+                "address": "Mariankatu 33, Loviisa",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Loviisan Kappeli",
+                "lat": 60.4597597,
+                "lon": 26.2246998,
+                "address": "Kuningattarenkatu 19, Loviisa",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Pizza Carneval",
+                "lat": 60.4562515,
+                "lon": 26.2271309,
+                "address": "Kuningattarenkatu 16, Loviisa",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Grillimpi",
+                "lat": 60.4588208,
+                "lon": 26.2306483,
+                "address": "Mariankatu 18, Loviisa",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Bistro & Piano Bar Kronan",
+                "lat": 60.4552789,
+                "lon": 26.2260729,
+                "address": "Aleksanterinkatu 2, Loviisa",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Degerby Gille",
+                "lat": 60.4569517,
+                "lon": 26.2302468,
+                "address": "Sepänkuja 4, Loviisa",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 67 Tiltuntori",
+        "address": "Merrankuja 2, Kausala",
+        "type": "Type 2 (2)",
+        "max_op_power": "11 kW",
+        "lat": 60.8880894,
+        "lon": 26.3403659,
+        "restaurants": [
+            {
+                "name": "Ristorante Fiore",
+                "lat": 60.8911022,
+                "lon": 26.3369975,
+                "address": "Kauppakatu 25, Kausala",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "The Kwality Indian Restaurant",
+                "lat": 60.88914,
+                "lon": 26.3401555,
+                "address": "Kauppakatu 15, Kausala",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 68 ABC Majakka Pyhtää",
+        "address": "Pyhtääntie 38-40, Pyhtää",
+        "type": "CCS (6), Type 2 (2)",
+        "max_op_power": "150 kW",
+        "lat": 60.4890466,
+        "lon": 26.5574677,
+        "restaurants": [
+            {
+                "name": "Aeronamnam Bar & Bistro",
+                "lat": 60.4882901,
+                "lon": 26.5543043,
+                "address": "Pyhtääntie 38-40, Pyhtää",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "ABC Majakka",
+                "lat": 60.4889364,
+                "lon": 26.5573789,
+                "address": "Pyhtääntie 40, Pyhtää",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 69 ABC Koria",
+        "address": "Suviojantie 19, Kouvola",
+        "type": "CCS (6), Type 2 (2)",
+        "max_op_power": "150 kW",
+        "lat": 60.8592624,
+        "lon": 26.5677403,
+        "restaurants": [
+            {
+                "name": "ABC Koria",
+                "lat": 60.8595551,
+                "lon": 26.5672902,
+                "address": "Suviojantie 19, Koria",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 70 Myllykoski",
+        "address": "Karjalantie 3, Kouvola",
+        "type": "Type 2 (4)",
+        "max_op_power": "22 kW",
+        "lat": 60.7660624,
+        "lon": 26.7853065,
+        "restaurants": [
+            {
+                "name": "Roni Pizza-Kebab",
+                "lat": 60.7667839,
+                "lon": 26.7825387,
+                "address": "Karjalantie 3, Kouvola",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 71 Veturi",
+        "address": "Tervasharjunkatu 1, Kouvola",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "200 kW",
+        "lat": 60.876716,
+        "lon": 26.6512923,
+        "restaurants": [
+            {
+                "name": "Fu Lam",
+                "lat": 60.8761602,
+                "lon": 26.6518056,
+                "address": "Tervasharjunkatu 1, Kouvola",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Mario",
+                "lat": 60.8762095,
+                "lon": 26.6522909,
+                "address": "Tervasharjunkatu 1, Kouvola",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Teppanyaki Inn",
+                "lat": 60.876748,
+                "lon": 26.6523134,
+                "address": "Tervasharjunkatu 1, Kouvola",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Ristorante Momento",
+                "lat": 60.8770595,
+                "lon": 26.6521821,
+                "address": "Tervasharjunkatu 1, Kouvola",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 72 Prisma Orimattila",
+        "address": "Erkontie 16, Orimattila",
+        "type": "CCS (4)",
+        "max_op_power": "200 kW",
+        "lat": 60.8045342,
+        "lon": 25.7291568,
+        "restaurants": [
+            {
+                "name": "New Beijing",
+                "lat": 60.8022093,
+                "lon": 25.7344331,
+                "address": "Erkontie 2, Orimattila",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Ravintola Tehdas",
+                "lat": 60.8045134,
+                "lon": 25.7335867,
+                "address": "Erkontie 11, Orimattila",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Pizzeria Arena",
+                "lat": 60.8058186,
+                "lon": 25.7300136,
+                "address": "Erkontie 16, Orimattila",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Ravintola Violetta",
+                "lat": 60.8021657,
+                "lon": 25.7344242,
+                "address": "Erkontie 2, Orimattila",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Ravintola Arvid",
+                "lat": 60.8026437,
+                "lon": 25.7350843,
+                "address": "Erkontie 3, Orimattila",
+                "cuisine": [
+                    "american"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 73 Tarmola",
+        "address": "Asentajantie 1, Porvoo",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "100 kW",
+        "lat": 60.3998695,
+        "lon": 25.6870108,
+        "restaurants": [
+            {
+                "name": "TASTE Lunch",
+                "lat": 60.4019497,
+                "lon": 25.6902778,
+                "address": "Asentajantie 1, Porvoo",
+                "cuisine": [
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 74 Porvoo",
+        "address": "Ratsumestarinkatu 3, Porvoo",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "200 kW",
+        "lat": 60.3911499,
+        "lon": 25.6042851,
+        "restaurants": [
+            {
+                "name": "Rax Pizzabuffet",
+                "lat": 60.392501,
+                "lon": 25.6104971,
+                "address": "Harabackankatu 1, Porvoo",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Shell HelmiSimpukka Porvoo Kuninkaanportti",
+                "lat": 60.3926717,
+                "lon": 25.6100098,
+                "address": "Harabackankatu 1, Porvoo",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Konnichiwa Porvoo",
+                "lat": 60.3897284,
+                "lon": 25.6065128,
+                "address": "Ratsumestarinkatu 6",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 75 Söderkulla Sipoo",
+        "address": "Amiraalintie 2, Sipoo",
+        "type": "CCS (3), CHAdeMO (1), Type 2 (2)",
+        "max_op_power": "100 kW",
+        "lat": 60.2979262,
+        "lon": 25.3323996,
+        "restaurants": [
+            {
+                "name": "Suan Aahaan",
+                "lat": 60.2979566,
+                "lon": 25.3316026,
+                "address": "Amiraalintie 2, Söderkulla",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 76 Nikkilä",
+        "address": "Pornaistentie 2, Sipoo",
+        "type": "CCS (4), Type 2 (2)",
+        "max_op_power": "80 kW",
+        "lat": 60.3767393,
+        "lon": 25.2708582,
+        "restaurants": [
+            {
+                "name": "Sapori d'Italia",
+                "lat": 60.3774552,
+                "lon": 25.2681337,
+                "address": "Iso Kylätie 20, Sipoo",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Kasvila",
+                "lat": 60.3767428,
+                "lon": 25.2700083,
+                "address": "Kauppakuja 3A, Sipoo",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Amore Pizza Kebab",
+                "lat": 60.3780266,
+                "lon": 25.2695777,
+                "address": "Iso Kylätie 29, Sipoo",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Izumo Sushi",
+                "lat": 60.377381,
+                "lon": 25.268314,
+                "address": "Iso Kylätie 20, Sipoo",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 77 Prisma Kerava",
+        "address": "Kauppakaari 2, Kerava",
+        "type": "CCS (3), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "80 kW",
+        "lat": 60.4016029,
+        "lon": 25.1035763,
+        "restaurants": [
+            {
+                "name": "Ravintola Long Hua",
+                "lat": 60.4032871,
+                "lon": 25.1002473,
+                "address": "Kauppakaari 2, Kerava",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Opéra",
+                "lat": 60.3978783,
+                "lon": 25.099931,
+                "address": "Kauppakaari 2, Kerava",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Ravintola Provencale",
+                "lat": 60.4050849,
+                "lon": 25.103479,
+                "address": "Asemanaukio 7",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Denis Pizza & Kebab",
+                "lat": 60.4030328,
+                "lon": 25.1004619,
+                "address": "Aleksis Kiven tie 1, Kerava",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Houwei Sushibuffet",
+                "lat": 60.4044316,
+                "lon": 25.1044059,
+                "address": "Kauppakaari 2, Kerava",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Pizzabuffa Kerava",
+                "lat": 60.4018656,
+                "lon": 25.1029282,
+                "address": "Kauppakaari 2, Kerava",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 78 Kerava Kalevantori",
+        "address": "Kalevankatu 65 A, Kerava",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 60.4121319,
+        "lon": 25.0958474,
+        "restaurants": [
+            {
+                "name": "Keravan Pizza ja Kebab Palvelu",
+                "lat": 60.4130791,
+                "lon": 25.0959793,
+                "address": "Kalevankatu 31, Kerava",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 79 Neste Pukaron Paroni",
+        "address": "Koivistontie 2 A, Lapinjärvi",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 60.6722449,
+        "lon": 26.2531211,
+        "restaurants": [
+            {
+                "name": "Pukaron Paroni",
+                "lat": 60.671501,
+                "lon": 26.2521454,
+                "address": "Koivistontie 2, Pukaro",
+                "cuisine": [
+                    "regional"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 80 Karhula Kotka",
+        "address": "Karhulantie 30, Kotka",
+        "type": "CCS (3), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "150 kW",
+        "lat": 60.5137085,
+        "lon": 26.9328142,
+        "restaurants": [
+            {
+                "name": "Martina",
+                "lat": 60.5152406,
+                "lon": 26.9318,
+                "address": "Karhulantie 35, Kotka",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Karhulan herkku",
+                "lat": 60.5143179,
+                "lon": 26.9320911,
+                "address": "Karhulantie 32, Kotka",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Ravintola Mesikämmen",
+                "lat": 60.51502,
+                "lon": 26.9345305,
+                "address": "Karhulantie 30, Kotka",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 81 Sokos Hotel Seurahuone Kotka",
+        "address": "Keskuskatu 21, Kotka",
+        "type": "Type 2 (8)",
+        "max_op_power": "11 kW",
+        "lat": 60.4646952,
+        "lon": 26.9422158,
+        "restaurants": [
+            {
+                "name": "Erkan Kebab Pizzeria",
+                "lat": 60.4623771,
+                "lon": 26.936009,
+                "address": "Kotka",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Canttiini",
+                "lat": 60.4645339,
+                "lon": 26.9417165,
+                "address": "Kaivokatu 15, Kotka",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Amarillo",
+                "lat": 60.4646952,
+                "lon": 26.9422158,
+                "address": "Keskuskatu 21, Kotka",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Frans & Rosalie",
+                "lat": 60.4649089,
+                "lon": 26.9422878,
+                "address": "Keskuskatu 21, Kotka",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Tai Hing",
+                "lat": 60.4664321,
+                "lon": 26.942798,
+                "address": "Kirkkokatu 9, Kotka",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Palandöken",
+                "lat": 60.4630133,
+                "lon": 26.9379452,
+                "address": "Keskuskatu 21, Kotka",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Feast-faster 81 Restaurant",
+                "lat": 60.4675654,
+                "lon": 26.9455529,
+                "address": "Keskuskatu 21, Kotka",
+                "cuisine": [
+                    "american"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 82 ABC Amiraali Kotka",
+        "address": "Haminantie 1, Kotka",
+        "type": "CCS (6), Type 2 (2)",
+        "max_op_power": "300 kW",
+        "lat": 60.5424518,
+        "lon": 26.9779225,
+        "restaurants": [
+            {
+                "name": "ABC Amiraali",
+                "lat": 60.5424568,
+                "lon": 26.9779787,
+                "address": "Haminantie 1, Kotka",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 83 ABC Kippari Hamina",
+        "address": "Satamakatu 2, Hamina",
+        "type": "CCS (3), CHAdeMO (1), Type 2 (2)",
+        "max_op_power": "150 kW",
+        "lat": 60.5662827,
+        "lon": 27.1896853,
+        "restaurants": [
+            {
+                "name": "Udon",
+                "lat": 60.5673081,
+                "lon": 27.1905223,
+                "address": "Sibeliuskatu 32B, Hamina",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "ABC Kippari",
+                "lat": 60.5661381,
+                "lon": 27.1895212,
+                "address": "Satamakatu 2, Hamina",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Wanha Työski",
+                "lat": 60.5663385,
+                "lon": 27.1932015,
+                "address": "Sibeliuskatu 28, Hamina",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 84 Sale Kauppalankatu Kouvola",
+        "address": "Kauppalankatu 35, Kouvola",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 60.8743475,
+        "lon": 26.7036881,
+        "restaurants": [
+            {
+                "name": "Ravintola Amarillo",
+                "lat": 60.870058,
+                "lon": 26.7038925,
+                "address": "Kauppalankatu 13, Kouvola",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Bonneville",
+                "lat": 60.8702561,
+                "lon": 26.7059388,
+                "address": "Salpausselänkatu 27, Kouvola",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Thai Ravintola Chon Thong",
+                "lat": 60.8708849,
+                "lon": 26.7053969,
+                "address": "Kauppalankatu 35, Kouvola",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Nevillen Kammari",
+                "lat": 60.8702633,
+                "lon": 26.7061557,
+                "address": "Salpausselänkatu 27, Kouvola",
+                "cuisine": [
+                    "regional"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 85 Vahtero",
+        "address": "Toukomiehentie 2, Kouvola",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 60.8609512,
+        "lon": 26.7211719,
+        "restaurants": [
+            {
+                "name": "Ravintola Vahterina",
+                "lat": 60.8605794,
+                "lon": 26.720228,
+                "address": "Kalliokatu 2a, Kouvola",
+                "cuisine": [
+                    "italian",
+                    "american",
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 86 Tornionmäki Kouvola",
+        "address": "Utinkatu 52, Kouvola",
+        "type": "CCS (3), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "150 kW",
+        "lat": 60.8752296,
+        "lon": 26.7405192,
+        "restaurants": [
+            {
+                "name": "Ravintola PikkuKokki",
+                "lat": 60.8751075,
+                "lon": 26.7377813,
+                "address": "Utinkatu 44, Kouvola",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 87 Tykkimäki Resort",
+        "address": "Käyrälammentie 22, Kouvola",
+        "type": "Type 2 (10)",
+        "max_op_power": "22 kW",
+        "lat": 60.8880516,
+        "lon": 26.7776468,
+        "restaurants": [
+            {
+                "name": "Raveliini",
+                "lat": 60.8848524,
+                "lon": 26.7743765,
+                "address": "Käyrälammentie 22, Kouvola",
+                "cuisine": [
+                    "italian",
+                    "european"
+                ]
+            },
+            {
+                "name": "Lammenranta Kitchen & Bar",
+                "lat": 60.8876808,
+                "lon": 26.773696,
+                "address": "Käyrälammentie, Kouvola",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 88 Kuusankoski",
+        "address": "Väkevänkuja 1, Kouvola",
+        "type": "Type 2 (1)",
+        "max_op_power": "11 kW",
+        "lat": 60.9020396,
+        "lon": 26.6293431,
+        "restaurants": [
+            {
+                "name": "Feast-faster 88 Restaurant",
+                "lat": 60.9057579,
+                "lon": 26.624755,
+                "address": "Väkevänkuja 1, Kouvola",
+                "cuisine": [
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 89 Koskituuli",
+        "address": "Kauppakatu 7, Kuusankoski",
+        "type": "CCS (2), Type 2 (4)",
+        "max_op_power": "160 kW",
+        "lat": 60.907658,
+        "lon": 26.6280918,
+        "restaurants": [
+            {
+                "name": "Rosella",
+                "lat": 60.9085475,
+                "lon": 26.6273943,
+                "address": "Kauppakatu 7, Kuusankoski",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Feast-faster 89 Restaurant",
+                "lat": 60.9057579,
+                "lon": 26.624755,
+                "address": "Kauppakatu 7, Kuusankoski",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Shams",
+                "lat": 60.9104205,
+                "lon": 26.6329956,
+                "address": "Kauppakatu 7, Kuusankoski",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Kreeta Adria",
+                "lat": 60.9083266,
+                "lon": 26.6264984,
+                "address": "Kuusankoski",
+                "cuisine": [
+                    "regional"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 90 Prisma Lappeenranta",
+        "address": "Puhakankatu 9-11, Lappeenranta",
+        "type": "CCS (7), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "150 kW",
+        "lat": 61.0504023,
+        "lon": 28.1791041,
+        "restaurants": [
+            {
+                "name": "Pizza & Buffa",
+                "lat": 61.0507744,
+                "lon": 28.1795554,
+                "address": "Puhakankatu 9-11, Lappeenranta",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Ravintola Esmira",
+                "lat": 61.0482933,
+                "lon": 28.1807291,
+                "address": "Puhakankatu 9-11, Lappeenranta",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Esmira",
+                "lat": 61.0485798,
+                "lon": 28.1804333,
+                "address": "Opintie 6, Lappeenranta",
+                "cuisine": [
+                    "regional"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 91 Lappeenranta",
+        "address": "Toikansuontie 4, Lappeenranta",
+        "type": "CCS (2), Type 2 (6)",
+        "max_op_power": "100 kW",
+        "lat": 61.0447827,
+        "lon": 28.2027579,
+        "restaurants": [
+            {
+                "name": "Cafe Mylly",
+                "lat": 61.0465755,
+                "lon": 28.2083759,
+                "address": "Kaakkoiskaari 22, Lappeenranta",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 92 Kourula",
+        "address": "Karankokatu 1, Lappeenranta",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 61.0498797,
+        "lon": 28.1353976,
+        "restaurants": [
+            {
+                "name": "Cup-Kahvila",
+                "lat": 61.0484609,
+                "lon": 28.1333202,
+                "address": "Katajakatu 12, Lappeenranta",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 93 Lehmus",
+        "address": "Standertskjöldinkatu 6, Lappeenranta",
+        "type": "Type 2 (4)",
+        "max_op_power": "22 kW",
+        "lat": 61.0613062,
+        "lon": 28.2349791,
+        "restaurants": [
+            {
+                "name": "Cafe Shalik",
+                "lat": 61.0646053,
+                "lon": 28.2321315,
+                "address": "Standertskjöldinkatu 2",
+                "cuisine": [
+                    "american",
+                    "turkish",
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 94 ABC Viipurinportti Lappeenranta",
+        "address": "Hirsimäenkatu 1, Lappeenranta",
+        "type": "CCS (7), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "150 kW",
+        "lat": 61.0528832,
+        "lon": 28.2597702,
+        "restaurants": [
+            {
+                "name": "ABC Viipurinportti",
+                "lat": 61.0529024,
+                "lon": 28.2597864,
+                "address": "Hirsimäenkatu 1, Lappeenranta",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 95 Taipalsaari",
+        "address": "Kuhatie 5, Taipalsaari",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 61.1351528,
+        "lon": 28.1013803,
+        "restaurants": [
+            {
+                "name": "Harjun Rantabaari",
+                "lat": 61.1310977,
+                "lon": 28.0994418,
+                "address": "Jauhialantie 441, Taipalsaari",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 96 Savitaipale",
+        "address": "Torikatu 1, Savitaipale",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 61.1967166,
+        "lon": 27.6897038,
+        "restaurants": [
+            {
+                "name": "Sahrami",
+                "lat": 61.1972574,
+                "lon": 27.6827536,
+                "address": "Torikatu 5-7, Savitaipale",
+                "cuisine": [
+                    "regional"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 97 Neste Imatra",
+        "address": "Korvenkannantie 71, Imatra",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 61.1866876,
+        "lon": 28.7434691,
+        "restaurants": [
+            {
+                "name": "Motorest Korvenkangas",
+                "lat": 61.1865351,
+                "lon": 28.7435782,
+                "address": "Korvenkannantie 71, Imatra",
+                "cuisine": [
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 98 Imatra",
+        "address": "Tietäjänkatu 2, Imatra",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "200 kW",
+        "lat": 61.1878397,
+        "lon": 28.7715167,
+        "restaurants": [
+            {
+                "name": "Ravintola Linnala",
+                "lat": 61.1847148,
+                "lon": 28.7694125,
+                "address": "Tietäjänkatu 5, Imatra",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Wanha Virveli",
+                "lat": 61.1875949,
+                "lon": 28.7804195,
+                "address": "Tietäjänkatu 2, Imatra",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Ravintola Kassandra",
+                "lat": 61.1904417,
+                "lon": 28.7758278,
+                "address": "Tainionkoskentie 68",
+                "cuisine": [
+                    "american"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 99 Taavetti",
+        "address": "Linnalantie 42, Luumäki",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 60.9217956,
+        "lon": 27.5675546,
+        "restaurants": [
+            {
+                "name": "Bistro Ostola",
+                "lat": 60.9227812,
+                "lon": 27.5686953,
+                "address": "Linnalantie 42, Luumäki",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 100 Ruokolahti",
+        "address": "Liisanpolku 2, Ruokolahti",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 61.2926879,
+        "lon": 28.8106811,
+        "restaurants": [
+            {
+                "name": "Alppimaja",
+                "lat": 61.2929011,
+                "lon": 28.8122318,
+                "address": "Rasilantie 57",
+                "cuisine": [
+                    "italian",
+                    "european",
+                    "american"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 101 Neste Lappeenranta",
+        "address": "Simolantie 16, Lappeenranta",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 61.0443784,
+        "lon": 28.1800915,
+        "restaurants": [
+            {
+                "name": "Ravintola Esmira 101",
+                "lat": 61.0482933,
+                "lon": 28.1807291,
+                "address": "Simolantie 16, Lappeenranta",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 102 Imatra Vuoksenniska",
+        "address": "Torikatu 8, Imatra",
+        "type": "Type 2 (4)",
+        "max_op_power": "22 kW",
+        "lat": 61.2246427,
+        "lon": 28.8354286,
+        "restaurants": [
+            {
+                "name": "Dara",
+                "lat": 61.2235796,
+                "lon": 28.8310607,
+                "address": "Torikatu 8, Imatra",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Lounas-kahvila Ruoka Ritarit",
+                "lat": 61.2228679,
+                "lon": 28.8387035,
+                "address": "Tiilitehtaankatu 39, Imatra",
+                "cuisine": [
+                    "american"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 103 Mikkeli",
+        "address": "Graanintie 1, Mikkeli",
+        "type": "CCS (2), CHAdeMO (2), Type 2 (4)",
+        "max_op_power": "50 kW",
+        "lat": 61.686176,
+        "lon": 27.2962898,
+        "restaurants": [
+            {
+                "name": "Lounaskahvila Kirsikka",
+                "lat": 61.6846067,
+                "lon": 27.2954067,
+                "address": "Graanintie 1, Mikkeli",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 104 Mikkelipuisto",
+        "address": "Pursialankatu 5, Mikkeli",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 61.6759268,
+        "lon": 27.2848416,
+        "restaurants": [
+            {
+                "name": "Ravintola Greeneri",
+                "lat": 61.6759774,
+                "lon": 27.2847917,
+                "address": "Pursialankatu 5, Mikkeli",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 105 ABC Tuukkala Mikkeli",
+        "address": "Annilantie 2, Mikkeli",
+        "type": "CCS (4), Type 2 (2)",
+        "max_op_power": "200 kW",
+        "lat": 61.6514401,
+        "lon": 27.262354,
+        "restaurants": [
+            {
+                "name": "ABC Mikkeli Tuukkala",
+                "lat": 61.6514663,
+                "lon": 27.2621877,
+                "address": "Annilantie 2, Mikkeli",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 106 Mikkeli",
+        "address": "Juvantie 1, Mikkeli",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "200 kW",
+        "lat": 61.6958937,
+        "lon": 27.2871386,
+        "restaurants": [
+            {
+                "name": "Hiirolan juhlapalvelut: Rokkalan talli",
+                "lat": 61.6973305,
+                "lon": 27.2837779,
+                "address": "Juvantie 1, Mikkeli",
+                "cuisine": [
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 107 Original Sokos Hotel Vaakuna",
+        "address": "Porrassalmenkatu 9, Mikkeli",
+        "type": "Type 2 (8)",
+        "max_op_power": "22 kW",
+        "lat": 61.6852994,
+        "lon": 27.274906,
+        "restaurants": [
+            {
+                "name": "Pruuvi",
+                "lat": 61.6867073,
+                "lon": 27.2748612,
+                "address": "Raatihuoneenkatu 4, Mikkeli",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Siam Thai",
+                "lat": 61.6865879,
+                "lon": 27.2689313,
+                "address": "Mikonkatu 1, Mikkeli",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Hilla",
+                "lat": 61.6888507,
+                "lon": 27.2715339,
+                "address": "Hallituskatu 7-9, Mikkeli",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Amarillo 107",
+                "lat": 61.6886302,
+                "lon": 27.2734821,
+                "address": "Hallituskatu 5, Mikkeli",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Babista",
+                "lat": 61.6886586,
+                "lon": 27.2733298,
+                "address": "Porrassalmenkatu 9, Mikkeli",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 108 Rokkala",
+        "address": "Porrassalmenkatu 67, Mikkeli",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "200 kW",
+        "lat": 61.7005578,
+        "lon": 27.2833741,
+        "restaurants": [
+            {
+                "name": "Hiirolan juhlapalvelut: Rokkalan talli 108",
+                "lat": 61.6973305,
+                "lon": 27.2837779,
+                "address": "Porrassalmenkatu 67, Mikkeli",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 109 Vääksy",
+        "address": "Rusthollintie 1, Asikkala",
+        "type": "CCS (4)",
+        "max_op_power": "100 kW",
+        "lat": 61.1718877,
+        "lon": 25.5524461,
+        "restaurants": [
+            {
+                "name": "Ravintola Oinas",
+                "lat": 61.1727656,
+                "lon": 25.5481142,
+                "address": "Kustaankuja 3, Vääksy",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Keskusravintola",
+                "lat": 61.1728456,
+                "lon": 25.5475303,
+                "address": "Kustaankuja 3, Vääksy",
+                "cuisine": [
+                    "italian",
+                    "american",
+                    "turkish",
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Ravintola Jalmar",
+                "lat": 61.1714086,
+                "lon": 25.5491118,
+                "address": "Anianpellontie 17, Vääksy",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 110 Vääksy",
+        "address": "Maakaupantie 1, Vääksy",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "200 kW",
+        "lat": 61.1730522,
+        "lon": 25.546596,
+        "restaurants": [
+            {
+                "name": "Ravintola mylläri",
+                "lat": 61.1726883,
+                "lon": 25.5423814,
+                "address": "Terveystie 1 C, Vääksy",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Toivon talo",
+                "lat": 61.1745117,
+                "lon": 25.5383766,
+                "address": "Kanavatie 14, Vääksy",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 111 Holma",
+        "address": "Kiitokatu 1, Lahti",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "200 kW",
+        "lat": 61.0042189,
+        "lon": 25.6789685,
+        "restaurants": [
+            {
+                "name": "Holma kitchen & café",
+                "lat": 61.00626,
+                "lon": 25.6795894,
+                "address": "Johanneksenkatu 4, Lahti",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 112 Lahti Karisma",
+        "address": "Kauppiaankatu 2, Lahti",
+        "type": "CCS (4), Type 2 (6)",
+        "max_op_power": "200 kW",
+        "lat": 60.9817103,
+        "lon": 25.7373677,
+        "restaurants": [
+            {
+                "name": "Motorest Karisto",
+                "lat": 60.9834123,
+                "lon": 25.7368061,
+                "address": "Kauppiaankatu 2, Lahti",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Luckiefun's",
+                "lat": 60.9815339,
+                "lon": 25.7363604,
+                "address": "Kauppiaankatu 2, Lahti",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Rax Pizzabuffet 112",
+                "lat": 60.981395,
+                "lon": 25.7361119,
+                "address": "Kauppiaankatu 2, Lahti",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Ristorante Momento 112",
+                "lat": 60.9816024,
+                "lon": 25.7365677,
+                "address": "Kauppiaankatu 2, Lahti",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 113 ABC-Lataus Prisma Syke",
+        "address": "Kauppakatu 18, Lahti",
+        "type": "CCS (4)",
+        "max_op_power": "200 kW",
+        "lat": 60.9871887,
+        "lon": 25.6646612,
+        "restaurants": [
+            {
+                "name": "Jonel Thai",
+                "lat": 60.9835348,
+                "lon": 25.6609745,
+                "address": "Vapaudenkatu 15, Lahti",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Viikinkiravintola Harald",
+                "lat": 60.9840202,
+                "lon": 25.6614812,
+                "address": "Vesijärvenkatu 24, Lahti",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Restaurant Babylon",
+                "lat": 60.9833391,
+                "lon": 25.6662489,
+                "address": "Kauppakatu 18, Lahti",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Ravintola Hiidenkivi",
+                "lat": 60.9842875,
+                "lon": 25.6590572,
+                "address": "Rautatienkatu 28, Lahti",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Pancho Villa 113",
+                "lat": 60.9871585,
+                "lon": 25.6640901,
+                "address": "Kauppakatu 18, Lahti",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Energia Ravintola",
+                "lat": 60.9853673,
+                "lon": 25.6628118,
+                "address": "Vesijärvenkatu 17, Lahti",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Kuninkaat Ravintola",
+                "lat": 60.9835491,
+                "lon": 25.6607756,
+                "address": "Vapaudenkatu 15, Lahti",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 114 K-Lataus: Lahti Laune",
+        "address": "Ajokatu 53, Lahti",
+        "type": "CCS (8), Type 2 (8)",
+        "max_op_power": "200 kW",
+        "lat": 60.9649689,
+        "lon": 25.6582369,
+        "restaurants": [
+            {
+                "name": "Ravintola Einstein",
+                "lat": 60.9638557,
+                "lon": 25.658077,
+                "address": "Ajokatu 55, Lahti",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Nokta",
+                "lat": 60.9631765,
+                "lon": 25.6558213,
+                "address": "Ajokatu 65, Lahti",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 115 Hollola",
+        "address": "Tarmontie 7, Hollola",
+        "type": "CCS (4), Type 2 (2)",
+        "max_op_power": "200 kW",
+        "lat": 60.9880412,
+        "lon": 25.5435236,
+        "restaurants": [
+            {
+                "name": "Pizzeria Maku",
+                "lat": 60.9859441,
+                "lon": 25.5402303,
+                "address": "Salpakankaantie 2, Hollola",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 116 Okeroinen",
+        "address": "Hennalankatu 5, Lahti",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "200 kW",
+        "lat": 60.9664606,
+        "lon": 25.5836985,
+        "restaurants": [
+            {
+                "name": "Jannen Lounas",
+                "lat": 60.9637274,
+                "lon": 25.5892653,
+                "address": "Ala-Okeroistentie 213, Lahti",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 117 ABC Renkomäki Lahti",
+        "address": "Simolanmutka 1, Lahti",
+        "type": "CCS (26)",
+        "max_op_power": "400 kW",
+        "lat": 60.9349288,
+        "lon": 25.6343099,
+        "restaurants": [
+            {
+                "name": "Lounasravintola Majakka",
+                "lat": 60.9348272,
+                "lon": 25.625146,
+                "address": "Pasaasi 2, Lahti",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "ABC Renkomäki",
+                "lat": 60.9353572,
+                "lon": 25.6341294,
+                "address": "Simolanmutka 1, Lahti",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 118 Joutsa",
+        "address": "Keskustie 3, Joutsa",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "200 kW",
+        "lat": 61.7424537,
+        "lon": 26.1090525,
+        "restaurants": [
+            {
+                "name": "Huttula",
+                "lat": 61.7435087,
+                "lon": 26.1045279,
+                "address": "Rantatie 21, Joutsa",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Jouto-tupa",
+                "lat": 61.7434989,
+                "lon": 26.1123686,
+                "address": "Keskustie 3, Joutsa",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Ravintola Kellari",
+                "lat": 61.7413602,
+                "lon": 26.1137198,
+                "address": "Keskustie 3, Joutsa",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 119 Korpilahti",
+        "address": "Korpilahdentie 10, Jyväskylä",
+        "type": "Type 2 (2)",
+        "max_op_power": "22 kW",
+        "lat": 62.01439,
+        "lon": 25.5580956,
+        "restaurants": [
+            {
+                "name": "Kahvila-Ravintola Satamakapteeni",
+                "lat": 62.0143438,
+                "lon": 25.556912,
+                "address": "Korpilahdentie 10, Jyväskylä",
+                "cuisine": [
+                    "american"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 120 Break Sokos Hotel Himos Chalets",
+        "address": "Golftie, Jämsä",
+        "type": "CCS (4), Type 2 (10)",
+        "max_op_power": "300 kW",
+        "lat": 61.8776306,
+        "lon": 25.2950107,
+        "restaurants": [
+            {
+                "name": "Himos Bistro",
+                "lat": 61.8793473,
+                "lon": 25.299256,
+                "address": "Länsikeskuksentie 9, Jämsä",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Ravintola Rinne",
+                "lat": 61.8798411,
+                "lon": 25.2985412,
+                "address": "Länsikeskuksentie 6, Jämsä",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Himos Buffet",
+                "lat": 61.8796865,
+                "lon": 25.2994108,
+                "address": "Länsikeskuksentie 7, Jämsä",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 121 K‑Market Kippari",
+        "address": "Toritie 53, Kuhmoinen",
+        "type": "CCS (2), Type 2 (1)",
+        "max_op_power": "100 kW",
+        "lat": 61.5640583,
+        "lon": 25.1825042,
+        "restaurants": [
+            {
+                "name": "Sahanranta",
+                "lat": 61.5626406,
+                "lon": 25.1866508,
+                "address": "Toritie 53, Kuhmoinen",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Cafe Wanha Pankki",
+                "lat": 61.5642204,
+                "lon": 25.181592,
+                "address": "Toritie 44, Kuhmoinen",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 122 Muurame",
+        "address": "Setäläntie 2, Muurame",
+        "type": "CCS (4), Type 2 (4)",
+        "max_op_power": "200 kW",
+        "lat": 62.1370534,
+        "lon": 25.6731167,
+        "restaurants": [
+            {
+                "name": "Shell HelmiSimpukka Muurame",
+                "lat": 62.1375045,
+                "lon": 25.6721411,
+                "address": "Muuramentie, Muurame",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "HHcafé",
+                "lat": 62.1352566,
+                "lon": 25.6717328,
+                "address": "Setäläntie 2, Muurame",
+                "cuisine": [
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 123 ABC Heinola",
+        "address": "Työmiehentie 33, Heinola",
+        "type": "CCS (27), CHAdeMO (1), Type 2 (4)",
+        "max_op_power": "400 kW",
+        "lat": 61.2333701,
+        "lon": 26.0432558,
+        "restaurants": [
+            {
+                "name": "ABC-ravintola",
+                "lat": 61.2335462,
+                "lon": 26.0433806,
+                "address": "Heinola",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Heila",
+                "lat": 61.232507,
+                "lon": 26.0460875,
+                "address": "Työmiehentie 35",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 124 Mäntyharju",
+        "address": "Liiketie 1, Mäntyharju",
+        "type": "CCS (2), Type 2 (2)",
+        "max_op_power": "100 kW",
+        "lat": 61.4164854,
+        "lon": 26.8791027,
+        "restaurants": [
+            {
+                "name": "Reissuravintola",
+                "lat": 61.4143886,
+                "lon": 26.8813541,
+                "address": "Pentinpolku 2, Mäntyharju",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Bistro Muru",
+                "lat": 61.4157666,
+                "lon": 26.8781404,
+                "address": "Reissutie 4",
+                "cuisine": [
+                    "italian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 125 Solo Sokos Hotel Paviljonki",
+        "address": "Lutakonaukio 10, Jyväskylä",
+        "type": "Type 2 (20)",
+        "max_op_power": "22 kW",
+        "lat": 62.2393998,
+        "lon": 25.7570621,
+        "restaurants": [
+            {
+                "name": "Ravintola Bord",
+                "lat": 62.2428915,
+                "lon": 25.7510875,
+                "address": "Väinönkatu 5, Jyväskylä",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Frans & Sandra, Jyväskylä",
+                "lat": 62.2412348,
+                "lon": 25.7523396,
+                "address": "Lutakonaukio 10, Jyväskylä",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Ravintola Fiilu",
+                "lat": 62.2408683,
+                "lon": 25.7577592,
+                "address": "Lutakonaukio 10, Jyväskylä",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Trattoria Aukio",
+                "lat": 62.23943,
+                "lon": 25.7570435,
+                "address": "Lutakonaukio 10, Jyväskylä",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Figaro Restaurant & Winebistro",
+                "lat": 62.2413018,
+                "lon": 25.7507631,
+                "address": "Lutakonaukio 10, Jyväskylä",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Deeveri",
+                "lat": 62.2411323,
+                "lon": 25.7536054,
+                "address": "Hannikaisenkatu 18",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Harmooni",
+                "lat": 62.2418109,
+                "lon": 25.7536349,
+                "address": "Lutakonaukio 10, Jyväskylä",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 126 Original Sokos Hotel Alexandra",
+        "address": "Hannikaisenkatu 35, Jyväskylä",
+        "type": "Type 2 (8)",
+        "max_op_power": "22 kW",
+        "lat": 62.2414792,
+        "lon": 25.7519958,
+        "restaurants": [
+            {
+                "name": "Ravintola Kissanviikset",
+                "lat": 62.2450575,
+                "lon": 25.7500551,
+                "address": "Hannikaisenkatu 35, Jyväskylä",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Frans & Sandra, Jyväskylä 126",
+                "lat": 62.2412348,
+                "lon": 25.7523396,
+                "address": "Hannikaisenkatu 35, Jyväskylä",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Sohvitar Bar & Bistro 126",
+                "lat": 62.2411745,
+                "lon": 25.7603201,
+                "address": "Hannikaisenkatu 35, Jyväskylä",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Trattoria Aukio 126",
+                "lat": 62.23943,
+                "lon": 25.7570435,
+                "address": "Hannikaisenkatu 35, Jyväskylä",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Stefan's Steakhouse",
+                "lat": 62.244135,
+                "lon": 25.7510957,
+                "address": "Ilmarisenkatu 2, Jyväskylä",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Pizza Best 126",
+                "lat": 62.2416785,
+                "lon": 25.7614058,
+                "address": "Hannikaisenkatu 35, Jyväskylä",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Gloria",
+                "lat": 62.2440752,
+                "lon": 25.749974,
+                "address": "Hannikaisenkatu 35, Jyväskylä",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Mestarin Keittiö",
+                "lat": 62.2424838,
+                "lon": 25.7488208,
+                "address": "Hannikaisenkatu 35, Jyväskylä",
+                "cuisine": [
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 127 Orivesi",
+        "address": "Keskustie 36, Orivesi",
+        "type": "Type 2 (4)",
+        "max_op_power": "11 kW",
+        "lat": 61.6784765,
+        "lon": 24.3567699,
+        "restaurants": [
+            {
+                "name": "Orivesi Kebab Pizzeria",
+                "lat": 61.6793331,
+                "lon": 24.3579759,
+                "address": "Keskustie 36, Orivesi",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Feast-faster 127 Restaurant",
+                "lat": 61.6772049,
+                "lon": 24.3555243,
+                "address": "Keskustie 36, Orivesi",
+                "cuisine": [
+                    "european"
+                ]
+            },
+            {
+                "name": "Ravintola Vallesmanni Oy",
+                "lat": 61.6759403,
+                "lon": 24.3569419,
+                "address": "Keskustie 26, Orivesi",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 128 Prisma Linnainmaa Tampere",
+        "address": "Liikekatu 1, Tampere",
+        "type": "CCS (4)",
+        "max_op_power": "150 kW",
+        "lat": 61.3146411,
+        "lon": 23.7589919,
+        "restaurants": [
+            {
+                "name": "Lempäälän Pizza Kebab & Grilli",
+                "lat": 61.3122664,
+                "lon": 23.7520198,
+                "address": "Tampereentie 19, Lempäälä",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Rolls",
+                "lat": 61.3122409,
+                "lon": 23.7591715,
+                "address": "Liikekatu 1, Tampere",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Flemm's",
+                "lat": 61.3134397,
+                "lon": 23.7564193,
+                "address": "Manttaalitie 15C3, Lempäälä",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 129 Kaukajärvi Tampere",
+        "address": "Keskisenkatu 5, Tampere",
+        "type": "CCS (2), Type 2 (2)",
+        "max_op_power": "150 kW",
+        "lat": 61.4738729,
+        "lon": 23.8740625,
+        "restaurants": [
+            {
+                "name": "Juvan Grilli",
+                "lat": 61.4700026,
+                "lon": 23.8701415,
+                "address": "Juvankatu 15",
+                "cuisine": [
+                    "italian",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Pancho Villa 129",
+                "lat": 61.47381,
+                "lon": 23.8712571,
+                "address": "Juvankatu 14, Tampere",
+                "cuisine": [
+                    "american",
+                    "mexican"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 130 Kaleva",
+        "address": "Jäähallinraitti 3, Tampere",
+        "type": "CCS (2), CHAdeMO (1), Type 2 (2)",
+        "max_op_power": "150 kW",
+        "lat": 61.4936036,
+        "lon": 23.8203811,
+        "restaurants": [
+            {
+                "name": "Pancho Villa 130",
+                "lat": 61.4933918,
+                "lon": 23.8199478,
+                "address": "Jäähallinraitti 3, Tampere",
+                "cuisine": [
+                    "american"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 131 Länsiväylä",
+        "address": "Kaivokatu 1, Jyväskylä",
+        "type": "CCS (2), Type 2 (4)",
+        "max_op_power": "100 kW",
+        "lat": 62.2442274,
+        "lon": 25.7128779,
+        "restaurants": [
+            {
+                "name": "Rentukka",
+                "lat": 62.248374,
+                "lon": 25.7093257,
+                "address": "Taitoniekantie 9, Jyväskylä",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 132 Sokkari Jyväskylä P3",
+        "address": "Vapaudenkatu 55, Jyväskylä",
+        "type": "Type 2 (8)",
+        "max_op_power": "22 kW",
+        "lat": 62.2423575,
+        "lon": 25.7499272,
+        "restaurants": [
+            {
+                "name": "Ravintola Pöllöwaari",
+                "lat": 62.2459613,
+                "lon": 25.7486013,
+                "address": "Vapaudenkatu 55, Jyväskylä",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Frans & Sandra, Jyväskylä 132",
+                "lat": 62.2412348,
+                "lon": 25.7523396,
+                "address": "Vapaudenkatu 55, Jyväskylä",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Figaro Restaurant & Winebistro 132",
+                "lat": 62.2413018,
+                "lon": 25.7507631,
+                "address": "Vapaudenkatu 55, Jyväskylä",
+                "cuisine": [
+                    "american"
+                ]
+            },
+            {
+                "name": "Gloria 132",
+                "lat": 62.2440752,
+                "lon": 25.749974,
+                "address": "Vapaudenkatu 55, Jyväskylä",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Harmooni 132",
+                "lat": 62.2418109,
+                "lon": 25.7536349,
+                "address": "Vapaudenkatu 55, Jyväskylä",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Antell Deli 132",
+                "lat": 62.2434861,
+                "lon": 25.7547804,
+                "address": "Vapaudenkatu 55, Jyväskylä",
+                "cuisine": [
+                    "vegetarian"
+                ]
+            },
+            {
+                "name": "Vietnamilainen Ravintola Fit 132",
+                "lat": 62.2427001,
+                "lon": 25.7435431,
+                "address": "Vapaudenkatu 55, Jyväskylä",
+                "cuisine": [
+                    "asian"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 133 Prisma Seppälä Jyväskylä",
+        "address": "Ahjokatu 7, Jyväskylä",
+        "type": "CCS (8), Type 2 (4)",
+        "max_op_power": "150 kW",
+        "lat": 62.25986,
+        "lon": 25.7767588,
+        "restaurants": [
+            {
+                "name": "Ahjokadun Kebab Pizzeria",
+                "lat": 62.258388,
+                "lon": 25.7795067,
+                "address": "Ahjokatu 14, Jyväskylä",
+                "cuisine": [
+                    "italian"
+                ]
+            },
+            {
+                "name": "Maku Wok Seppä",
+                "lat": 62.2565547,
+                "lon": 25.773772,
+                "address": "Ahjokatu 7, Jyväskylä",
+                "cuisine": [
+                    "asian"
+                ]
+            },
+            {
+                "name": "Pancho Villa 133",
+                "lat": 62.2561511,
+                "lon": 25.775056,
+                "address": "Ahjokatu 7, Jyväskylä",
+                "cuisine": [
+                    "mexican"
+                ]
+            },
+            {
+                "name": "Fatboy",
+                "lat": 62.2607137,
+                "lon": 25.7796645,
+                "address": "Ahjokatu 20, Jyväskylä",
+                "cuisine": [
+                    "italian",
+                    "american",
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Ristorante Momento 133",
+                "lat": 62.2562326,
+                "lon": 25.7740012,
+                "address": "Ahjokatu 7, Jyväskylä",
+                "cuisine": [
+                    "regional"
+                ]
+            },
+            {
+                "name": "Pasargad Indian Cuisine & Grill",
+                "lat": 62.2575271,
+                "lon": 25.7786607,
+                "address": "Ahjokatu 12, Jyväskylä",
+                "cuisine": [
+                    "italian",
+                    "american",
+                    "asian",
+                    "turkish"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast-faster 134 Prisma Palokankeskus Jyväskylä",
+        "address": "Sammontie 5, Jyväskylä",
+        "type": "CCS (6), Type 2 (6)",
+        "max_op_power": "150 kW",
+        "lat": 62.2873387,
+        "lon": 25.7169447,
+        "restaurants": [
+            {
+                "name": "ABC Palokka",
+                "lat": 62.2909489,
+                "lon": 25.7213309,
+                "address": "Palokanorsi 10, Palokka",
+                "cuisine": [
+                    "turkish"
+                ]
+            },
+            {
+                "name": "Onion Food",
+                "lat": 62.287711,
+                "lon": 25.7143304,
+                "address": "Sammontie 5, Jyväskylä",
+                "cuisine": [
+                    "european"
+                ]
+            }
+        ]
+    }
+]
