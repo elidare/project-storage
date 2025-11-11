@@ -4,7 +4,7 @@ import json
 station_values = []
 restaurant_values = []
 
-with open('stations_restaurants_fixed_cuisines.json', 'r', encoding='utf-8') as stations:
+with open('stations_restaurants_shortened.json', 'r', encoding='utf-8') as stations:
     stations = json.load(stations)
     for st in stations:
         station_values.append(f"('{st['name']}', "
@@ -15,7 +15,7 @@ with open('stations_restaurants_fixed_cuisines.json', 'r', encoding='utf-8') as 
             restaurant_name = r['name'].replace("'", "''")
             restaurant_address = st['address'] if r['address'] == "Not provided" else r['address']
             restaurant_values.append(f"('{st['name']}', '{restaurant_name}', "
-                                     f"ST_GeogFromText('SRID=4326;POINT({r['lon']} {st['lat']})'), "
+                                     f"ST_GeogFromText('SRID=4326;POINT({r['lon']} {r['lat']})'), "
                                      f"ARRAY[{', '.join(repr(c) for c in r['cuisine'])}], "
                                      f"'{restaurant_address}')")
 
