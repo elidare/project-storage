@@ -81,7 +81,7 @@ predicted_time = model.predict(example)[0]
 print(f"⏱️ Predicted sample_time: {predicted_time:.2f}")
 
 # Save pipeline
-joblib.dump(model, "sample_time_predictor_LGBM.pkl")
+joblib.dump(model, "sample_time_predictor_LGBM_compressed.pkl", compress=3)
 print("✅ Trained pipeline saved as sample_time_predictor_LGBM.pkl")
 
 # # === Step 7: Feature Importance ===
