@@ -18,25 +18,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 1 Pakila Helsinki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 1 Pakila Helsinki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 1 Pakila Helsinki",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 1 Pakila Helsinki",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -61,25 +57,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 2 Pikkupekka Oulunkylä",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 2 Pikkupekka Oulunkylä",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 2 Pikkupekka Oulunkylä",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 2 Pikkupekka Oulunkylä",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -113,25 +105,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 3 Malmi Helsinki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 3 Malmi Helsinki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 3 Malmi Helsinki",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 3 Malmi Helsinki",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -156,25 +144,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 4 Alepa Backas Vantaa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 4 Alepa Backas Vantaa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 4 Alepa Backas Vantaa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 4 Alepa Backas Vantaa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -235,25 +219,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 5 Malmi (Malminkaari)",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 5 Malmi (Malminkaari)",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 5 Malmi (Malminkaari)",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 5 Malmi (Malminkaari)",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -296,25 +276,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 6 Mustapekka",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 50
             },
             {
                 "station_name": "Feast-faster 6 Mustapekka",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 50
             },
             {
                 "station_name": "Feast-faster 6 Mustapekka",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 50
             },
             {
                 "station_name": "Feast-faster 6 Mustapekka",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 50
             }
@@ -339,25 +315,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 7 Vantaanportti",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 7 Vantaanportti",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 7 Vantaanportti",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 7 Vantaanportti",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -382,13 +354,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 8 Suutarila",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 8 Suutarila",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             }
@@ -422,25 +392,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 9 Koivuhaka Vantaa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 9 Koivuhaka Vantaa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 9 Koivuhaka Vantaa",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 9 Koivuhaka Vantaa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -501,25 +467,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 10 Prisma Viikki Helsinki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 10 Prisma Viikki Helsinki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 10 Prisma Viikki Helsinki",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 10 Prisma Viikki Helsinki",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 80
             }
@@ -581,13 +543,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 11 Kulinaari",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 11 Kulinaari",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -630,25 +590,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 12 Pohjois-Tapiola Espoo",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 12 Pohjois-Tapiola Espoo",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 12 Pohjois-Tapiola Espoo",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 12 Pohjois-Tapiola Espoo",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -727,25 +683,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 13 Maarinsolmu",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 13 Maarinsolmu",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 13 Maarinsolmu",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 13 Maarinsolmu",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -825,13 +777,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 14 Prisma Iso Omena Espoo",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 14 Prisma Iso Omena Espoo",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             }
@@ -856,25 +806,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 15 Derby",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 180
             },
             {
                 "station_name": "Feast-faster 15 Derby",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 180
             },
             {
                 "station_name": "Feast-faster 15 Derby",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 180
             },
             {
                 "station_name": "Feast-faster 15 Derby",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -926,13 +872,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 16 Masala",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 16 Masala",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -958,13 +902,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 17 Veikkola",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 17 Veikkola",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1034,13 +976,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 18 Prisma Lohja",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 18 Prisma Lohja",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             }
@@ -1065,13 +1005,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 19 Prisma Halikko",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 19 Prisma Halikko",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             }
@@ -1096,13 +1034,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 20 ABC Piihovi Salo",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 20 ABC Piihovi Salo",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             }
@@ -1136,13 +1072,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 21 Kaarina",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 21 Kaarina",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             }
@@ -1167,13 +1101,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 22 ABC Aura",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 22 ABC Aura",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             }
@@ -1198,25 +1130,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 23 Prisma Piispanristi Kaarina",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 23 Prisma Piispanristi Kaarina",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 23 Prisma Piispanristi Kaarina",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 23 Prisma Piispanristi Kaarina",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1241,25 +1169,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 24 Skanssi",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 24 Skanssi",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 24 Skanssi",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 24 Skanssi",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1293,13 +1217,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 25 ABC Koulukatu Turku",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 25 ABC Koulukatu Turku",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             }
@@ -1342,7 +1264,6 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 26 Kespro Noutotukku Turku",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1385,25 +1306,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 27 Turku Kupittaa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 27 Turku Kupittaa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 27 Turku Kupittaa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 27 Turku Kupittaa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1492,13 +1409,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 28 Original Sokos Hotel Kupittaa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 28 Original Sokos Hotel Kupittaa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1543,25 +1458,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 29 Länsikeskus (Parkkihalli)",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 29 Länsikeskus (Parkkihalli)",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 29 Länsikeskus (Parkkihalli)",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 29 Länsikeskus (Parkkihalli)",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1586,25 +1497,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 30 Prisma Tampereentie Turku",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 30 Prisma Tampereentie Turku",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 30 Prisma Tampereentie Turku",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 30 Prisma Tampereentie Turku",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1648,25 +1555,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 31 Skanssi",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 31 Skanssi",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 31 Skanssi",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 31 Skanssi",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1693,13 +1596,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 32 ABC Vihti",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 32 ABC Vihti",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             }
@@ -1743,13 +1644,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 33 Nummela",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 33 Nummela",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1783,25 +1682,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 34 Vihti Nummela",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 34 Vihti Nummela",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 34 Vihti Nummela",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 34 Vihti Nummela",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1845,13 +1740,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 35 Prisma Nummela",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 35 Prisma Nummela",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             }
@@ -1876,13 +1769,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 36 Röykkä",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 36 Röykkä",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1907,13 +1798,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 37 ABC Lohja",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 400
             },
             {
                 "station_name": "Feast-faster 37 ABC Lohja",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 400
             }
@@ -1938,13 +1827,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 38 Eerikkilä Sport & Outdoor Resort",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 38 Eerikkilä Sport & Outdoor Resort",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -1988,25 +1875,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 39 Nurmijärvi",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 39 Nurmijärvi",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 39 Nurmijärvi",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 39 Nurmijärvi",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -2033,13 +1916,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 40 ABC Hyvinkää",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 40 ABC Hyvinkää",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             }
@@ -2073,13 +1954,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 41 Loimaa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 41 Loimaa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -2113,25 +1992,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 42 ABC Forssa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 400
             },
             {
                 "station_name": "Feast-faster 42 ABC Forssa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 400
             },
             {
                 "station_name": "Feast-faster 42 ABC Forssa",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 400
             },
             {
                 "station_name": "Feast-faster 42 ABC Forssa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -2156,13 +2031,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 43 Pouru",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 43 Pouru",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -2205,13 +2078,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 44 Prisma Forssa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 44 Prisma Forssa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             }
@@ -2282,25 +2153,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 45 Salo",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 45 Salo",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 45 Salo",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 45 Salo",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -2325,13 +2192,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 46 Prisma Nokia",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 46 Prisma Nokia",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             }
@@ -2359,13 +2224,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 47 ABC Kolmenkulma Nokia",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 400
             },
             {
                 "station_name": "Feast-faster 47 ABC Kolmenkulma Nokia",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 400
             }
@@ -2419,25 +2282,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 48 Pirkanpoika",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 48 Pirkanpoika",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 48 Pirkanpoika",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 48 Pirkanpoika",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -2471,25 +2330,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 49 Westeri",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 49 Westeri",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 49 Westeri",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 49 Westeri",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -2544,25 +2399,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 50 Pirkkala",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 50 Pirkkala",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 50 Pirkkala",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 50 Pirkkala",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 100
             }
@@ -2596,25 +2447,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 51 Tampere Lielahti",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 51 Tampere Lielahti",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 51 Tampere Lielahti",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 51 Tampere Lielahti",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -2648,25 +2495,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 52 Nekala",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 52 Nekala",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 52 Nekala",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 52 Nekala",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -2736,25 +2579,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 53 Kaleva Tampere",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 53 Kaleva Tampere",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 53 Kaleva Tampere",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 53 Kaleva Tampere",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -2798,13 +2637,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 54 Prisma Kaleva Tampere",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 54 Prisma Kaleva Tampere",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             }
@@ -2866,25 +2703,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 55 Hämeenlinna Hämeensaari",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 55 Hämeenlinna Hämeensaari",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 55 Hämeenlinna Hämeensaari",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 55 Hämeenlinna Hämeensaari",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -2909,13 +2742,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 56 K‑Citymarket Hämeenlinna Tiiriö",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 56 K‑Citymarket Hämeenlinna Tiiriö",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             }
@@ -2940,13 +2771,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 57 Prisma Hämeenlinna",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 57 Prisma Hämeenlinna",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             }
@@ -3007,13 +2836,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 58 Turenki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 58 Turenki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             }
@@ -3056,25 +2883,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 59 Turenki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 59 Turenki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 59 Turenki",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 59 Turenki",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3099,13 +2922,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 60 Neste Linnatuuli Pohjoiseen",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 60 Neste Linnatuuli Pohjoiseen",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3130,13 +2951,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 61 Riihimäki Kumela",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 61 Riihimäki Kumela",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3161,25 +2980,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 62 Riihimäki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 62 Riihimäki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 62 Riihimäki",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 62 Riihimäki",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3204,13 +3019,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 63 Prisma Riihimäki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 63 Prisma Riihimäki",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             }
@@ -3235,13 +3048,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 64 ABC Toijala",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 64 ABC Toijala",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             }
@@ -3302,13 +3113,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 65 Toijala",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 65 Toijala",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3378,25 +3187,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 66 Loviisa-Lovisa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 66 Loviisa-Lovisa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 66 Loviisa-Lovisa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 66 Loviisa-Lovisa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3430,13 +3235,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 67 Tiltuntori",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 67 Tiltuntori",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3470,25 +3273,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 68 ABC Majakka Pyhtää",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 68 ABC Majakka Pyhtää",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 68 ABC Majakka Pyhtää",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 68 ABC Majakka Pyhtää",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3513,25 +3312,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 69 ABC Koria",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 69 ABC Koria",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 69 ABC Koria",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 69 ABC Koria",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3557,13 +3352,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 70 Myllykoski",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 70 Myllykoski",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3615,25 +3408,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 71 Veturi",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 71 Veturi",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 71 Veturi",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 71 Veturi",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3695,13 +3484,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 72 Prisma Orimattila",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 72 Prisma Orimattila",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             }
@@ -3726,25 +3513,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 73 Tarmola",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 73 Tarmola",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 73 Tarmola",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 73 Tarmola",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3787,25 +3570,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 74 Porvoo",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 74 Porvoo",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 74 Porvoo",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 74 Porvoo",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3830,25 +3609,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 75 Söderkulla Sipoo",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 75 Söderkulla Sipoo",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 75 Söderkulla Sipoo",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 75 Söderkulla Sipoo",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3900,25 +3675,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 76 Nikkilä",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 76 Nikkilä",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 76 Nikkilä",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 76 Nikkilä",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -3989,25 +3760,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 77 Prisma Kerava",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 77 Prisma Kerava",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 77 Prisma Kerava",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 80
             },
             {
                 "station_name": "Feast-faster 77 Prisma Kerava",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4033,13 +3800,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 78 Kerava Kalevantori",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 78 Kerava Kalevantori",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4064,13 +3829,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 79 Neste Pukaron Paroni",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 79 Neste Pukaron Paroni",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4113,25 +3876,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 80 Karhula Kotka",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 80 Karhula Kotka",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 80 Karhula Kotka",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 80 Karhula Kotka",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4210,13 +3969,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 81 Sokos Hotel Seurahuone Kotka",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 81 Sokos Hotel Seurahuone Kotka",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4241,25 +3998,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 82 ABC Amiraali Kotka",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 82 ABC Amiraali Kotka",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 82 ABC Amiraali Kotka",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 82 ABC Amiraali Kotka",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4302,25 +4055,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 83 ABC Kippari Hamina",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 83 ABC Kippari Hamina",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 83 ABC Kippari Hamina",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 83 ABC Kippari Hamina",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4372,13 +4121,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 84 Sale Kauppalankatu Kouvola",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 84 Sale Kauppalankatu Kouvola",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4405,13 +4152,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 85 Vahtero",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 85 Vahtero",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4436,25 +4181,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 86 Tornionmäki Kouvola",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 86 Tornionmäki Kouvola",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 86 Tornionmäki Kouvola",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 86 Tornionmäki Kouvola",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4489,13 +4230,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 87 Tykkimäki Resort",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 87 Tykkimäki Resort",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4520,7 +4259,6 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 88 Kuusankoski",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4573,25 +4311,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 89 Koskituuli",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 160
             },
             {
                 "station_name": "Feast-faster 89 Koskituuli",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 160
             },
             {
                 "station_name": "Feast-faster 89 Koskituuli",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 89 Koskituuli",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4634,25 +4368,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 90 Prisma Lappeenranta",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 90 Prisma Lappeenranta",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 90 Prisma Lappeenranta",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 90 Prisma Lappeenranta",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4677,25 +4407,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 91 Lappeenranta",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 91 Lappeenranta",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 91 Lappeenranta",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 91 Lappeenranta",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4720,13 +4446,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 92 Kourula",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 92 Kourula",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4753,13 +4477,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 93 Lehmus",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 93 Lehmus",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4784,25 +4506,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 94 ABC Viipurinportti Lappeenranta",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 94 ABC Viipurinportti Lappeenranta",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 94 ABC Viipurinportti Lappeenranta",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 94 ABC Viipurinportti Lappeenranta",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4827,13 +4545,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 95 Taipalsaari",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 95 Taipalsaari",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4858,13 +4574,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 96 Savitaipale",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 96 Savitaipale",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4889,13 +4603,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 97 Neste Imatra",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 97 Neste Imatra",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4938,25 +4650,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 98 Imatra",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 98 Imatra",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 98 Imatra",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 98 Imatra",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -4981,13 +4689,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 99 Taavetti",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 99 Taavetti",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5014,13 +4720,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 100 Ruokolahti",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 100 Ruokolahti",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5045,13 +4749,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 101 Neste Lappeenranta",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 101 Neste Lappeenranta",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5085,13 +4787,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 102 Imatra Vuoksenniska",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 102 Imatra Vuoksenniska",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5116,25 +4816,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 103 Mikkeli",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 50
             },
             {
                 "station_name": "Feast-faster 103 Mikkeli",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 50
             },
             {
                 "station_name": "Feast-faster 103 Mikkeli",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 50
             },
             {
                 "station_name": "Feast-faster 103 Mikkeli",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 50
             }
@@ -5159,13 +4855,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 104 Mikkelipuisto",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 104 Mikkelipuisto",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5190,25 +4884,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 105 ABC Tuukkala Mikkeli",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 105 ABC Tuukkala Mikkeli",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 105 ABC Tuukkala Mikkeli",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 105 ABC Tuukkala Mikkeli",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5233,25 +4923,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 106 Mikkeli",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 106 Mikkeli",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 106 Mikkeli",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 106 Mikkeli",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5312,13 +4998,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 107 Original Sokos Hotel Vaakuna",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 107 Original Sokos Hotel Vaakuna",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5343,25 +5027,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 108 Rokkala",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 108 Rokkala",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 108 Rokkala",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 108 Rokkala",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5408,13 +5088,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 109 Vääksy",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 109 Vääksy",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             }
@@ -5448,25 +5126,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 110 Vääksy",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 110 Vääksy",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 110 Vääksy",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 110 Vääksy",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5491,25 +5165,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 111 Holma",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 111 Holma",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 111 Holma",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 111 Holma",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5561,25 +5231,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 112 Lahti Karisma",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 112 Lahti Karisma",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 112 Lahti Karisma",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 112 Lahti Karisma",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5658,13 +5324,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 113 ABC-Lataus Prisma Syke",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 113 ABC-Lataus Prisma Syke",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             }
@@ -5698,25 +5362,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 114 K-Lataus: Lahti Laune",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 114 K-Lataus: Lahti Laune",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 114 K-Lataus: Lahti Laune",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 114 K-Lataus: Lahti Laune",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5741,25 +5401,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 115 Hollola",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 115 Hollola",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 115 Hollola",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 115 Hollola",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5784,25 +5440,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 116 Okeroinen",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 116 Okeroinen",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 116 Okeroinen",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 116 Okeroinen",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5836,13 +5488,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 117 ABC Renkomäki Lahti",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 400
             },
             {
                 "station_name": "Feast-faster 117 ABC Renkomäki Lahti",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 400
             }
@@ -5885,25 +5535,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 118 Joutsa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 118 Joutsa",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 118 Joutsa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 118 Joutsa",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5928,13 +5574,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 119 Korpilahti",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 119 Korpilahti",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -5977,25 +5621,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 120 Break Sokos Hotel Himos Chalets",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 120 Break Sokos Hotel Himos Chalets",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 300
             },
             {
                 "station_name": "Feast-faster 120 Break Sokos Hotel Himos Chalets",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 120 Break Sokos Hotel Himos Chalets",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6029,19 +5669,16 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 121 K‑Market Kippari",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 121 K‑Market Kippari",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 121 K‑Market Kippari",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6075,25 +5712,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 122 Muurame",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 122 Muurame",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 200
             },
             {
                 "station_name": "Feast-faster 122 Muurame",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 122 Muurame",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6127,25 +5760,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 123 ABC Heinola",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 400
             },
             {
                 "station_name": "Feast-faster 123 ABC Heinola",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 400
             },
             {
                 "station_name": "Feast-faster 123 ABC Heinola",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 400
             },
             {
                 "station_name": "Feast-faster 123 ABC Heinola",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6179,25 +5808,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 124 Mäntyharju",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 124 Mäntyharju",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 124 Mäntyharju",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 124 Mäntyharju",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6276,13 +5901,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 125 Solo Sokos Hotel Paviljonki",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 125 Solo Sokos Hotel Paviljonki",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6371,13 +5994,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 126 Original Sokos Hotel Alexandra",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 126 Original Sokos Hotel Alexandra",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6420,13 +6041,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 127 Orivesi",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 127 Orivesi",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6469,13 +6088,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 128 Prisma Linnainmaa Tampere",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 128 Prisma Linnainmaa Tampere",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             }
@@ -6511,25 +6128,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 129 Kaukajärvi Tampere",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 129 Kaukajärvi Tampere",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 129 Kaukajärvi Tampere",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 129 Kaukajärvi Tampere",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6554,25 +6167,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 130 Kaleva",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 130 Kaleva",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 130 Kaleva",
-                "status": "available",
                 "connector_type": "CHAdeMO",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 130 Kaleva",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6597,25 +6206,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 131 Länsiväylä",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 131 Länsiväylä",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 100
             },
             {
                 "station_name": "Feast-faster 131 Länsiväylä",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 131 Länsiväylä",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6694,13 +6299,11 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 132 Sokkari Jyväskylä P3",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 132 Sokkari Jyväskylä P3",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6775,25 +6378,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 133 Prisma Seppälä Jyväskylä",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 133 Prisma Seppälä Jyväskylä",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 133 Prisma Seppälä Jyväskylä",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 133 Prisma Seppälä Jyväskylä",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }
@@ -6827,25 +6426,21 @@
         "chargers": [
             {
                 "station_name": "Feast-faster 134 Prisma Palokankeskus Jyväskylä",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 134 Prisma Palokankeskus Jyväskylä",
-                "status": "available",
                 "connector_type": "CCS",
                 "power": 150
             },
             {
                 "station_name": "Feast-faster 134 Prisma Palokankeskus Jyväskylä",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             },
             {
                 "station_name": "Feast-faster 134 Prisma Palokankeskus Jyväskylä",
-                "status": "available",
                 "connector_type": "Type 2",
                 "power": 22
             }

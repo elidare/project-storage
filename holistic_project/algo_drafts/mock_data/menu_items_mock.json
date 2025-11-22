@@ -1,0 +1,193 @@
+{
+  "american": {
+    "Mains": [
+      { "name": "Classic Cheeseburger", "details": "Beef patty with cheddar, lettuce, tomato, and pickles", "price": 12.5, "minutes_to_prepare": 12 },
+      { "name": "BBQ Ribs", "details": "Slow-cooked pork ribs glazed with smoky barbecue sauce", "price": 16.0, "minutes_to_prepare": 15 },
+      { "name": "Fried Chicken Plate", "details": "Crispy fried chicken with mashed potatoes", "price": 13.0, "minutes_to_prepare": 14 },
+      { "name": "Mac & Cheese", "details": "Creamy macaroni with cheddar and breadcrumbs", "price": 10.0, "minutes_to_prepare": 10 },
+      { "name": "Steak & Fries", "details": "Grilled sirloin steak served with seasoned fries", "price": 18.0, "minutes_to_prepare": 15 }
+    ],
+    "Snacks": [
+      { "name": "Onion Rings", "details": "Deep-fried crispy onion rings", "price": 5.0, "minutes_to_prepare": 8 },
+      { "name": "Chicken Wings", "details": "Spicy buffalo wings with blue cheese dip", "price": 6.5, "minutes_to_prepare": 12 },
+      { "name": "Mozzarella Sticks", "details": "Cheesy sticks served with marinara", "price": 5.5, "minutes_to_prepare": 7 },
+      { "name": "Loaded Nachos", "details": "Nachos topped with cheese, jalapeños, and salsa", "price": 6.0, "minutes_to_prepare": 9 },
+      { "name": "Cornbread", "details": "Warm sweet cornbread slice", "price": 4.0, "minutes_to_prepare": 5 }
+    ],
+    "Beverages": [
+      { "name": "Cola", "details": "Chilled fizzy cola", "price": 2.5, "minutes_to_prepare": 5 },
+      { "name": "Iced Tea", "details": "Refreshing lemon iced tea", "price": 3.0, "minutes_to_prepare": 5 },
+      { "name": "Vanilla Milkshake", "details": "Thick vanilla shake with whipped cream", "price": 4.0, "minutes_to_prepare": 8 },
+      { "name": "Root Beer", "details": "Classic American root beer soda", "price": 2.5, "minutes_to_prepare": 5 },
+      { "name": "Hot Coffee", "details": "Freshly brewed black coffee", "price": 2.0, "minutes_to_prepare": 6 }
+    ]
+  },
+
+  "european": {
+    "Mains": [
+      { "name": "Beef Stroganoff", "details": "Russian-style sautéed beef in creamy sauce", "price": 14.0, "minutes_to_prepare": 12 },
+      { "name": "Coq au Vin", "details": "French chicken braised in wine", "price": 15.0, "minutes_to_prepare": 15 },
+      { "name": "Wiener Schnitzel", "details": "Austrian breaded veal cutlet", "price": 13.0, "minutes_to_prepare": 14 },
+      { "name": "Paella Valenciana", "details": "Spanish rice dish with seafood and saffron", "price": 16.5, "minutes_to_prepare": 15 },
+      { "name": "Goulash", "details": "Hungarian beef stew with paprika", "price": 12.0, "minutes_to_prepare": 13 }
+    ],
+    "Snacks": [
+      { "name": "Pretzel", "details": "Soft Bavarian-style pretzel", "price": 3.0, "minutes_to_prepare": 6 },
+      { "name": "Tapas Trio", "details": "Spanish olives, cheese, and chorizo", "price": 5.5, "minutes_to_prepare": 9 },
+      { "name": "Bruschetta", "details": "Grilled bread with tomato and basil", "price": 4.0, "minutes_to_prepare": 7 },
+      { "name": "Cheese Plate", "details": "European artisan cheese assortment", "price": 6.0, "minutes_to_prepare": 10 },
+      { "name": "Sausage Bites", "details": "Mini smoked sausage pieces", "price": 5.0, "minutes_to_prepare": 8 }
+    ],
+    "Beverages": [
+      { "name": "Espresso", "details": "Strong Italian espresso shot", "price": 2.0, "minutes_to_prepare": 5 },
+      { "name": "Herbal Tea", "details": "Chamomile or mint herbal tea", "price": 2.5, "minutes_to_prepare": 7 },
+      { "name": "Sparkling Water", "details": "Lightly carbonated mineral water", "price": 2.0, "minutes_to_prepare": 5 },
+      { "name": "Fruit Sangria", "details": "Spanish wine punch with fruit", "price": 4.5, "minutes_to_prepare": 10 },
+      { "name": "Hot Chocolate", "details": "Rich melted chocolate drink", "price": 3.0, "minutes_to_prepare": 8 }
+    ]
+  },
+
+  "mexican": {
+    "Mains": [
+      { "name": "Chicken Enchiladas", "details": "Tortillas stuffed with chicken and topped with sauce", "price": 12.0, "minutes_to_prepare": 13 },
+      { "name": "Tacos al Pastor", "details": "Marinated pork tacos with pineapple", "price": 11.0, "minutes_to_prepare": 10 },
+      { "name": "Beef Burrito", "details": "Large flour tortilla with beef, beans, and rice", "price": 10.5, "minutes_to_prepare": 12 },
+      { "name": "Quesadilla", "details": "Grilled tortilla with cheese and peppers", "price": 9.0, "minutes_to_prepare": 9 },
+      { "name": "Chili con Carne", "details": "Spicy ground beef with beans", "price": 11.0, "minutes_to_prepare": 14 }
+    ],
+    "Snacks": [
+      { "name": "Chips & Salsa", "details": "Crisp tortilla chips with fresh salsa", "price": 3.5, "minutes_to_prepare": 5 },
+      { "name": "Guacamole", "details": "Fresh avocado dip with lime", "price": 4.5, "minutes_to_prepare": 7 },
+      { "name": "Elote Corn", "details": "Street-style grilled corn with cheese", "price": 4.0, "minutes_to_prepare": 9 },
+      { "name": "Taquitos", "details": "Crispy rolled tortillas filled with chicken", "price": 5.0, "minutes_to_prepare": 10 },
+      { "name": "Nachos Supreme", "details": "Nachos loaded with meat, cheese, beans", "price": 5.5, "minutes_to_prepare": 11 }
+    ],
+    "Beverages": [
+      { "name": "Horchata", "details": "Sweet rice milk drink with cinnamon", "price": 3.0, "minutes_to_prepare": 7 },
+      { "name": "Tamarind Agua Fresca", "details": "Refreshing tamarind beverage", "price": 3.0, "minutes_to_prepare": 5 },
+      { "name": "Jarritos Lime", "details": "Mexican lime soda", "price": 2.5, "minutes_to_prepare": 5 },
+      { "name": "Iced Coffee", "details": "Cold brewed coffee on ice", "price": 2.5, "minutes_to_prepare": 6 },
+      { "name": "Mango Smoothie", "details": "Fresh mango blended drink", "price": 4.0, "minutes_to_prepare": 10 }
+    ]
+  },
+
+  "vegetarian": {
+    "Mains": [
+      { "name": "Veggie Stir Fry", "details": "Mixed vegetables sautéed with soy-garlic sauce", "price": 10.0, "minutes_to_prepare": 10 },
+      { "name": "Lentil Curry", "details": "Rich curry with red lentils", "price": 9.0, "minutes_to_prepare": 12 },
+      { "name": "Vegetable Lasagna", "details": "Layers of pasta, veggies, and cheese", "price": 11.0, "minutes_to_prepare": 15 },
+      { "name": "Paneer Tikka", "details": "Grilled paneer cubes with spices", "price": 10.5, "minutes_to_prepare": 14 },
+      { "name": "Tofu Steak", "details": "Grilled tofu with herb seasoning", "price": 10.0, "minutes_to_prepare": 12 }
+    ],
+    "Snacks": [
+      { "name": "Hummus Plate", "details": "Chickpea dip with pita bread", "price": 4.5, "minutes_to_prepare": 7 },
+      { "name": "Veggie Spring Rolls", "details": "Crispy rolls with mixed vegetables", "price": 4.0, "minutes_to_prepare": 8 },
+      { "name": "Fruit Bowl", "details": "Seasonal mixed fruit", "price": 3.0, "minutes_to_prepare": 5 },
+      { "name": "Grilled Mushrooms", "details": "Seasoned mushrooms grilled to perfection", "price": 3.5, "minutes_to_prepare": 7 },
+      { "name": "Stuffed Peppers", "details": "Mini peppers filled with cheese", "price": 4.0, "minutes_to_prepare": 9 }
+    ],
+    "Beverages": [
+      { "name": "Herbal Green Tea", "details": "Caffeine-free green tea blend", "price": 2.0, "minutes_to_prepare": 6 },
+      { "name": "Fresh Orange Juice", "details": "Squeezed oranges served chilled", "price": 3.5, "minutes_to_prepare": 8 },
+      { "name": "Cucumber Cooler", "details": "Cucumber, lime, and mint drink", "price": 3.0, "minutes_to_prepare": 7 },
+      { "name": "Carrot Smoothie", "details": "Carrot, ginger, and apple blend", "price": 3.5, "minutes_to_prepare": 10 },
+      { "name": "Matcha Latte", "details": "Creamy matcha with milk", "price": 4.0, "minutes_to_prepare": 9 }
+    ]
+  },
+
+  "regional": {
+    "Mains": [
+      { "name": "Local Lamb Stew", "details": "Slow-cooked lamb with potatoes and herbs", "price": 14.0, "minutes_to_prepare": 15 },
+      { "name": "Harvest Vegetable Plate", "details": "Seasonal local vegetables sautéed and spiced", "price": 11.0, "minutes_to_prepare": 13 },
+      { "name": "Fisherman’s Catch", "details": "Local fish grilled with lemon butter", "price": 15.0, "minutes_to_prepare": 12 },
+      { "name": "Rustic Chicken Roast", "details": "Herb-roasted chicken with root vegetables", "price": 13.5, "minutes_to_prepare": 15 },
+      { "name": "Country Beef Pie", "details": "Traditional beef pie with flaky crust", "price": 12.0, "minutes_to_prepare": 14 }
+    ],
+    "Snacks": [
+      { "name": "Local Cheese Bites", "details": "Assortment of regional cheeses", "price": 4.5, "minutes_to_prepare": 6 },
+      { "name": "Seasonal Veg Fritters", "details": "Fritters made from local vegetables", "price": 4.0, "minutes_to_prepare": 7 },
+      { "name": "Herb Bread", "details": "Warm bread with regional herbs", "price": 3.0, "minutes_to_prepare": 5 },
+      { "name": "Salted Nuts Mix", "details": "Locally produced nut mix", "price": 3.5, "minutes_to_prepare": 5 },
+      { "name": "Rustic Potato Cakes", "details": "Griddled mashed potato patties", "price": 4.0, "minutes_to_prepare": 8 }
+    ],
+    "Beverages": [
+      { "name": "Local Apple Cider", "details": "Freshly pressed apple cider", "price": 3.0, "minutes_to_prepare": 6 },
+      { "name": "Berry Infusion", "details": "Tea made with regional berries", "price": 3.0, "minutes_to_prepare": 7 },
+      { "name": "Homemade Lemonade", "details": "Fresh lemons, sugar, and water", "price": 2.5, "minutes_to_prepare": 5 },
+      { "name": "Mint Cooler", "details": "Chilled drink with fresh mint", "price": 2.5, "minutes_to_prepare": 6 },
+      { "name": "Farmhouse Milk", "details": "Cold farm-fresh milk", "price": 2.0, "minutes_to_prepare": 5 }
+    ]
+  },
+
+  "asian": {
+    "Mains": [
+      { "name": "Chicken Teriyaki", "details": "Grilled chicken glazed in teriyaki sauce", "price": 11.0, "minutes_to_prepare": 10 },
+      { "name": "Beef Bulgogi", "details": "Korean marinated grilled beef", "price": 13.0, "minutes_to_prepare": 12 },
+      { "name": "Pad Thai", "details": "Thai noodles with tofu, peanuts, and vegetables", "price": 10.5, "minutes_to_prepare": 12 },
+      { "name": "Ramen Bowl", "details": "Brothy Japanese noodles with egg and pork", "price": 12.0, "minutes_to_prepare": 15 },
+      { "name": "Vegetable Curry", "details": "Spicy coconut curry with veggies", "price": 10.0, "minutes_to_prepare": 11 }
+    ],
+    "Snacks": [
+      { "name": "Spring Rolls", "details": "Crispy vegetable rolls", "price": 4.0, "minutes_to_prepare": 7 },
+      { "name": "Edamame", "details": "Steamed soybeans sprinkled with salt", "price": 3.5, "minutes_to_prepare": 5 },
+      { "name": "Gyoza", "details": "Pan-fried dumplings with dipping sauce", "price": 4.5, "minutes_to_prepare": 8 },
+      { "name": "Sesame Crackers", "details": "Crunchy crackers with sesame seeds", "price": 3.0, "minutes_to_prepare": 6 },
+      { "name": "Kimchi Bites", "details": "Small kimchi-filled fritters", "price": 4.0, "minutes_to_prepare": 9 }
+    ],
+    "Beverages": [
+      { "name": "Green Tea", "details": "Traditional brewed tea", "price": 2.0, "minutes_to_prepare": 6 },
+      { "name": "Thai Iced Tea", "details": "Sweetened tea with cream", "price": 3.5, "minutes_to_prepare": 7 },
+      { "name": "Lychee Juice", "details": "Sweet tropical lychee drink", "price": 3.0, "minutes_to_prepare": 8 },
+      { "name": "Coconut Water", "details": "Fresh coconut water", "price": 2.5, "minutes_to_prepare": 5 },
+      { "name": "Matcha Frappe", "details": "Iced blended matcha drink", "price": 4.0, "minutes_to_prepare": 10 }
+    ]
+  },
+
+  "turkish": {
+    "Mains": [
+      { "name": "Doner Kebab", "details": "Sliced seasoned meat with rice", "price": 11.0, "minutes_to_prepare": 12 },
+      { "name": "Lahmacun", "details": "Thin crust topped with minced meat and herbs", "price": 9.0, "minutes_to_prepare": 10 },
+      { "name": "Iskender Kebab", "details": "Sliced doner served over bread with butter sauce", "price": 13.0, "minutes_to_prepare": 14 },
+      { "name": "Menemen", "details": "Turkish scrambled eggs with tomatoes and peppers", "price": 8.5, "minutes_to_prepare": 8 },
+      { "name": "Stuffed Eggplant", "details": "Eggplants filled with seasoned vegetables", "price": 10.5, "minutes_to_prepare": 15 }
+    ],
+    "Snacks": [
+      { "name": "Borek", "details": "Fried pastry filled with cheese", "price": 4.0, "minutes_to_prepare": 7 },
+      { "name": "Simit", "details": "Turkish sesame bagel", "price": 2.5, "minutes_to_prepare": 5 },
+      { "name": "Cig Kofte", "details": "Spicy vegetarian bulgur bites", "price": 4.0, "minutes_to_prepare": 7 },
+      { "name": "Pide Slices", "details": "Turkish flatbread slices", "price": 3.5, "minutes_to_prepare": 6 },
+      { "name": "Meze Plate", "details": "Hummus, olives, and dips", "price": 5.0, "minutes_to_prepare": 9 }
+    ],
+    "Beverages": [
+      { "name": "Ayran", "details": "Savory yogurt drink", "price": 2.0, "minutes_to_prepare": 5 },
+      { "name": "Turkish Tea", "details": "Traditional strong black tea", "price": 1.5, "minutes_to_prepare": 5 },
+      { "name": "Pomegranate Juice", "details": "Freshly pressed pomegranate juice", "price": 3.5, "minutes_to_prepare": 8 },
+      { "name": "Salep", "details": "Hot milk drink with orchid root", "price": 3.0, "minutes_to_prepare": 10 },
+      { "name": "Turkish Coffee", "details": "Strong coffee brewed in cezve", "price": 2.5, "minutes_to_prepare": 7 }
+    ]
+  },
+
+  "italian": {
+    "Mains": [
+      { "name": "Margherita Pizza", "details": "Classic pizza with mozzarella and basil", "price": 10.0, "minutes_to_prepare": 12 },
+      { "name": "Lasagna", "details": "Layers of pasta, beef, and cheese", "price": 12.0, "minutes_to_prepare": 15 },
+      { "name": "Pasta Carbonara", "details": "Creamy pasta with pancetta and parmesan", "price": 11.0, "minutes_to_prepare": 10 },
+      { "name": "Risotto Funghi", "details": "Creamy risotto with mushrooms", "price": 12.5, "minutes_to_prepare": 14 },
+      { "name": "Chicken Parmigiana", "details": "Breaded chicken with marinara and cheese", "price": 13.0, "minutes_to_prepare": 13 }
+    ],
+    "Snacks": [
+      { "name": "Bruschetta", "details": "Toasted bread with tomato and basil", "price": 4.0, "minutes_to_prepare": 6 },
+      { "name": "Arancini", "details": "Crispy rice balls stuffed with cheese", "price": 4.5, "minutes_to_prepare": 8 },
+      { "name": "Garlic Bread", "details": "Toasted bread with garlic butter", "price": 3.5, "minutes_to_prepare": 5 },
+      { "name": "Caprese Bites", "details": "Tomato, basil, mozzarella skewers", "price": 4.0, "minutes_to_prepare": 7 },
+      { "name": "Mini Calzones", "details": "Small folded pizzas with cheese", "price": 5.0, "minutes_to_prepare": 9 }
+    ],
+    "Beverages": [
+      { "name": "Espresso", "details": "Strong Italian coffee", "price": 2.0, "minutes_to_prepare": 5 },
+      { "name": "Limonata", "details": "Italian sparkling lemon drink", "price": 2.5, "minutes_to_prepare": 5 },
+      { "name": "Italian Soda", "details": "Flavored sparkling soda", "price": 3.0, "minutes_to_prepare": 6 },
+      { "name": "Red Wine", "details": "Italian house red wine", "price": 4.0, "minutes_to_prepare": 10 },
+      { "name": "Iced Cappuccino", "details": "Cold cappuccino with froth", "price": 3.5, "minutes_to_prepare": 9 }
+    ]
+  }
+}

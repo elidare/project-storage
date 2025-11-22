@@ -6,13 +6,6 @@ charger_values = []
 pattern_chargers = r'^(.*?)\s*\((\d+)\)$'
 MAX_CHARGERS_BY_TYPE = 2
 MAX_CHARGERS_PER_STATION = 4
-"""
-charger_id,
-station_id,
-status,
-connector_type,
-power
-"""
 
 
 with open('stations_restaurants_shortened.json', 'r', encoding='utf-8') as stations:
@@ -33,7 +26,6 @@ with open('stations_restaurants_shortened.json', 'r', encoding='utf-8') as stati
                         break
                     chargers.append({
                         "station_name": st['name'],
-                        "status": "available",
                         "connector_type": name,
                         "power": power
                     })
@@ -47,23 +39,21 @@ with open('stations_restaurants_shortened_chargers.json', 'w', encoding='utf-8')
 for st in stations:
     for ch in st['chargers']:
         charger_values.append(f"('{st['name']}', "
-                              f"'available', "
                               f"'{ch['connector_type']}', "
                               f"{ch['power']})")
 
 
 with open('inserts_chargers', 'a', encoding='utf-8') as file:
     charger_insert = f"""
-INSERT INTO chargers (station_id, status, connector_type, power)
+INSERT INTO chargers (station_id, connector_type, power)
 SELECT
     s.station_id,
-    c.status::charger_status, 
     c.connector_type::connector_type, 
     c.power
 FROM (
   VALUES
     {',\n'.join(charger_values)}
-) AS c(station_name, status, connector_type, power)
+) AS c(station_name, connector_type, power)
 JOIN stations AS s
 ON s.name = c.station_name;"""
 
