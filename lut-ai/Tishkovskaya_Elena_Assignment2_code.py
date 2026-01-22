@@ -1,3 +1,9 @@
+# Assignment II: Image processing and prediction
+# The second assignment is about image processing and prediction.
+# You will train a model based on the CNN architecture to classify the images in the dataset provided. In addition, you will need to fine-tune an existing model using ResNet as the backbone.
+# You should experiment with different hyperparameters and compare the performance of the two models.
+# Pay attention to preprocessing the images by resizing, scaling, and rotating them to a coherent form. 
+
 import tensorflow as tf
 from tensorflow.keras import datasets, layers, models
 from tensorflow.keras.applications import ResNet50
