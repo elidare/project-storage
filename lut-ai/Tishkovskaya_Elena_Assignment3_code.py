@@ -1,3 +1,10 @@
+# Assignment III User data processing
+# The third assignment is about user data processing.
+# You will create a simple recommender system that predicts user ratings based on previous ratings and other users' rating data.
+# You will use a SVD (Singular Value Decomposition) model as a simple implementation. You should only use “rating” as the data and avoid using “tags” and “genre” for analysis.
+# Download the MovieLens dataset and split the dataset randomly into 80/20 train, test ratio. In addition, do a temporal split. In a temporal split, you specify a time as a point.
+# Before the time point, all the data points before this time are used for training, and all the data points after the time are used for testing.
+
 from sklearn.decomposition import TruncatedSVD
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import root_mean_squared_error, precision_score, recall_score, f1_score
