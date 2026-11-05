@@ -1,3 +1,10 @@
+# Assignment I: Text Processing and prediction
+# The first assignment is about sentiment analysis. In this assignment, you will explore different text-processing techniques, train a model for classifying sentiment, and evaluate the model's performance. The goal is to implement a model and evaluate a fine-tuned model based on a large language model. You will compare three approaches: 
+# - A classification model using text features extracted from text. 
+# - A classification model as in the previous point, but features applying stop word processing to filter out common words.  
+# - Another classification model is based on fine-tuning an existing embedding model. You can use the FastText model for this task. Pay attention to hyperparameters and try different configurations to optimize the model’s performance.  
+# The task is to analyze the sentiment of the dataset provided below and classify each provided text as positive or negative.
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, classification_report
