@@ -13,7 +13,6 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from lightgbm import LGBMRegressor
-from playsound import playsound  # To play sound when analysis is finished
 from math import sqrt
 
 # To exclude UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
@@ -123,6 +122,3 @@ print("✅ Trained pipeline saved as sample_time_predictor_LGBM.pkl")
 # print("Best R²:", search.best_score_)
 # # Best parameters: {'model__subsample': 1.0, 'model__num_leaves': 50, 'model__n_estimators': 400, 'model__learning_rate': 0.1}
 # # Best R²: 0.8893514811264674
-
-# Finish sound
-playsound('../extras/notification-metallic-chime-fast-gamemaster-audio-higher-tone-2-00-01.mp3')

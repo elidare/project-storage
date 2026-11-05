@@ -1,5 +1,3 @@
 *.csv
 *.png
-data_analysis/config.share
-data_analysis/read_delta_share.py
 .env
