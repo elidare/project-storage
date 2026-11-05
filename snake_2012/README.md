@@ -1,10 +1,10 @@
-This was a project I made while studying Javascript at the courses in 2012.
-The snake works on JS. Php was for saving results to a file and probably to some study server, too, but it is long gone now.
-jQuery was included for ui-search through results, and I really suppose to delete this part.
+This was a project I made while studying Javascript at the programming courses in 2012.
+The snake works on JS.
 
-However, I haven't changed a thing in the js script since 2012.
+I haven't changed a thing in the JS script since 2012.
 
 # How to play
+
 Requires downloading.
 
 - Open Github downloading https://download-directory.github.io/
